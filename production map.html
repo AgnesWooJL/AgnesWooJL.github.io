@@ -63,23 +63,7 @@
       width: 2px;
       background-color: #d2b48c;
     }
-    #homepageBtn {
-            position: fixed;
-            top: 1rem;            
-            right: 20rem;          
-            z-index: 999;
-            padding: 0.5rem 1rem;
-            background-color: white;
-            color: #333;
-            border: 1px solid #ccc;
-            border-radius: 9999px;  
-            font-size: 0.875rem;   
-            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-            text-decoration: none;
-            transition: background-color 0.3s ease;
-          }
-         #homepageBtn:hover {
-            background-color: #fef3c7; 
+    
           }
         #timeSliderDiv {
             position: absolute;
@@ -175,25 +159,23 @@
     <div class="relative z-10 p-8 space-y-8">
      
       <div>
-        <h2 class="section-title">☕ The environmental conditions to produce coffee</h2>
+        <h2 class="section-title">☕ Introduction to Global Coffee Production</h2>
         <p class="section-text">
-          Coffee is produced from a tropical plant called th Coffea plant. The coffee bean is the seed of the Coffea plant, and it is the main ingredient in coffee. Most Coffee beans are from two varieties of the Coffea that is the Arabica and the Robusta.
-          The different variation requires specific environmental conditions to thrive, including:
+          Over the past decade, global coffee production has shown relatively stable patterns, with Brazil, Vietnam, Indonesia, Colombia, and Ethiopia consistently ranking as the top producers. Coffee production can be evaluated through three key indicators: total production volume, yield per hectare, and cultivated area. Total production reflects a country’s overall output, while yield per hectare indicates land-use efficiency, and cultivated area reveals the extent of land dedicated to coffee farming.
           <ul class="list-disc ml-6">
-            <li>☕ Robusta: Grows well at lower altitudes with higher temperatures</li>
+            <li>🌱<b>Three Indicators in Production:</b></li>
+            
             <ul class="list-disc ml-6">
-              <li>🌡️ Temperature: 22-30°C (59-75°F) Source: (Kath et el., 2020) </li>
-              <li>🌱 Altitude: 200-800m (2000-6500ft) above sea level Source: (FHA, 2024)</li>
-              <li>💧 Rainfall: 1250-2500mm (39-79 inches) annually Source:(Noraini et el., 2024) </li>
+              <li><b>Total production:</b> Brazil has remained the largest producer globally, followed by Vietnam and Colombia. </li>
+              <li><b>Yield efficiency: </b>Measured as the amount of coffee produced per hectare, is particularly high in countries such as Malaysia, China, and Vietnam, indicating their ability to achieve high productivity on relatively smaller plots of land.</li>
+              <li><b>Cultivated Area: </b> Countries like Brazil, Indonesia, and Ethiopia lead in coffee cultivation area, benefiting from vast arable land suitable for coffee farming. </li>
 
             </ul>
             <br>
 
-            <li>☕ Arabica: Grows best at higher altitudes with cooler temperatures</li>
+            <li><b>☕ Relationship Between Three Indicators (Production Volume,Yield efficiency, and Cultivated Area )</b></li>
             <ul class="list-disc ml-6">
-            <li>🌡️ Temperature: 18-21°C (59-75°F) Source: (Scott, 2015)</li>
-            <li>🌱 Altitude: 1000-2000m (2000-6500ft) above sea level (Noraini et el., 2024)</li>
-            <li>💧 Rainfall: 1250-2500mm (39-79 inches) annually Source: (Noraini et el., 2024)</li>
+            <li>high yield per hectare does not necessarily guarantee high total output. Countries with the highest production often combine large cultivation areas with relatively efficient farming practices, resulting in both high volume and competitive yield levels.</li>
 
             </ul>
           </ul>
@@ -202,12 +184,13 @@
 
      
       <div>
-        <h2 class="section-title">🌍 Main Producers of Coffee</h2>
+        <h2 class="section-title">🌍 High-Yield Countries: Malaysia, China, and Vietnam</h2>
         <p class="section-text">
-        Generally consistent with most literature, the main producers of coffee is found in the tropic regions also known as <em>The Coffee Belt</em> due to the availability of suitable growing conditions in Alititude, Temperature, and Rainfall. The top producer countries being Brazil, Colombia, Vietnam, and Indonesia. However, with climate change, temperatures are generally rising across all regions (Lindsey & Dahlman,2024). The environmental changes could possible cause a shift in the dominance of the current top producers.</p>
+        Over the past decade, Malaysia, China, and Vietnam have consistently recorded the highest coffee yields per hectare among all producing countries. This high productivity can be attributed to several key factors. In Malaysia, modern agricultural practices, including the use of improved seedlings and well-managed smallholder farms, have helped maximize yield despite a limited cultivation area.
+          </p>
 
         <p class="section-text">
-          The below map is a visual aid map to inspect the different environmental conditions suitable to plant the different varieties of Coffee.</p>
+          The below map is a visual aid map to show the coffee production trends from 2013 to 2022</p>
       </div>
     </div>
 
@@ -216,13 +199,12 @@
   
   
 <!-- map and the graph -->
-<div class="h-[800px] flex">
+<div class="h-[650px] flex">
   <!-- left-selection -->
   
 
 
-  <div class="flex-1 bg-gray-200 relative">
-    <a href="homepage.html" id="homepageBtn">🏠 Homepage</a>
+  <div class="flex-1 bg-gay-200 relative">
     <div id="navToChartBtn">
       <button onclick="window.location.href='production plot.html'">parallel coordinates plot</button>
     </div>
@@ -245,69 +227,38 @@
 
 </div>
   
-   <section class="bg-white shadow-md rounded-xl p-6 max-w-6xl mx-auto mt-10" data-aos="fade-up">
-  <h2 class="text-2xl font-bold text-gray-800 mb-4">Evaluation of environmental conditions</h2>
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-    
-    <!-- Point 1 -->
-    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-lg shadow-sm">
-      <h3 class="font-semibold text-lg mb-1">Temperature</h3>
-      <p class="text-gray-700 text-sm">
-        Overall, temperature is not a key factor for growing Robusta coffee, but it is crucial for Arabica coffee. The tropics by nature is generally warm. However, with temperature is rising due to climate change, growing Arabica coffee is becoming more difficult. 
-      </p>
-    </div>
-
-    <!-- Point 2 -->
-    <div class="bg-pink-50 border-l-4 border-pink-400 p-4 rounded-lg shadow-sm">
-      <h3 class="font-semibold text-lg mb-1">Alititude</h3>
-      <p class="text-gray-700 text-sm">
-        As Alititude is a key factor in determining the ability for a country to grow both varieties of coffee. It is a limiting factor for a number of lowland tropic countries though temperature and rainfall level are suitable.
-      </p>
-    </div>
-
-    <!-- Point 3 -->
-    <div class="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-lg shadow-sm">
-      <h3 class="font-semibold text-lg mb-1">Rainfall</h3>
-      <p class="text-gray-700 text-sm">
-        Rainfall surprisingly is a limiting factor due to a lower amount of rainfall in areas where the temperature and alititude are suitable. This particularly so for more inland countries such as Ethiopia, and Laos.
-      </p>
-    </div>
-
-    <!-- Point 4 -->
-    <div class="bg-green-50 border-l-4 border-green-400 p-4 rounded-lg shadow-sm">
-      <h3 class="font-semibold text-lg mb-1">Overall Evaluation</h3>
-      <p class="text-gray-700 text-sm">
-        Overall, the environmental conditions are a limiting factor in a country's ability to grow coffee. The most limiting factor is the alititude of the country, followed by rainfall and temperature. These three factors are interrelated, with altitude affecting temperature and rainfall patterns.
-      </p>
-    </div>
-  </div>
-</section>
-
+   
 
 
   <section class="max-w-6xl mx-auto mt-10 grid grid-cols-1 md:grid-cols-2 gap-8">
   
   <!-- lefe-coffeetravel-video -->
   <div class="bg-white shadow-lg p-6 rounded-xl" data-aos="fade-up">
-    <h2 class="text-xl font-bold mb-2">☕ Other environmental considerations</h2>
+    <h2 class="text-xl font-bold mb-2">☕ Major Coffee Producers: Brazil, Vietnam, and Colombia</h2>
     <p class="text-gray-700 mb-4">
-      Additional environmental considerations may influence coffee production; however, they are not reflected in the above evaluation due to their finer spatial resolution. These include: 
-      <ul class="list-disc ml-6">  
-        <li>☕ <b>Soil Quality:</b> The coffee plants require a acidic soil at around 4.9 to 5.2pH which can be changed with argochemicals. (Manson et el., 2022)</li>
-        <li>☕ <b>Shade:</b> Coffee plants thrive in shaded areas, which can be influenced by the slope aspect.</li>
-        <li>☕ <b>Pests and Diseases:</b> Coffee plants are susceptible to various pests and diseases, which can affect yield and quality.</li>
-      </ul>
-      <br>
-      At the global scale, these factors are not as significant as the three main factors mentioned above. However, they can still have a significant impact on coffee production at the local level. For example, in some regions, soil quality may be a limiting factor for coffee production, while in others, pests and diseases may be more important especially in the tropic regions.
+      Brazil, Vietnam, and Colombia have been the dominant players in global coffee production over the past decade, each with distinct strengths that contribute to their sustained output.</p>
+      <p class="text-gray-700 mb-4">
+        Brazil is the world’s leading coffee producer, a position it has maintained for decades. The country’s success is rooted in its vast plantation sizes, suitable climate, and highly mechanized farming systems. Regions like Minas Gerais and Espírito Santo are known for their large-scale operations, which allow efficient harvesting and processing. Brazil produces both Arabica and Robusta coffee, which enables it to meet a wide range of market demands.</p>
+        <p class="text-gray-700 mb-4">
+        Vietnam, as noted, is a leader in Robusta production. The government's agricultural policies have strongly supported the coffee sector since the 1990s, encouraging both expansion and modernization. Vietnam's production is dominated by smallholder farms that operate within a highly organized system of cooperatives and exporters, ensuring both consistency and scale in output.</p>
+        <p class="text-gray-700 mb-4">
+        Colombia is renowned for its premium Arabica coffee and unique growing conditions shaped by the Andes mountains, consistent rainfall, and fertile volcanic soil. While mechanization is limited due to the rugged terrain, Colombia maintains high total output through a combination of widespread smallholder farming and a strong institutional framework, including the National Federation of Coffee Growers, which provides support in quality control and market access.
     </p>
 
   </div>
 
   <!-- right-trade view -->
   <div class="bg-white shadow-lg p-6 rounded-xl" data-aos="fade-up">
-    <h2 class="text-xl font-bold mb-2">☕ Techtonic areas as potential guide</h2>
-    <p class="text-gray-700 mb-4"> The tectonic plate map is a useful tool for evaluating the environmental conditions suitable for growing coffee. An observation of the map shows that most of the coffee-producing countries and their suitable areas are located along the edges of tectonic plates. The mountaion ranges formed by the tectonic plates create the highland areas that are suitable for growing coffee. The tectonic plate map can be used to identify potential new coffee-producing regions by looking for areas with similar environmental conditions to those found in existing coffee-producing countries especially with considerations of the overall increasing global temperature. Areas outside the tropic regions may be suitable for growing coffee in the future as the climate changes. </p>
-    <img src="plate_tectonics.png" alt="Techteonic plate picture">
+    <h2 class="text-xl font-bold mb-2">☕ Countries with Large Cultivated Area: Brazil, Indonesia, and Ethiopia</h2>
+    <p class="text-gray-700 mb-4"> In terms of cultivated area, Brazil, Indonesia, and Ethiopia have consistently ranked among the top over the past ten years, largely due to their favorable climates, terrain, and historical ties to coffee cultivation.<br></p>
+    <p class="text-gray-700 mb-4">
+    Brazil’s coffee plantations cover expansive areas, particularly in the southeast. Its success is not only due to large land availability but also to investments in agricultural infrastructure and research institutions that guide farmers toward optimal cultivation practices.<br></p>
+    <p class="text-gray-700 mb-4">
+    Indonesia also dedicates substantial land to coffee, particularly in Sumatra, Java, and Sulawesi. Although yields per hectare are generally lower than in countries like Vietnam, Indonesia’s large cultivation base supports significant national output. Much of the production is carried out on smallholder plots using traditional methods, which contributes to the country’s diverse flavor profiles in the specialty coffee market.<br>
+    </p>
+    <p class="text-gray-700 mb-4">
+    Ethiopia, often considered the birthplace of Arabica coffee, has one of the largest cultivation areas in Africa. The country’s diverse topography and climate zones support a wide range of coffee varieties. Although its farming is primarily non-mechanized and carried out by smallholders, Ethiopia’s vast coffee-growing regions ensure its place as a major producer, especially in terms of specialty and organic coffee. <br></p>
+    
       
   </div>
 
@@ -319,28 +270,15 @@
   <h2 class="section-title">📊 Data Sources & References</h2>
   <b>Data Sources:</b>
   <ul class="list-disc ml-6 text-sm text-gray-700 space-y-1">
-    <li><b>Annual Rainfall:</b> Imagery Layer from <a href="https://geo.fas.usda.gov/arcgis2/rest/services/G_Climatology/Annual_Rainfall/ImageServer" style="color: #007ac2;">REST API SERVER</a></li>
-
-    <li><b>Temperature:</b> Feature Layer from <a href = "https://services.arcgis.com/jIL9msH9OI208GCb/arcgis/rest/services/Average_Annual_Temperature/FeatureServer" style="color: #007ac2;">REST API SERVER</a></li>
-    <li><b>Altitude:</b> Imagery Tile Layer from <a href = "https://elevation3d.arcgis.com/arcgis/rest/services/WorldElevation3D/Terrain3D/ImageServer" style="color: #007ac2;">REST API SERVER</a></li>
-    <li><b>Countries Boundaries</b> Feature Layer from <a href = "https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/World_Countries/FeatureServer" style="color: #007ac2;">REST API SERVER</a></li>
+    <li>Food and Agriculture Organization of the United Nations. (2025). Coffee bean yields – FAO [Data set]. In Production: Crops and livestock products. Retrieved April 16, 2025, from https://ourworldindata.org/grapher/coffee-yields</li>
+    <li>Natural Earth. (n.d.). Admin 0 – Countries [Map data]. Retrieved from https://www.naturalearthdata.com</li>
+    <li>QGIS Development Team. (2025). QGIS Geographic Information System (Version 3.36) [Software]. Open Source Geospatial Foundation. Retrieved from https://qgis.org</li>
+    <li>Ritchie, H., Rosado, P., & Roser, M. (2023). Agricultural production [Data set]. Our World in Data. Data adapted from Food and Agriculture Organization of the United Nations. Retrieved from https://ourworldindata.org/grapher/coffee-production-by-region</li>
   </ul>
   <br>
-  <b>References:</b>
-  <ul class="list-disc ml-6 text-sm text-gray-700 space-y-1 mt-4">
-    <li>EarthHow. (2025). plate_tectonics_labels-850x502. 7 Major Tectonic Plates: The World’s Largest Plate Tectonics. Retrieved 2025, from https://earthhow.com/wp-content/uploads/2019/01/plate_tectonics_labels-850x502.png</li>
-    <li>FHA. (2024, February 29). Robusta coffee: Origins, benefits, and how to brew. Food & Hospitality Asia. https://foodnhotelasia.com/glossary/horeca/robusta-coffee/ </li>
-    <li>Kath, J., Byrareddy, V. M., Craparo, A., Nguyen‐Huy, T., Mushtaq, S., Cao, L., & Bossolasco, L. (2020). Not so robust: Robusta coffee production is highly sensitive to temperature. Global Change Biology, 26(6), 3677–3688. https://doi.org/10.1111/gcb.15097 </li>
-    <li>Lindsey , R., & Dahlman, L. (2024, January 18). Climate change: Global temperature. NOAA Climate.gov. https://www.climate.gov/news-features/understanding-climate/climate-change-global-temperature </li>
-    <li>Manson, S., Nekaris, K. A., Rendell, A., Budiadi, B., Imron, M. A., & Campera, M. (2022). Agrochemicals and shade complexity affect soil quality in Coffee Home Gardens. Earth, 3(3), 853–865. https://doi.org/10.3390/earth3030049 </li>
-    <li>Noraini, A., Tjahjadi, M. E., & Jasmani, J. (2024). Classification of slope for coffee plantation in Ngajum District, Indonesia. Buletin Poltanesa, 25(1), 110–115. https://doi.org/10.51967/tanesa.v25i1.2227 </li>
-    <li>Scott, M. (2015, June 19). Climate & Coffee. NOAA Climate.gov. https://www.climate.gov/news-features/climate-and/climate-coffee</li>
-  </ul>
+  
   <br>
-  <b>Additional Resources:</b>
-  <ul class="list-disc ml-6 text-sm text-gray-700 space-y-1">
-    <li>https://developers.arcgis.com/javascript/latest/sample-code/layers-imagery-pixelvalues/</li>
-    <li>https://developers.arcgis.com/javascript/latest/sample-code/elevation-analysis/</li>
+  
   </section>
   <a href="homepage.html"
    class="fixed top-4 right-4 z-50 px-4 py-2 bg-white border border-gray-300 shadow rounded-full text-sm text-gray-800 hover:bg-amber-100 transition">
@@ -371,7 +309,7 @@
   </div>
 </footer>
 
-<script>
+<script class="section-text">
   
   AOS.init();
 
@@ -717,7 +655,7 @@
                         if (!countryListDiv) {
                             countryListDiv = document.createElement("div");
                             countryListDiv.id = "countryListDiv";
-                            countryListDiv.style.cssText = "position: absolute; top: 375px; right: 15px; width: 280px; background: white; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); padding: 10px;";
+                            countryListDiv.style.cssText = "position: absolute; top:1150px; right: 15px; width: 280px; background: white; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); padding: 10px;";
                             document.body.appendChild(countryListDiv);
                         }
 
