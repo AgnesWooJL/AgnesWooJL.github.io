@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Coffee Production Data by Country (2013–2022)</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+    }
+    #plot {
+      width: 90%;
+      margin: auto;
+      height: 580px; 
+    }
+    #backToMapBtn {
+      margin: 20px;
+      padding: 10px 20px;
+      background-color: #D7B29A; 
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    #backToMapBtn:hover {
+      background-color: #B98F6A; 
+  </style>
+</head>
+<body>
+
+  <button id="backToMapBtn" onclick="window.location.href='production map.html'">Back to Map</button>
+
+  <h2>Coffee Production Data by Country (2013–2022)</h2>
+  <div id="plot"></div>
+
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <script>
+    fetch('https://beckychengyi.github.io/coffee-production-plot/standardized_data.json')
+      .then(response => response.json())
+      .then(data => {
+        const indicators = ['Production_tonnes', 'Production_tonnesperhectare', 'Cultivated_hectare'];
+        const years = [...new Set(data.map(d => d.Year))].sort();
+        const countries = [...new Set(data.map(d => d.Country))];
+
+        const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
+        const countryColorMap = {};
+        countries.forEach((country, i) => {
+          countryColorMap[country] = colorScale(i);
+        });
+
+        const frames = [];
+
+        years.forEach(year => {
+          const yearData = data.filter(d => d.Year === year);
+          const traces = countries.map(country => {
+            const countryData = yearData.find(d => d.Country === country);
+            if (!countryData) return null;
+
+            return {
+              x: ['Production Volume', 'Production Efficiency', 'Cultivated Area'],
+              y: indicators.map(ind => countryData[ind]),
+              mode: 'lines+markers',
+              name: country,
+              line: {
+                color: countryColorMap[country],
+                width: 2
+              },
+              hovertemplate: `<b>${country}</b><extra></extra>`,
+              customdata: [country],
+              opacity: 0.4
+            };
+          }).filter(Boolean);
+
+          frames.push({
+            name: year.toString(),
+            data: traces
+          });
+        });
+
+        const initialFrame = frames[0].data;
+
+        const layout = {
+          xaxis: { title: 'Indicators' },
+          yaxis: {
+            title: 'Standardized Value (Min-Max)',
+            range: [0, 1.5] 
+          },
+          showlegend: false,
+          hovermode: 'closest',
+          sliders: [{
+            active: 0,
+            pad: { t: 50 },
+            currentvalue: {
+              visible: true,
+              prefix: 'Year: ',
+              xanchor: 'right',
+              font: { size: 16 }
+            },
+            steps: years.map(year => ({
+              label: year.toString(),
+              method: 'animate',
+              args: [[year.toString()], {
+                mode: 'immediate',
+                frame: { duration: 500, redraw: true },
+                transition: { duration: 300 }
+              }]
+            }))
+          }],
+          updatemenus: [{
+            type: 'buttons',
+            showactive: false,
+            y: 1.05,
+            x: 1.1,
+            xanchor: 'right',
+            yanchor: 'top',
+            direction: 'left',
+            buttons: [{
+              label: 'Play',
+              method: 'animate',
+              args: [null, {
+                fromcurrent: true,
+                frame: { duration: 1000, redraw: true },
+                transition: { duration: 500 }
+              }]
+            }, {
+              label: 'Pause',
+              method: 'animate',
+              args: [[null], {
+                mode: 'immediate',
+                frame: { duration: 0, redraw: false },
+                transition: { duration: 0 }
+              }]
+            }]
+          }],
+          margin: { t: 40 }
+        };
+
+        const config = {
+          displayModeBar: false
+        };
+
+        Plotly.newPlot('plot', initialFrame, layout, config).then(gd => {
+          Plotly.addFrames(gd, frames);
+
+          gd.on('plotly_hover', function(data) {
+            const country = data.points[0].data.name;
+            const update = {
+              'line.width': [],
+              'opacity': []
+            };
+
+            gd.data.forEach(trace => {
+              if (trace.name === country) {
+                update['line.width'].push(4);
+                update['opacity'].push(1);
+              } else {
+                update['line.width'].push(2);
+                update['opacity'].push(0.1);
+              }
+            });
+
+            Plotly.restyle(gd, update);
+          });
+
+          gd.on('plotly_unhover', function() {
+            const update = {
+              'line.width': gd.data.map(() => 2),
+              'opacity': gd.data.map(() => 0.4)
+            };
+            Plotly.restyle(gd, update);
+          });
+        });
+      });
+  </script>
+</body>
+</html>
+
+

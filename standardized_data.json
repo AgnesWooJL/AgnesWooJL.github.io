@@ -1,0 +1,5238 @@
+[
+  {
+    "Year": 2013,
+    "Country": "Cambodia",
+    "Production_tonnes": 9.525816717349589e-05,
+    "Production_tonnesperhectare": 0.199923005464488,
+    "Cultivated_hectare": 0.00021193958283385276
+  },
+  {
+    "Year": 2014,
+    "Country": "Cambodia",
+    "Production_tonnes": 9.633757983268565e-05,
+    "Production_tonnesperhectare": 0.20066727084975228,
+    "Cultivated_hectare": 0.00021385758810836729
+  },
+  {
+    "Year": 2015,
+    "Country": "Cambodia",
+    "Production_tonnes": 9.984567097505235e-05,
+    "Production_tonnesperhectare": 0.20087258331486865,
+    "Cultivated_hectare": 0.00022105010788779666
+  },
+  {
+    "Year": 2016,
+    "Country": "Cambodia",
+    "Production_tonnes": 9.714713932707796e-05,
+    "Production_tonnesperhectare": 0.19086358780841656,
+    "Cultivated_hectare": 0.00022632462239271156
+  },
+  {
+    "Year": 2017,
+    "Country": "Cambodia",
+    "Production_tonnes": 9.633757983268565e-05,
+    "Production_tonnesperhectare": 0.19509817023347073,
+    "Cultivated_hectare": 0.00021961160393191078
+  },
+  {
+    "Year": 2018,
+    "Country": "Cambodia",
+    "Production_tonnes": 9.633757983268565e-05,
+    "Production_tonnesperhectare": 0.19884512272184449,
+    "Cultivated_hectare": 0.00021577559338288178
+  },
+  {
+    "Year": 2019,
+    "Country": "Cambodia",
+    "Production_tonnes": 0.00010119493679903954,
+    "Production_tonnesperhectare": 0.1984344875259885,
+    "Cultivated_hectare": 0.00022680412371134018
+  },
+  {
+    "Year": 2020,
+    "Country": "Cambodia",
+    "Production_tonnes": 0.00010173464312863443,
+    "Production_tonnesperhectare": 0.19815218288645348,
+    "Cultivated_hectare": 0.00022824262766722606
+  },
+  {
+    "Year": 2021,
+    "Country": "Cambodia",
+    "Production_tonnes": 9.984567097505235e-05,
+    "Production_tonnesperhectare": 0.19237778007067885,
+    "Cultivated_hectare": 0.00023064013426036918
+  },
+  {
+    "Year": 2022,
+    "Country": "Cambodia",
+    "Production_tonnes": 0.00010092508363424211,
+    "Production_tonnesperhectare": 0.19294238934974886,
+    "Cultivated_hectare": 0.0002325581395348837
+  },
+  {
+    "Year": 2013,
+    "Country": "Burma",
+    "Production_tonnes": 0.002185810634859254,
+    "Production_tonnesperhectare": 0.172180166314856,
+    "Cultivated_hectare": 0.0056274274754255565
+  },
+  {
+    "Year": 2014,
+    "Country": "Burma",
+    "Production_tonnes": 0.002266766584298486,
+    "Production_tonnesperhectare": 0.1787501651985798,
+    "Cultivated_hectare": 0.005626947974106928
+  },
+  {
+    "Year": 2015,
+    "Country": "Burma",
+    "Production_tonnes": 0.0022397812678187417,
+    "Production_tonnesperhectare": 0.17654305619857885,
+    "Cultivated_hectare": 0.0056274274754255565
+  },
+  {
+    "Year": 2016,
+    "Country": "Burma",
+    "Production_tonnes": 0.0022867357184934963,
+    "Production_tonnesperhectare": 0.172744775593926,
+    "Cultivated_hectare": 0.005868616638695756
+  },
+  {
+    "Year": 2017,
+    "Country": "Burma",
+    "Production_tonnes": 0.0023064349995237095,
+    "Production_tonnesperhectare": 0.1720261819660187,
+    "Cultivated_hectare": 0.0059429393430831924
+  },
+  {
+    "Year": 2018,
+    "Country": "Burma",
+    "Production_tonnes": 0.0023417857641121736,
+    "Production_tonnesperhectare": 0.1718465335590419,
+    "Cultivated_hectare": 0.006040278110764804
+  },
+  {
+    "Year": 2019,
+    "Country": "Burma",
+    "Production_tonnes": 0.002366342402108741,
+    "Production_tonnesperhectare": 0.17125625252261487,
+    "Cultivated_hectare": 0.006124190841524813
+  },
+  {
+    "Year": 2020,
+    "Country": "Burma",
+    "Production_tonnes": 0.0024038519920155845,
+    "Production_tonnesperhectare": 0.17179519517713954,
+    "Cultivated_hectare": 0.006202349556461279
+  },
+  {
+    "Year": 2021,
+    "Country": "Burma",
+    "Production_tonnes": 0.0024038519920155845,
+    "Production_tonnesperhectare": 0.17225714822365137,
+    "Cultivated_hectare": 0.0061860465116279064
+  },
+  {
+    "Year": 2022,
+    "Country": "Burma",
+    "Production_tonnes": 0.0023962961034012563,
+    "Production_tonnesperhectare": 0.175388163316676,
+    "Cultivated_hectare": 0.006059458163509949
+  },
+  {
+    "Year": 2013,
+    "Country": "Vietnam",
+    "Production_tonnes": 0.3580109554987845,
+    "Production_tonnesperhectare": 0.580700592452036,
+    "Cultivated_hectare": 0.278768161112443
+  },
+  {
+    "Year": 2014,
+    "Country": "Vietnam",
+    "Production_tonnes": 0.3795401108394889,
+    "Production_tonnesperhectare": 0.6078275019055364,
+    "Cultivated_hectare": 0.28244929273555497
+  },
+  {
+    "Year": 2015,
+    "Country": "Vietnam",
+    "Production_tonnes": 0.3920963785975138,
+    "Production_tonnesperhectare": 0.6230206756522639,
+    "Cultivated_hectare": 0.28473363701750176
+  },
+  {
+    "Year": 2016,
+    "Country": "Vietnam",
+    "Production_tonnes": 0.3942015031360986,
+    "Production_tonnesperhectare": 0.6224047382569149,
+    "Cultivated_hectare": 0.2865432749940062
+  },
+  {
+    "Year": 2017,
+    "Country": "Vietnam",
+    "Production_tonnes": 0.41622098167724,
+    "Production_tonnesperhectare": 0.6491466611742638,
+    "Cultivated_hectare": 0.29018029249580435
+  },
+  {
+    "Year": 2018,
+    "Country": "Vietnam",
+    "Production_tonnes": 0.4361655592342539,
+    "Production_tonnesperhectare": 0.6653149921381197,
+    "Cultivated_hectare": 0.2967499400623351
+  },
+  {
+    "Year": 2019,
+    "Country": "Vietnam",
+    "Production_tonnes": 0.45517887351955183,
+    "Production_tonnesperhectare": 0.6886693363732231,
+    "Cultivated_hectare": 0.2992586909614001
+  },
+  {
+    "Year": 2020,
+    "Country": "Vietnam",
+    "Production_tonnes": 0.47587957964432814,
+    "Production_tonnesperhectare": 0.7049146851755559,
+    "Cultivated_hectare": 0.30570846319827377
+  },
+  {
+    "Year": 2021,
+    "Country": "Vietnam",
+    "Production_tonnes": 0.4978879942057129,
+    "Production_tonnesperhectare": 0.71995382324533,
+    "Cultivated_hectare": 0.31321122033085586
+  },
+  {
+    "Year": 2022,
+    "Country": "Vietnam",
+    "Production_tonnes": 0.5272903854825474,
+    "Production_tonnesperhectare": 0.759579103348731,
+    "Cultivated_hectare": 0.3145149844162071
+  },
+  {
+    "Year": 2013,
+    "Country": "United States",
+    "Production_tonnes": 0.0008567837982318681,
+    "Production_tonnesperhectare": 0.24062620937302567,
+    "Cultivated_hectare": 0.0015909853752097817
+  },
+  {
+    "Year": 2014,
+    "Country": "United States",
+    "Production_tonnes": 0.0009903611148066004,
+    "Production_tonnesperhectare": 0.22776851624511305,
+    "Cultivated_hectare": 0.0019405418364900502
+  },
+  {
+    "Year": 2015,
+    "Country": "United States",
+    "Production_tonnes": 0.0006449490638658786,
+    "Production_tonnesperhectare": 0.21488515905906086,
+    "Cultivated_hectare": 0.001337808678973867
+  },
+  {
+    "Year": 2016,
+    "Country": "United States",
+    "Production_tonnes": 0.00052891220300298,
+    "Production_tonnesperhectare": 0.1727961037102051,
+    "Cultivated_hectare": 0.0013569887317190121
+  },
+  {
+    "Year": 2017,
+    "Country": "United States",
+    "Production_tonnes": 0.0005936769625543653,
+    "Production_tonnesperhectare": 0.1890671165706774,
+    "Cultivated_hectare": 0.0013953488372093021
+  },
+  {
+    "Year": 2018,
+    "Country": "United States",
+    "Production_tonnes": 0.0006719343803456226,
+    "Production_tonnesperhectare": 0.21770819518878767,
+    "Cultivated_hectare": 0.0013761687844641571
+  },
+  {
+    "Year": 2019,
+    "Country": "United States",
+    "Production_tonnes": 0.000626059342330058,
+    "Production_tonnesperhectare": 0.20828948328516844,
+    "Cultivated_hectare": 0.0013387676816111244
+  },
+  {
+    "Year": 2020,
+    "Country": "United States",
+    "Production_tonnes": 0.00052891220300298,
+    "Production_tonnesperhectare": 0.17782625910555616,
+    "Cultivated_hectare": 0.0013195876288659791
+  },
+  {
+    "Year": 2021,
+    "Country": "United States",
+    "Production_tonnes": 0.000612566684090186,
+    "Production_tonnesperhectare": 0.19496984994277303,
+    "Cultivated_hectare": 0.0013972668424838167
+  },
+  {
+    "Year": 2022,
+    "Country": "United States",
+    "Production_tonnes": 0.0006476475955138531,
+    "Production_tonnesperhectare": 0.2124727375939435,
+    "Cultivated_hectare": 0.001358427235674898
+  },
+  {
+    "Year": 2013,
+    "Country": "Mexico",
+    "Production_tonnes": 0.06249691355442763,
+    "Production_tonnesperhectare": 0.07994354136132696,
+    "Cultivated_hectare": 0.33570318868376886
+  },
+  {
+    "Year": 2014,
+    "Country": "Mexico",
+    "Production_tonnes": 0.05792856932757179,
+    "Production_tonnesperhectare": 0.07383549039130334,
+    "Cultivated_hectare": 0.3352869815391992
+  },
+  {
+    "Year": 2015,
+    "Country": "Mexico",
+    "Production_tonnes": 0.0509844378378393,
+    "Production_tonnesperhectare": 0.06798408513548682,
+    "Cultivated_hectare": 0.31876864061376164
+  },
+  {
+    "Year": 2016,
+    "Country": "Mexico",
+    "Production_tonnes": 0.040940503044078626,
+    "Production_tonnesperhectare": 0.05535737366364171,
+    "Cultivated_hectare": 0.3095617357947734
+  },
+  {
+    "Year": 2017,
+    "Country": "Mexico",
+    "Production_tonnes": 0.041497210123055746,
+    "Production_tonnesperhectare": 0.0568458890357354,
+    "Cultivated_hectare": 0.3062138575881083
+  },
+  {
+    "Year": 2018,
+    "Country": "Mexico",
+    "Production_tonnes": 0.04271991481275294,
+    "Production_tonnesperhectare": 0.05956627919852729,
+    "Cultivated_hectare": 0.3019448573483577
+  },
+  {
+    "Year": 2019,
+    "Country": "Mexico",
+    "Production_tonnes": 0.04471790764491317,
+    "Production_tonnesperhectare": 0.06262030211713328,
+    "Cultivated_hectare": 0.3017818269000239
+  },
+  {
+    "Year": 2020,
+    "Country": "Mexico",
+    "Production_tonnes": 0.047374072346014366,
+    "Production_tonnesperhectare": 0.06587963750085565,
+    "Cultivated_hectare": 0.3049959242387916
+  },
+  {
+    "Year": 2021,
+    "Country": "Mexico",
+    "Production_tonnes": 0.04704647060395028,
+    "Production_tonnesperhectare": 0.06475041894271562,
+    "Cultivated_hectare": 0.30779381443298964
+  },
+  {
+    "Year": 2022,
+    "Country": "Mexico",
+    "Production_tonnes": 0.049033939162683414,
+    "Production_tonnesperhectare": 0.0671371763496934,
+    "Cultivated_hectare": 0.310175497482618
+  },
+  {
+    "Year": 2013,
+    "Country": "Indonesia",
+    "Production_tonnes": 0.18236676877010913,
+    "Production_tonnesperhectare": 0.13473629522363484,
+    "Cultivated_hectare": 0.5953464397027092
+  },
+  {
+    "Year": 2014,
+    "Country": "Indonesia",
+    "Production_tonnes": 0.17375845281307084,
+    "Production_tonnesperhectare": 0.1293468532799534,
+    "Cultivated_hectare": 0.590007672021098
+  },
+  {
+    "Year": 2015,
+    "Country": "Indonesia",
+    "Production_tonnes": 0.17254735180945993,
+    "Production_tonnesperhectare": 0.1284486112450693,
+    "Cultivated_hectare": 0.5898403260608966
+  },
+  {
+    "Year": 2016,
+    "Country": "Indonesia",
+    "Production_tonnes": 0.1725184775208266,
+    "Production_tonnesperhectare": 0.12860259559390655,
+    "Cultivated_hectare": 0.5890616159194437
+  },
+  {
+    "Year": 2017,
+    "Country": "Indonesia",
+    "Production_tonnes": 0.19374431790429875,
+    "Production_tonnesperhectare": 0.14382138207065745,
+    "Cultivated_hectare": 0.5938652601294653
+  },
+  {
+    "Year": 2018,
+    "Country": "Indonesia",
+    "Production_tonnes": 0.2040227550982684,
+    "Production_tonnesperhectare": 0.14992942790786945,
+    "Cultivated_hectare": 0.6007082234476144
+  },
+  {
+    "Year": 2019,
+    "Country": "Indonesia",
+    "Production_tonnes": 0.20306774474805026,
+    "Production_tonnesperhectare": 0.15013473010736256,
+    "Cultivated_hectare": 0.5971047710381203
+  },
+  {
+    "Year": 2020,
+    "Country": "Indonesia",
+    "Production_tonnes": 0.20573065577827138,
+    "Production_tonnesperhectare": 0.15152058924689807,
+    "Cultivated_hectare": 0.5995770798369695
+  },
+  {
+    "Year": 2021,
+    "Country": "Indonesia",
+    "Production_tonnes": 0.2121561294852632,
+    "Production_tonnesperhectare": 0.15272680254586254,
+    "Cultivated_hectare": 0.6135737233277391
+  },
+  {
+    "Year": 2022,
+    "Country": "Indonesia",
+    "Production_tonnes": 0.21446904096074204,
+    "Production_tonnesperhectare": 0.15367638039624318,
+    "Cultivated_hectare": 0.616549988012467
+  },
+  {
+    "Year": 2013,
+    "Country": "Ecuador",
+    "Production_tonnes": 0.002094060558828125,
+    "Production_tonnesperhectare": 0.027357886233396824,
+    "Cultivated_hectare": 0.029554543274994002
+  },
+  {
+    "Year": 2014,
+    "Country": "Ecuador",
+    "Production_tonnes": 0.0011401296212691788,
+    "Production_tonnesperhectare": 0.02561273027990768,
+    "Cultivated_hectare": 0.017009829777031884
+  },
+  {
+    "Year": 2015,
+    "Country": "Ecuador",
+    "Production_tonnes": 0.0014294122139320332,
+    "Production_tonnesperhectare": 0.025920697694379328,
+    "Cultivated_hectare": 0.021113402061855666
+  },
+  {
+    "Year": 2016,
+    "Country": "Ecuador",
+    "Production_tonnes": 0.0010537766085339986,
+    "Production_tonnesperhectare": 0.028589758457689223,
+    "Cultivated_hectare": 0.014326540397986092
+  },
+  {
+    "Year": 2017,
+    "Country": "Ecuador",
+    "Production_tonnes": 0.002041169338527827,
+    "Production_tonnesperhectare": 0.04714487505898694,
+    "Cultivated_hectare": 0.01786669863342124
+  },
+  {
+    "Year": 2018,
+    "Country": "Ecuador",
+    "Production_tonnes": 0.0013668062796990275,
+    "Production_tonnesperhectare": 0.03577569473676216,
+    "Cultivated_hectare": 0.015303764085351234
+  },
+  {
+    "Year": 2019,
+    "Country": "Ecuador",
+    "Production_tonnes": 0.002196874614615949,
+    "Production_tonnesperhectare": 0.05299628031480347,
+    "Cultivated_hectare": 0.017287940541836487
+  },
+  {
+    "Year": 2020,
+    "Country": "Ecuador",
+    "Production_tonnes": 0.0014248247101304769,
+    "Production_tonnesperhectare": 0.045399719105497796,
+    "Cultivated_hectare": 0.01290385998561496
+  },
+  {
+    "Year": 2021,
+    "Country": "Ecuador",
+    "Production_tonnes": 0.0013268680113090066,
+    "Production_tonnesperhectare": 0.0378544834460654,
+    "Cultivated_hectare": 0.014134739870534643
+  },
+  {
+    "Year": 2022,
+    "Country": "Ecuador",
+    "Production_tonnes": 0.002149650310776397,
+    "Production_tonnesperhectare": 0.06341588278664759,
+    "Cultivated_hectare": 0.01433804842963318
+  },
+  {
+    "Year": 2013,
+    "Country": "Papua New Guinea",
+    "Production_tonnes": 0.01340630522713676,
+    "Production_tonnesperhectare": 0.2698318818717711,
+    "Cultivated_hectare": 0.022248861184368255
+  },
+  {
+    "Year": 2014,
+    "Country": "Papua New Guinea",
+    "Production_tonnes": 0.015352756104820686,
+    "Production_tonnesperhectare": 0.2669318689660605,
+    "Cultivated_hectare": 0.025750659314313112
+  },
+  {
+    "Year": 2015,
+    "Country": "Papua New Guinea",
+    "Production_tonnes": 0.015646626201285097,
+    "Production_tonnesperhectare": 0.266623900268386,
+    "Cultivated_hectare": 0.026273315751618315
+  },
+  {
+    "Year": 2016,
+    "Country": "Papua New Guinea",
+    "Production_tonnes": 0.014496242159753614,
+    "Production_tonnesperhectare": 0.2660079628730369,
+    "Cultivated_hectare": 0.0243970270918245
+  },
+  {
+    "Year": 2017,
+    "Country": "Papua New Guinea",
+    "Production_tonnes": 0.012677701682183674,
+    "Production_tonnesperhectare": 0.26569999417536233,
+    "Cultivated_hectare": 0.02136082474226804
+  },
+  {
+    "Year": 2018,
+    "Country": "Papua New Guinea",
+    "Production_tonnes": 0.014345394240631845,
+    "Production_tonnesperhectare": 0.26575129662758323,
+    "Cultivated_hectare": 0.024165907456245504
+  },
+  {
+    "Year": 2019,
+    "Country": "Papua New Guinea",
+    "Production_tonnes": 0.012178203474143615,
+    "Production_tonnesperhectare": 0.2660849550474555,
+    "Cultivated_hectare": 0.020490050347638455
+  },
+  {
+    "Year": 2020,
+    "Country": "Papua New Guinea",
+    "Production_tonnes": 0.010929053174296271,
+    "Production_tonnesperhectare": 0.26616194722187414,
+    "Cultivated_hectare": 0.01838312155358427
+  },
+  {
+    "Year": 2021,
+    "Country": "Papua New Guinea",
+    "Production_tonnes": 0.012920569530501368,
+    "Production_tonnesperhectare": 0.2663672596869905,
+    "Cultivated_hectare": 0.02171613521937185
+  },
+  {
+    "Year": 2022,
+    "Country": "Papua New Guinea",
+    "Production_tonnes": 0.011010009123735502,
+    "Production_tonnesperhectare": 0.2665982362102464,
+    "Cultivated_hectare": 0.018489570846319827
+  },
+  {
+    "Year": 2013,
+    "Country": "Panama",
+    "Production_tonnes": 0.0019148780574026257,
+    "Production_tonnesperhectare": 0.10968817961224937,
+    "Cultivated_hectare": 0.007616878446415727
+  },
+  {
+    "Year": 2014,
+    "Country": "Panama",
+    "Production_tonnes": 0.0018047779661652706,
+    "Production_tonnesperhectare": 0.11038110918201711,
+    "Cultivated_hectare": 0.007135938623831215
+  },
+  {
+    "Year": 2015,
+    "Country": "Panama",
+    "Production_tonnes": 0.002014184022048083,
+    "Production_tonnesperhectare": 0.11025278889131938,
+    "Cultivated_hectare": 0.007972668424838167
+  },
+  {
+    "Year": 2016,
+    "Country": "Panama",
+    "Production_tonnes": 0.001655549166032287,
+    "Production_tonnesperhectare": 0.11053509866366602,
+    "Cultivated_hectare": 0.006537041476864061
+  },
+  {
+    "Year": 2017,
+    "Country": "Panama",
+    "Production_tonnes": 0.0017777926496855268,
+    "Production_tonnesperhectare": 0.11092005953575922,
+    "Cultivated_hectare": 0.006996403740110285
+  },
+  {
+    "Year": 2018,
+    "Country": "Panama",
+    "Production_tonnes": 0.001505510806404911,
+    "Production_tonnesperhectare": 0.11089439034480804,
+    "Cultivated_hectare": 0.005926156796931191
+  },
+  {
+    "Year": 2019,
+    "Country": "Panama",
+    "Production_tonnes": 0.00225894084251936,
+    "Production_tonnesperhectare": 0.11099705171017785,
+    "Cultivated_hectare": 0.008884200431551185
+  },
+  {
+    "Year": 2020,
+    "Country": "Panama",
+    "Production_tonnes": 0.0016876616926431822,
+    "Production_tonnesperhectare": 0.11050943460552648,
+    "Cultivated_hectare": 0.006665547830256533
+  },
+  {
+    "Year": 2021,
+    "Country": "Panama",
+    "Production_tonnes": 0.0016245160520805815,
+    "Production_tonnesperhectare": 0.11056075502258814,
+    "Cultivated_hectare": 0.006413330136657875
+  },
+  {
+    "Year": 2022,
+    "Country": "Panama",
+    "Production_tonnes": 0.0020238987359807907,
+    "Production_tonnesperhectare": 0.11061208570527303,
+    "Cultivated_hectare": 0.007986573963078397
+  },
+  {
+    "Year": 2013,
+    "Country": "Philippines",
+    "Production_tonnes": 0.0212196337606818,
+    "Production_tonnesperhectare": 0.16833055759392407,
+    "Cultivated_hectare": 0.0558427235674898
+  },
+  {
+    "Year": 2014,
+    "Country": "Philippines",
+    "Production_tonnes": 0.020361500696625946,
+    "Production_tonnesperhectare": 0.15991273882493548,
+    "Cultivated_hectare": 0.05632030688084392
+  },
+  {
+    "Year": 2015,
+    "Country": "Philippines",
+    "Production_tonnes": 0.019521717647776316,
+    "Production_tonnesperhectare": 0.15827024680322196,
+    "Cultivated_hectare": 0.054540877487413084
+  },
+  {
+    "Year": 2016,
+    "Country": "Philippines",
+    "Production_tonnes": 0.01857210436085413,
+    "Production_tonnesperhectare": 0.14885152976679106,
+    "Cultivated_hectare": 0.0550654519299928
+  },
+  {
+    "Year": 2017,
+    "Country": "Philippines",
+    "Production_tonnes": 0.016751944764295406,
+    "Production_tonnesperhectare": 0.13622481316213433,
+    "Cultivated_hectare": 0.05411124430592183
+  },
+  {
+    "Year": 2018,
+    "Country": "Philippines",
+    "Production_tonnes": 0.016275653928427926,
+    "Production_tonnesperhectare": 0.1316052801306102,
+    "Cultivated_hectare": 0.05435099496523615
+  },
+  {
+    "Year": 2019,
+    "Country": "Philippines",
+    "Production_tonnes": 0.016203063427097413,
+    "Production_tonnesperhectare": 0.13260618866367577,
+    "Cultivated_hectare": 0.05371469671541596
+  },
+  {
+    "Year": 2020,
+    "Country": "Philippines",
+    "Production_tonnes": 0.016364165766481486,
+    "Production_tonnesperhectare": 0.13245220431483848,
+    "Cultivated_hectare": 0.05430975785183409
+  },
+  {
+    "Year": 2021,
+    "Country": "Philippines",
+    "Production_tonnes": 0.016354990758878373,
+    "Production_tonnesperhectare": 0.13324779011716442,
+    "Cultivated_hectare": 0.05396691440901462
+  },
+  {
+    "Year": 2022,
+    "Country": "Philippines",
+    "Production_tonnes": 0.01572839171021872,
+    "Production_tonnesperhectare": 0.12826896283809247,
+    "Cultivated_hectare": 0.05383888755694077
+  },
+  {
+    "Year": 2013,
+    "Country": "Belize",
+    "Production_tonnes": 2.3477225337377175e-05,
+    "Production_tonnesperhectare": 0.3440010355591177,
+    "Cultivated_hectare": 3.0688084392232075e-05
+  },
+  {
+    "Year": 2014,
+    "Country": "Belize",
+    "Production_tonnes": 2.3747078502174614e-05,
+    "Production_tonnesperhectare": 0.3278583429893432,
+    "Cultivated_hectare": 3.260608966674658e-05
+  },
+  {
+    "Year": 2015,
+    "Country": "Belize",
+    "Production_tonnes": 2.455663799656693e-05,
+    "Production_tonnesperhectare": 0.30132170687305243,
+    "Cultivated_hectare": 3.644210021577559e-05
+  },
+  {
+    "Year": 2016,
+    "Country": "Belize",
+    "Production_tonnes": 2.401693166697205e-05,
+    "Production_tonnesperhectare": 0.32475296629039996,
+    "Cultivated_hectare": 3.3085590985375206e-05
+  },
+  {
+    "Year": 2017,
+    "Country": "Belize",
+    "Production_tonnes": 2.401693166697205e-05,
+    "Production_tonnesperhectare": 0.31104838490794046,
+    "Cultivated_hectare": 3.452409494126109e-05
+  },
+  {
+    "Year": 2018,
+    "Country": "Belize",
+    "Production_tonnes": 2.428678483176949e-05,
+    "Production_tonnesperhectare": 0.3024765638252738,
+    "Cultivated_hectare": 3.596259889714696e-05
+  },
+  {
+    "Year": 2019,
+    "Country": "Belize",
+    "Production_tonnes": 2.401693166697205e-05,
+    "Production_tonnesperhectare": 0.32639549167538906,
+    "Cultivated_hectare": 3.3085590985375206e-05
+  },
+  {
+    "Year": 2020,
+    "Country": "Belize",
+    "Production_tonnes": 2.428678483176949e-05,
+    "Production_tonnesperhectare": 0.3129731636043483,
+    "Cultivated_hectare": 3.500359625988971e-05
+  },
+  {
+    "Year": 2021,
+    "Country": "Belize",
+    "Production_tonnes": 2.428678483176949e-05,
+    "Production_tonnesperhectare": 0.3136147907218951,
+    "Cultivated_hectare": 3.500359625988971e-05
+  },
+  {
+    "Year": 2022,
+    "Country": "Belize",
+    "Production_tonnes": 2.428678483176949e-05,
+    "Production_tonnesperhectare": 0.3175413916172456,
+    "Cultivated_hectare": 3.452409494126109e-05
+  },
+  {
+    "Year": 2013,
+    "Country": "China",
+    "Production_tonnes": 0.03152586583062558,
+    "Production_tonnesperhectare": 0.5995380111264629,
+    "Cultivated_hectare": 0.02378278590266123
+  },
+  {
+    "Year": 2014,
+    "Country": "China",
+    "Production_tonnes": 0.03442948588384603,
+    "Production_tonnesperhectare": 0.6602335342905478,
+    "Cultivated_hectare": 0.023603452409494123
+  },
+  {
+    "Year": 2015,
+    "Country": "China",
+    "Production_tonnes": 0.031070893394777102,
+    "Production_tonnesperhectare": 0.701116404570903,
+    "Cultivated_hectare": 0.020067609685926635
+  },
+  {
+    "Year": 2016,
+    "Country": "China",
+    "Production_tonnes": 0.0305865069639657,
+    "Production_tonnesperhectare": 0.7263441737220769,
+    "Cultivated_hectare": 0.019073123951090863
+  },
+  {
+    "Year": 2017,
+    "Country": "China",
+    "Production_tonnes": 0.030807246852770004,
+    "Production_tonnesperhectare": 0.7521108880941813,
+    "Cultivated_hectare": 0.01855718053224646
+  },
+  {
+    "Year": 2018,
+    "Country": "China",
+    "Production_tonnes": 0.03116804053410418,
+    "Production_tonnesperhectare": 0.7796227070916586,
+    "Cultivated_hectare": 0.018116039319108126
+  },
+  {
+    "Year": 2019,
+    "Country": "China",
+    "Production_tonnes": 0.03238237977569265,
+    "Production_tonnesperhectare": 0.8124727015102777,
+    "Cultivated_hectare": 0.01806521217933349
+  },
+  {
+    "Year": 2020,
+    "Country": "China",
+    "Production_tonnes": 0.030763260786908022,
+    "Production_tonnesperhectare": 0.811215188325498,
+    "Cultivated_hectare": 0.017188683768880362
+  },
+  {
+    "Year": 2021,
+    "Country": "China",
+    "Production_tonnes": 0.02914414179812339,
+    "Production_tonnesperhectare": 0.8340048462893569,
+    "Cultivated_hectare": 0.01584176456485255
+  },
+  {
+    "Year": 2022,
+    "Country": "China",
+    "Production_tonnes": 0.02914414179812339,
+    "Production_tonnesperhectare": 0.8557423548616688,
+    "Cultivated_hectare": 0.015441380963797649
+  },
+  {
+    "Year": 2013,
+    "Country": "French Polynesia",
+    "Production_tonnes": 5.936769625543654e-06,
+    "Production_tonnesperhectare": 0.05448479568689715,
+    "Cultivated_hectare": 4.5552625269719485e-05
+  },
+  {
+    "Year": 2014,
+    "Country": "French Polynesia",
+    "Production_tonnes": 5.397063295948776e-06,
+    "Production_tonnesperhectare": 0.052072371655373983,
+    "Cultivated_hectare": 4.3155118676576354e-05
+  },
+  {
+    "Year": 2015,
+    "Country": "French Polynesia",
+    "Production_tonnes": 5.666916460746215e-06,
+    "Production_tonnesperhectare": 0.051328116535732965,
+    "Cultivated_hectare": 4.6032126588348117e-05
+  },
+  {
+    "Year": 2016,
+    "Country": "French Polynesia",
+    "Production_tonnes": 5.936769625543654e-06,
+    "Production_tonnesperhectare": 0.05435647539619942,
+    "Cultivated_hectare": 4.5552625269719485e-05
+  },
+  {
+    "Year": 2017,
+    "Country": "French Polynesia",
+    "Production_tonnes": 5.666916460746215e-06,
+    "Production_tonnesperhectare": 0.049916593338057924,
+    "Cultivated_hectare": 4.6991129225605366e-05
+  },
+  {
+    "Year": 2018,
+    "Country": "French Polynesia",
+    "Production_tonnes": 5.936769625543654e-06,
+    "Production_tonnesperhectare": 0.05386885572514222,
+    "Cultivated_hectare": 4.6032126588348117e-05
+  },
+  {
+    "Year": 2019,
+    "Country": "French Polynesia",
+    "Production_tonnes": 5.666916460746215e-06,
+    "Production_tonnesperhectare": 0.052688309050723095,
+    "Cultivated_hectare": 4.4593622632462235e-05
+  },
+  {
+    "Year": 2020,
+    "Country": "French Polynesia",
+    "Production_tonnes": 5.666916460746215e-06,
+    "Production_tonnesperhectare": 0.05214936639619844,
+    "Cultivated_hectare": 4.507312395109086e-05
+  },
+  {
+    "Year": 2021,
+    "Country": "French Polynesia",
+    "Production_tonnes": 5.936769625543654e-06,
+    "Production_tonnesperhectare": 0.05289362408224528,
+    "Cultivated_hectare": 4.6991129225605366e-05
+  },
+  {
+    "Year": 2022,
+    "Country": "French Polynesia",
+    "Production_tonnes": 5.666916460746215e-06,
+    "Production_tonnesperhectare": 0.052559991326431174,
+    "Cultivated_hectare": 4.507312395109086e-05
+  },
+  {
+    "Year": 2013,
+    "Country": "India",
+    "Production_tonnes": 0.08586727703854502,
+    "Production_tonnesperhectare": 0.2120620998316817,
+    "Cultivated_hectare": 0.18043682570127065
+  },
+  {
+    "Year": 2014,
+    "Country": "India",
+    "Production_tonnes": 0.08217028868082012,
+    "Production_tonnesperhectare": 0.1999999950725008,
+    "Cultivated_hectare": 0.18283001678254612
+  },
+  {
+    "Year": 2015,
+    "Country": "India",
+    "Production_tonnes": 0.08824198488876248,
+    "Production_tonnesperhectare": 0.19332735022184205,
+    "Cultivated_hectare": 0.20294701510429153
+  },
+  {
+    "Year": 2016,
+    "Country": "India",
+    "Production_tonnes": 0.0939089013495087,
+    "Production_tonnesperhectare": 0.2006159427334732,
+    "Cultivated_hectare": 0.20832270438743705
+  },
+  {
+    "Year": 2017,
+    "Country": "India",
+    "Production_tonnes": 0.0841941874168009,
+    "Production_tonnesperhectare": 0.1732323926985774,
+    "Cultivated_hectare": 0.21547494605610162
+  },
+  {
+    "Year": 2018,
+    "Country": "India",
+    "Production_tonnes": 0.08527360007599065,
+    "Production_tonnesperhectare": 0.1914025458613761,
+    "Cultivated_hectare": 0.19804267561735792
+  },
+  {
+    "Year": 2019,
+    "Country": "India",
+    "Production_tonnes": 0.08621808615278169,
+    "Production_tonnesperhectare": 0.19181316309239138,
+    "Cultivated_hectare": 0.19981826900023972
+  },
+  {
+    "Year": 2020,
+    "Country": "India",
+    "Production_tonnes": 0.08041624310963676,
+    "Production_tonnesperhectare": 0.17792891533811434,
+    "Cultivated_hectare": 0.2005212179333493
+  },
+  {
+    "Year": 2021,
+    "Country": "India",
+    "Production_tonnes": 0.09013095704234456,
+    "Production_tonnesperhectare": 0.19771590416370444,
+    "Cultivated_hectare": 0.2028026852073843
+  },
+  {
+    "Year": 2022,
+    "Country": "India",
+    "Production_tonnes": 0.09137740881054392,
+    "Production_tonnesperhectare": 0.1933786706389037,
+    "Cultivated_hectare": 0.2101040517861424
+  },
+  {
+    "Year": 2013,
+    "Country": "Venezuela",
+    "Production_tonnes": 0.016749516085812228,
+    "Production_tonnesperhectare": 0.0884126805473772,
+    "Cultivated_hectare": 0.0818091584751858
+  },
+  {
+    "Year": 2014,
+    "Country": "Venezuela",
+    "Production_tonnes": 0.014216674281023467,
+    "Production_tonnesperhectare": 0.07971256483807106,
+    "Cultivated_hectare": 0.07657348357707983
+  },
+  {
+    "Year": 2015,
+    "Country": "Venezuela",
+    "Production_tonnes": 0.013489150148729572,
+    "Production_tonnesperhectare": 0.07794173969363075,
+    "Cultivated_hectare": 0.07420714456964755
+  },
+  {
+    "Year": 2016,
+    "Country": "Venezuela",
+    "Production_tonnes": 0.01374847904009991,
+    "Production_tonnesperhectare": 0.07606826858225549,
+    "Cultivated_hectare": 0.07738240230160633
+  },
+  {
+    "Year": 2017,
+    "Country": "Venezuela",
+    "Production_tonnes": 0.015281784722478958,
+    "Production_tonnesperhectare": 0.08402412147270319,
+    "Cultivated_hectare": 0.0783217453847998
+  },
+  {
+    "Year": 2018,
+    "Country": "Venezuela",
+    "Production_tonnes": 0.01570221595323337,
+    "Production_tonnesperhectare": 0.0949056872566824,
+    "Cultivated_hectare": 0.0717070246943179
+  },
+  {
+    "Year": 2019,
+    "Country": "Venezuela",
+    "Production_tonnes": 0.015385678190925973,
+    "Production_tonnesperhectare": 0.08487104052411983,
+    "Cultivated_hectare": 0.0781107648046032
+  },
+  {
+    "Year": 2020,
+    "Country": "Venezuela",
+    "Production_tonnes": 0.014637375364942674,
+    "Production_tonnesperhectare": 0.08312588457063069,
+    "Cultivated_hectare": 0.07578422440661711
+  },
+  {
+    "Year": 2021,
+    "Country": "Venezuela",
+    "Production_tonnes": 0.01504350437796282,
+    "Production_tonnesperhectare": 0.08471705104247093,
+    "Cultivated_hectare": 0.07650491488851593
+  },
+  {
+    "Year": 2022,
+    "Country": "Venezuela",
+    "Production_tonnes": 0.015429394403623158,
+    "Production_tonnesperhectare": 0.08651353511223916,
+    "Cultivated_hectare": 0.07692591704627187
+  },
+  {
+    "Year": 2013,
+    "Country": "Honduras",
+    "Production_tonnes": 0.07574697379914667,
+    "Production_tonnesperhectare": 0.2474015207218659,
+    "Cultivated_hectare": 0.13688036442100215
+  },
+  {
+    "Year": 2014,
+    "Country": "Honduras",
+    "Production_tonnes": 0.07616065870078115,
+    "Production_tonnesperhectare": 0.2633132367683845,
+    "Cultivated_hectare": 0.12946487652841043
+  },
+  {
+    "Year": 2015,
+    "Country": "Honduras",
+    "Production_tonnes": 0.08979283102685337,
+    "Production_tonnesperhectare": 0.31133068954747545,
+    "Cultivated_hectare": 0.12946487652841043
+  },
+  {
+    "Year": 2016,
+    "Country": "Honduras",
+    "Production_tonnes": 0.09891251873118281,
+    "Production_tonnesperhectare": 0.29867830888467917,
+    "Cultivated_hectare": 0.14855670103092783
+  },
+  {
+    "Year": 2017,
+    "Country": "Honduras",
+    "Production_tonnes": 0.1288764744439608,
+    "Production_tonnesperhectare": 0.2843321003846728,
+    "Cultivated_hectare": 0.20315847518580674
+  },
+  {
+    "Year": 2018,
+    "Country": "Honduras",
+    "Production_tonnes": 0.12921406075312242,
+    "Production_tonnesperhectare": 0.28009753079164773,
+    "Cultivated_hectare": 0.20671637497003115
+  },
+  {
+    "Year": 2019,
+    "Country": "Honduras",
+    "Production_tonnes": 0.12750508066046023,
+    "Production_tonnesperhectare": 0.2922622943497926,
+    "Cultivated_hectare": 0.1956336609925677
+  },
+  {
+    "Year": 2020,
+    "Country": "Honduras",
+    "Production_tonnes": 0.0983755109332359,
+    "Production_tonnesperhectare": 0.2991402362671329,
+    "Cultivated_hectare": 0.1475257731958763
+  },
+  {
+    "Year": 2021,
+    "Country": "Honduras",
+    "Production_tonnes": 0.10812314695204898,
+    "Production_tonnesperhectare": 0.3038111205125884,
+    "Cultivated_hectare": 0.15969072164948453
+  },
+  {
+    "Year": 2022,
+    "Country": "Honduras",
+    "Production_tonnes": 0.08513597496194396,
+    "Production_tonnesperhectare": 0.30848197909398584,
+    "Cultivated_hectare": 0.1238662191321026
+  },
+  {
+    "Year": 2013,
+    "Country": "Cuba",
+    "Production_tonnes": 0.0024135667059482927,
+    "Production_tonnesperhectare": 0.07701783360060706,
+    "Cultivated_hectare": 0.013427475425557419
+  },
+  {
+    "Year": 2014,
+    "Country": "Cuba",
+    "Production_tonnes": 0.002483458675630829,
+    "Production_tonnesperhectare": 0.07791608076830282,
+    "Cultivated_hectare": 0.013666267082234475
+  },
+  {
+    "Year": 2015,
+    "Country": "Cuba",
+    "Production_tonnes": 0.0020015009233026035,
+    "Production_tonnesperhectare": 0.07755678395434917,
+    "Cultivated_hectare": 0.011062095420762407
+  },
+  {
+    "Year": 2016,
+    "Country": "Cuba",
+    "Production_tonnes": 0.0020346928625726885,
+    "Production_tonnesperhectare": 0.07837803381481465,
+    "Cultivated_hectare": 0.011134500119875329
+  },
+  {
+    "Year": 2017,
+    "Country": "Cuba",
+    "Production_tonnes": 0.001829604457326635,
+    "Production_tonnesperhectare": 0.0785833411471194,
+    "Cultivated_hectare": 0.009987532965715655
+  },
+  {
+    "Year": 2018,
+    "Country": "Cuba",
+    "Production_tonnes": 0.00207247230564433,
+    "Production_tonnesperhectare": 0.0794045961403965,
+    "Cultivated_hectare": 0.01120354830975785
+  },
+  {
+    "Year": 2019,
+    "Country": "Cuba",
+    "Production_tonnes": 0.0021048546854200226,
+    "Production_tonnesperhectare": 0.07981522107062923,
+    "Cultivated_hectare": 0.011323423639415008
+  },
+  {
+    "Year": 2020,
+    "Country": "Cuba",
+    "Production_tonnes": 0.0020238987359807907,
+    "Production_tonnesperhectare": 0.07919928367528013,
+    "Cultivated_hectare": 0.010967633660992567
+  },
+  {
+    "Year": 2021,
+    "Country": "Cuba",
+    "Production_tonnes": 0.002455663799656693,
+    "Production_tonnesperhectare": 0.07955858048923377,
+    "Cultivated_hectare": 0.013250539438983456
+  },
+  {
+    "Year": 2022,
+    "Country": "Cuba",
+    "Production_tonnes": 0.0016871219863135872,
+    "Production_tonnesperhectare": 0.0799178721703758,
+    "Cultivated_hectare": 0.009064972428674179
+  },
+  {
+    "Year": 2013,
+    "Country": "Fiji",
+    "Production_tonnes": 5.397063295948776e-06,
+    "Production_tonnesperhectare": 0.1661491126520626,
+    "Cultivated_hectare": 1.4385039558858785e-05
+  },
+  {
+    "Year": 2014,
+    "Country": "Fiji",
+    "Production_tonnes": 5.666916460746215e-06,
+    "Production_tonnesperhectare": 0.17695367086318833,
+    "Cultivated_hectare": 1.4385039558858785e-05
+  },
+  {
+    "Year": 2015,
+    "Country": "Fiji",
+    "Production_tonnes": 2.1588253183795103e-06,
+    "Production_tonnesperhectare": 0.12924419704739523,
+    "Cultivated_hectare": 7.192519779429392e-06
+  },
+  {
+    "Year": 2016,
+    "Country": "Fiji",
+    "Production_tonnes": 4.3176506367590206e-06,
+    "Production_tonnesperhectare": 0.1631207409595671,
+    "Cultivated_hectare": 1.1508031647087029e-05
+  },
+  {
+    "Year": 2017,
+    "Country": "Fiji",
+    "Production_tonnes": 4.047797471961582e-06,
+    "Production_tonnesperhectare": 0.16183754061899563,
+    "Cultivated_hectare": 1.1028530328458403e-05
+  },
+  {
+    "Year": 2018,
+    "Country": "Fiji",
+    "Production_tonnes": 3.508091142366704e-06,
+    "Production_tonnesperhectare": 0.1546516043399227,
+    "Cultivated_hectare": 1.006952769120115e-05
+  },
+  {
+    "Year": 2019,
+    "Country": "Fiji",
+    "Production_tonnes": 4.047797471961582e-06,
+    "Production_tonnesperhectare": 0.16011805898926929,
+    "Cultivated_hectare": 1.1028530328458403e-05
+  },
+  {
+    "Year": 2020,
+    "Country": "Fiji",
+    "Production_tonnes": 3.777944307164143e-06,
+    "Production_tonnesperhectare": 0.1590145044892688,
+    "Cultivated_hectare": 1.0549029009829776e-05
+  },
+  {
+    "Year": 2021,
+    "Country": "Fiji",
+    "Production_tonnes": 3.777944307164143e-06,
+    "Production_tonnesperhectare": 0.1580136062218265,
+    "Cultivated_hectare": 1.0549029009829776e-05
+  },
+  {
+    "Year": 2022,
+    "Country": "Fiji",
+    "Production_tonnes": 3.777944307164143e-06,
+    "Production_tonnesperhectare": 0.15906582233992464,
+    "Cultivated_hectare": 1.0549029009829776e-05
+  },
+  {
+    "Year": 2013,
+    "Country": "Cook Islands",
+    "Production_tonnes": 0.0,
+    "Production_tonnesperhectare": 0.18182983934329627,
+    "Cultivated_hectare": 0.0
+  },
+  {
+    "Year": 2014,
+    "Country": "Cook Islands",
+    "Production_tonnes": 0.0,
+    "Production_tonnesperhectare": 0.1616322384195025,
+    "Cultivated_hectare": 0.0
+  },
+  {
+    "Year": 2015,
+    "Country": "Cook Islands",
+    "Production_tonnes": 0.0,
+    "Production_tonnesperhectare": 0.15852687711899416,
+    "Cultivated_hectare": 0.0
+  },
+  {
+    "Year": 2016,
+    "Country": "Cook Islands",
+    "Production_tonnes": 0.0,
+    "Production_tonnesperhectare": 0.10111638419364095,
+    "Cultivated_hectare": 0.0
+  },
+  {
+    "Year": 2017,
+    "Country": "Cook Islands",
+    "Production_tonnes": 0.0,
+    "Production_tonnesperhectare": 0.12724240051251062,
+    "Cultivated_hectare": 0.0
+  },
+  {
+    "Year": 2018,
+    "Country": "Cook Islands",
+    "Production_tonnes": 0.0,
+    "Production_tonnesperhectare": 0.09867829867038405,
+    "Cultivated_hectare": 0.0
+  },
+  {
+    "Year": 2019,
+    "Country": "Cook Islands",
+    "Production_tonnes": 0.0,
+    "Production_tonnesperhectare": 0.14284613759573145,
+    "Cultivated_hectare": 0.0
+  },
+  {
+    "Year": 2020,
+    "Country": "Cook Islands",
+    "Production_tonnes": 0.0,
+    "Production_tonnesperhectare": 0.1448735981887556,
+    "Cultivated_hectare": 0.0
+  },
+  {
+    "Year": 2021,
+    "Country": "Cook Islands",
+    "Production_tonnes": 0.0,
+    "Production_tonnesperhectare": 0.14533555123526742,
+    "Cultivated_hectare": 0.0
+  },
+  {
+    "Year": 2022,
+    "Country": "Cook Islands",
+    "Production_tonnes": 0.0,
+    "Production_tonnesperhectare": 0.14577185048926297,
+    "Cultivated_hectare": 0.0
+  },
+  {
+    "Year": 2013,
+    "Country": "Vanuatu",
+    "Production_tonnes": 1.133383292149243e-05,
+    "Production_tonnesperhectare": 0.15837290303578014,
+    "Cultivated_hectare": 3.1647087029489325e-05
+  },
+  {
+    "Year": 2014,
+    "Country": "Vanuatu",
+    "Production_tonnes": 1.106397975669499e-05,
+    "Production_tonnesperhectare": 0.1531887632915918,
+    "Cultivated_hectare": 3.212658834811796e-05
+  },
+  {
+    "Year": 2015,
+    "Country": "Vanuatu",
+    "Production_tonnes": 8.635301273518041e-06,
+    "Production_tonnesperhectare": 0.15159759168693995,
+    "Cultivated_hectare": 2.493406856868856e-05
+  },
+  {
+    "Year": 2016,
+    "Country": "Vanuatu",
+    "Production_tonnes": 1.0254420262302674e-05,
+    "Production_tonnesperhectare": 0.15460028648926685,
+    "Cultivated_hectare": 2.9249580436346198e-05
+  },
+  {
+    "Year": 2017,
+    "Country": "Vanuatu",
+    "Production_tonnes": 9.984567097505234e-06,
+    "Production_tonnesperhectare": 0.15321442734973134,
+    "Cultivated_hectare": 2.877007911771757e-05
+  },
+  {
+    "Year": 2018,
+    "Country": "Vanuatu",
+    "Production_tonnes": 9.444860767910357e-06,
+    "Production_tonnesperhectare": 0.14995508426679155,
+    "Cultivated_hectare": 2.781107648046032e-05
+  },
+  {
+    "Year": 2019,
+    "Country": "Vanuatu",
+    "Production_tonnes": 9.984567097505234e-06,
+    "Production_tonnesperhectare": 0.15262414374689853,
+    "Cultivated_hectare": 2.877007911771757e-05
+  },
+  {
+    "Year": 2020,
+    "Country": "Vanuatu",
+    "Production_tonnes": 9.714713932707796e-06,
+    "Production_tonnesperhectare": 0.15195688850089362,
+    "Cultivated_hectare": 2.8290577799088945e-05
+  },
+  {
+    "Year": 2021,
+    "Country": "Vanuatu",
+    "Production_tonnes": 9.714713932707796e-06,
+    "Production_tonnesperhectare": 0.15152058924689807,
+    "Cultivated_hectare": 2.8290577799088945e-05
+  },
+  {
+    "Year": 2022,
+    "Country": "Vanuatu",
+    "Production_tonnes": 9.714713932707796e-06,
+    "Production_tonnesperhectare": 0.15203388067531223,
+    "Cultivated_hectare": 2.8290577799088945e-05
+  },
+  {
+    "Year": 2013,
+    "Country": "Congo (Kinshasa)",
+    "Production_tonnes": 0.00801490884764873,
+    "Production_tonnesperhectare": 0.09511099972179878,
+    "Cultivated_hectare": 0.03652649244785423
+  },
+  {
+    "Year": 2014,
+    "Country": "Congo (Kinshasa)",
+    "Production_tonnes": 0.007618764401726089,
+    "Production_tonnesperhectare": 0.0955729527683106,
+    "Cultivated_hectare": 0.03456149604411412
+  },
+  {
+    "Year": 2015,
+    "Country": "Congo (Kinshasa)",
+    "Production_tonnes": 0.008365178255555805,
+    "Production_tonnesperhectare": 0.09580392929156652,
+    "Cultivated_hectare": 0.037860465116279066
+  },
+  {
+    "Year": 2016,
+    "Country": "Congo (Kinshasa)",
+    "Production_tonnes": 0.007999527217255276,
+    "Production_tonnesperhectare": 0.09549595546108032,
+    "Cultivated_hectare": 0.03631647087029489
+  },
+  {
+    "Year": 2017,
+    "Country": "Congo (Kinshasa)",
+    "Production_tonnes": 0.010886416374258275,
+    "Production_tonnesperhectare": 0.09593224958226425,
+    "Cultivated_hectare": 0.04920882282426276
+  },
+  {
+    "Year": 2018,
+    "Country": "Congo (Kinshasa)",
+    "Production_tonnes": 0.013893390189596136,
+    "Production_tonnesperhectare": 0.09626588233807834,
+    "Cultivated_hectare": 0.06259410213378086
+  },
+  {
+    "Year": 2019,
+    "Country": "Congo (Kinshasa)",
+    "Production_tonnes": 0.014286026544376409,
+    "Production_tonnesperhectare": 0.09624021314712716,
+    "Cultivated_hectare": 0.06437928554303524
+  },
+  {
+    "Year": 2020,
+    "Country": "Congo (Kinshasa)",
+    "Production_tonnes": 0.01438398324319788,
+    "Production_tonnesperhectare": 0.09580392929156652,
+    "Cultivated_hectare": 0.06510141452888994
+  },
+  {
+    "Year": 2021,
+    "Country": "Congo (Kinshasa)",
+    "Production_tonnes": 0.014601215040859818,
+    "Production_tonnesperhectare": 0.09590658039131307,
+    "Cultivated_hectare": 0.06601726204747062
+  },
+  {
+    "Year": 2022,
+    "Country": "Congo (Kinshasa)",
+    "Production_tonnes": 0.015877350657186907,
+    "Production_tonnesperhectare": 0.09598357769854333,
+    "Cultivated_hectare": 0.07173243826420522
+  },
+  {
+    "Year": 2013,
+    "Country": "Brazil",
+    "Production_tonnes": 0.7999899614622695,
+    "Production_tonnesperhectare": 0.3598614234893573,
+    "Cultivated_hectare": 0.9999999999999999
+  },
+  {
+    "Year": 2014,
+    "Country": "Brazil",
+    "Production_tonnes": 0.7566871638135542,
+    "Production_tonnesperhectare": 0.3552675570823785,
+    "Cultivated_hectare": 0.9579333493167105
+  },
+  {
+    "Year": 2015,
+    "Country": "Brazil",
+    "Production_tonnes": 0.7144373332138784,
+    "Production_tonnesperhectare": 0.3386115576857549,
+    "Cultivated_hectare": 0.9482944138096379
+  },
+  {
+    "Year": 2016,
+    "Country": "Brazil",
+    "Production_tonnes": 0.8161617219222504,
+    "Production_tonnesperhectare": 0.3838059897335539,
+    "Cultivated_hectare": 0.9573776072884199
+  },
+  {
+    "Year": 2017,
+    "Country": "Brazil",
+    "Production_tonnes": 0.7244229797240428,
+    "Production_tonnesperhectare": 0.377287293302051,
+    "Cultivated_hectare": 0.8642574922081034
+  },
+  {
+    "Year": 2018,
+    "Country": "Brazil",
+    "Production_tonnes": 0.9587151643176399,
+    "Production_tonnesperhectare": 0.4842037595114005,
+    "Cultivated_hectare": 0.893776552385519
+  },
+  {
+    "Year": 2019,
+    "Country": "Brazil",
+    "Production_tonnes": 0.8127289198128623,
+    "Production_tonnesperhectare": 0.4185037963382203,
+    "Cultivated_hectare": 0.8752337568928313
+  },
+  {
+    "Year": 2020,
+    "Country": "Brazil",
+    "Production_tonnes": 1.0,
+    "Production_tonnesperhectare": 0.49600922625559163,
+    "Cultivated_hectare": 0.9102958523135938
+  },
+  {
+    "Year": 2021,
+    "Country": "Brazil",
+    "Production_tonnes": 0.8056684816091021,
+    "Production_tonnesperhectare": 0.41316567224519474,
+    "Cultivated_hectare": 0.8787072644449772
+  },
+  {
+    "Year": 2022,
+    "Country": "Brazil",
+    "Production_tonnes": 0.856125896216092,
+    "Production_tonnesperhectare": 0.4298729484299812,
+    "Cultivated_hectare": 0.8978619036202349
+  },
+  {
+    "Year": 2013,
+    "Country": "Sierra Leone",
+    "Production_tonnes": 0.009714713932707796,
+    "Production_tonnesperhectare": 0.632234072524361,
+    "Cultivated_hectare": 0.0069527691201150795
+  },
+  {
+    "Year": 2014,
+    "Country": "Sierra Leone",
+    "Production_tonnes": 0.0007437153221817413,
+    "Production_tonnesperhectare": 0.04239702430317088,
+    "Cultivated_hectare": 0.007162790697674418
+  },
+  {
+    "Year": 2015,
+    "Country": "Sierra Leone",
+    "Production_tonnes": 0.0007437153221817413,
+    "Production_tonnesperhectare": 0.054330808771654054,
+    "Cultivated_hectare": 0.005720930232558139
+  },
+  {
+    "Year": 2016,
+    "Country": "Sierra Leone",
+    "Production_tonnes": 0.0006139159499141733,
+    "Production_tonnesperhectare": 0.5197484800346719,
+    "Cultivated_hectare": 0.0005336849676336609
+  },
+  {
+    "Year": 2017,
+    "Country": "Sierra Leone",
+    "Production_tonnes": 0.0006144556562437681,
+    "Production_tonnesperhectare": 0.4846143844416332,
+    "Cultivated_hectare": 0.0005725245744425797
+  },
+  {
+    "Year": 2018,
+    "Country": "Sierra Leone",
+    "Production_tonnes": 0.0007245557474811231,
+    "Production_tonnesperhectare": 0.44611832289637204,
+    "Cultivated_hectare": 0.0007326780148645408
+  },
+  {
+    "Year": 2019,
+    "Country": "Sierra Leone",
+    "Production_tonnes": 0.0006476475955138531,
+    "Production_tonnesperhectare": 0.39940971141833986,
+    "Cultivated_hectare": 0.0007302805082713977
+  },
+  {
+    "Year": 2020,
+    "Country": "Sierra Leone",
+    "Production_tonnes": 0.0006476475955138531,
+    "Production_tonnesperhectare": 0.4085974698963555,
+    "Cultivated_hectare": 0.0007139774634380244
+  },
+  {
+    "Year": 2021,
+    "Country": "Sierra Leone",
+    "Production_tonnes": 0.0006476475955138531,
+    "Production_tonnesperhectare": 0.4072629388730991,
+    "Cultivated_hectare": 0.0007163749700311675
+  },
+  {
+    "Year": 2022,
+    "Country": "Sierra Leone",
+    "Production_tonnes": 0.0006962211651773921,
+    "Production_tonnesperhectare": 0.4059284078498427,
+    "Cultivated_hectare": 0.0007724766243107168
+  },
+  {
+    "Year": 2013,
+    "Country": "Central African Republic",
+    "Production_tonnes": 0.0021520789892595744,
+    "Production_tonnesperhectare": 0.07714615902411644,
+    "Cultivated_hectare": 0.011953967873411651
+  },
+  {
+    "Year": 2014,
+    "Country": "Central African Republic",
+    "Production_tonnes": 0.0029141443266475415,
+    "Production_tonnesperhectare": 0.05656358182979457,
+    "Cultivated_hectare": 0.021602493406856868
+  },
+  {
+    "Year": 2015,
+    "Country": "Central African Republic",
+    "Production_tonnes": 0.002442171141416821,
+    "Production_tonnesperhectare": 0.04688823191118566,
+    "Cultivated_hectare": 0.02148261807719971
+  },
+  {
+    "Year": 2016,
+    "Country": "Central African Republic",
+    "Production_tonnes": 0.0027309140277500805,
+    "Production_tonnesperhectare": 0.05407416819025859,
+    "Cultivated_hectare": 0.02109805801965955
+  },
+  {
+    "Year": 2017,
+    "Country": "Central African Republic",
+    "Production_tonnes": 0.0026958331163264133,
+    "Production_tonnesperhectare": 0.05250866064374628,
+    "Cultivated_hectare": 0.021394389834572043
+  },
+  {
+    "Year": 2018,
+    "Country": "Central African Republic",
+    "Production_tonnes": 0.024281117915308743,
+    "Production_tonnesperhectare": 0.0723469801520213,
+    "Cultivated_hectare": 0.14324382642052264
+  },
+  {
+    "Year": 2019,
+    "Country": "Central African Republic",
+    "Production_tonnes": 0.052624065667148535,
+    "Production_tonnesperhectare": 0.07555498741946456,
+    "Cultivated_hectare": 0.2980795972188923
+  },
+  {
+    "Year": 2020,
+    "Country": "Central African Republic",
+    "Production_tonnes": 0.07806393307209748,
+    "Production_tonnesperhectare": 0.09852431945435841,
+    "Cultivated_hectare": 0.34402685207384315
+  },
+  {
+    "Year": 2021,
+    "Country": "Central African Republic",
+    "Production_tonnes": 0.08040598868937446,
+    "Production_tonnesperhectare": 0.09852431945435841,
+    "Cultivated_hectare": 0.35434811795732435
+  },
+  {
+    "Year": 2022,
+    "Country": "Central African Republic",
+    "Production_tonnes": 0.08281820612949876,
+    "Production_tonnesperhectare": 0.09852431945435841,
+    "Cultivated_hectare": 0.36497866219132097
+  },
+  {
+    "Year": 2013,
+    "Country": "Zambia",
+    "Production_tonnes": 0.0020009612169730085,
+    "Production_tonnesperhectare": 0.26690620490792094,
+    "Cultivated_hectare": 0.0033565092304003834
+  },
+  {
+    "Year": 2014,
+    "Country": "Zambia",
+    "Production_tonnes": 0.002041169338527827,
+    "Production_tonnesperhectare": 0.2684717124544333,
+    "Cultivated_hectare": 0.0034044593622632457
+  },
+  {
+    "Year": 2015,
+    "Country": "Zambia",
+    "Production_tonnes": 0.00217258782978418,
+    "Production_tonnesperhectare": 0.2700372200009456,
+    "Cultivated_hectare": 0.003602972908175497
+  },
+  {
+    "Year": 2016,
+    "Country": "Zambia",
+    "Production_tonnes": 0.0023563578350112354,
+    "Production_tonnesperhectare": 0.2716027275474579,
+    "Cultivated_hectare": 0.003885399184847758
+  },
+  {
+    "Year": 2017,
+    "Country": "Zambia",
+    "Production_tonnes": 0.0023641835767903613,
+    "Production_tonnesperhectare": 0.2731682350939703,
+    "Cultivated_hectare": 0.003876288659793814
+  },
+  {
+    "Year": 2018,
+    "Country": "Zambia",
+    "Production_tonnes": 0.0022977996982501913,
+    "Production_tonnesperhectare": 0.2716540299996789,
+    "Cultivated_hectare": 0.003788060417166147
+  },
+  {
+    "Year": 2019,
+    "Country": "Zambia",
+    "Production_tonnes": 0.0023393570856289968,
+    "Production_tonnesperhectare": 0.27214167276838847,
+    "Cultivated_hectare": 0.0038499160872692397
+  },
+  {
+    "Year": 2020,
+    "Country": "Zambia",
+    "Production_tonnes": 0.0023336901691682504,
+    "Production_tonnesperhectare": 0.2723213211753652,
+    "Cultivated_hectare": 0.003837928554303524
+  },
+  {
+    "Year": 2021,
+    "Country": "Zambia",
+    "Production_tonnes": 0.0023237056020707454,
+    "Production_tonnesperhectare": 0.27203899087177214,
+    "Cultivated_hectare": 0.0038254615200191797
+  },
+  {
+    "Year": 2022,
+    "Country": "Zambia",
+    "Production_tonnes": 0.0023323409033442636,
+    "Production_tonnesperhectare": 0.272167336826528,
+    "Cultivated_hectare": 0.003837928554303524
+  },
+  {
+    "Year": 2013,
+    "Country": "Nigeria",
+    "Production_tonnes": 0.0005666916460746215,
+    "Production_tonnesperhectare": 0.32382906019737634,
+    "Cultivated_hectare": 0.0007859026612323184
+  },
+  {
+    "Year": 2014,
+    "Country": "Nigeria",
+    "Production_tonnes": 0.0005321504409805493,
+    "Production_tonnesperhectare": 0.3280123273381805,
+    "Cultivated_hectare": 0.0007288420043155118
+  },
+  {
+    "Year": 2015,
+    "Country": "Nigeria",
+    "Production_tonnes": 0.00047359230421950506,
+    "Production_tonnesperhectare": 0.32983447546608824,
+    "Cultivated_hectare": 0.0006449292735555022
+  },
+  {
+    "Year": 2016,
+    "Country": "Nigeria",
+    "Production_tonnes": 0.0005240548460366261,
+    "Production_tonnesperhectare": 0.32703709312887774,
+    "Cultivated_hectare": 0.0007197314792615679
+  },
+  {
+    "Year": 2017,
+    "Country": "Nigeria",
+    "Production_tonnes": 0.0005100224814671593,
+    "Production_tonnesperhectare": 0.32824327819737825,
+    "Cultivated_hectare": 0.0006981539199232797
+  },
+  {
+    "Year": 2018,
+    "Country": "Nigeria",
+    "Production_tonnes": 0.000502466592852831,
+    "Production_tonnesperhectare": 0.328320296035855,
+    "Cultivated_hectare": 0.00068760489091345
+  },
+  {
+    "Year": 2019,
+    "Country": "Nigeria",
+    "Production_tonnes": 0.0005121813067855388,
+    "Production_tonnesperhectare": 0.31908123510561837,
+    "Cultivated_hectare": 0.0007206904818988252
+  },
+  {
+    "Year": 2020,
+    "Country": "Nigeria",
+    "Production_tonnes": 0.0005216261675534492,
+    "Production_tonnesperhectare": 0.3283716241521341,
+    "Cultivated_hectare": 0.0007134979621193958
+  },
+  {
+    "Year": 2021,
+    "Country": "Nigeria",
+    "Production_tonnes": 0.0005138004257743235,
+    "Production_tonnesperhectare": 0.3283716241521341,
+    "Cultivated_hectare": 0.000702948933109566
+  },
+  {
+    "Year": 2022,
+    "Country": "Nigeria",
+    "Production_tonnes": 0.0005062445371599952,
+    "Production_tonnesperhectare": 0.3283716241521341,
+    "Cultivated_hectare": 0.0006923999040997362
+  },
+  {
+    "Year": 2013,
+    "Country": "Benin",
+    "Production_tonnes": 1.8889721535820714e-05,
+    "Production_tonnesperhectare": 0.04565635968689326,
+    "Cultivated_hectare": 0.0001702229681131623
+  },
+  {
+    "Year": 2014,
+    "Country": "Benin",
+    "Production_tonnes": 1.538163039345401e-05,
+    "Production_tonnesperhectare": 0.045040419725138336,
+    "Cultivated_hectare": 0.00014049388635818747
+  },
+  {
+    "Year": 2015,
+    "Country": "Benin",
+    "Production_tonnes": 1.32228050750745e-05,
+    "Production_tonnesperhectare": 0.044552805186892766,
+    "Cultivated_hectare": 0.00012179333493167105
+  },
+  {
+    "Year": 2016,
+    "Country": "Benin",
+    "Production_tonnes": 1.5921336723048887e-05,
+    "Production_tonnesperhectare": 0.045143078524102334,
+    "Cultivated_hectare": 0.0001448093982258451
+  },
+  {
+    "Year": 2017,
+    "Country": "Benin",
+    "Production_tonnes": 1.4841924063859134e-05,
+    "Production_tonnesperhectare": 0.04493776605898596,
+    "Cultivated_hectare": 0.0001356988731719012
+  },
+  {
+    "Year": 2018,
+    "Country": "Benin",
+    "Production_tonnes": 1.4572070899061694e-05,
+    "Production_tonnesperhectare": 0.04488643794270687,
+    "Cultivated_hectare": 0.00013330136657875807
+  },
+  {
+    "Year": 2019,
+    "Country": "Benin",
+    "Production_tonnes": 1.5111777228656572e-05,
+    "Production_tonnesperhectare": 0.04498909417526506,
+    "Cultivated_hectare": 0.00013809637976504435
+  },
+  {
+    "Year": 2020,
+    "Country": "Benin",
+    "Production_tonnes": 1.4841924063859134e-05,
+    "Production_tonnesperhectare": 0.04493776605898596,
+    "Cultivated_hectare": 0.0001356988731719012
+  },
+  {
+    "Year": 2021,
+    "Country": "Benin",
+    "Production_tonnes": 1.4841924063859134e-05,
+    "Production_tonnesperhectare": 0.04493776605898596,
+    "Cultivated_hectare": 0.0001356988731719012
+  },
+  {
+    "Year": 2022,
+    "Country": "Benin",
+    "Production_tonnes": 1.4841924063859134e-05,
+    "Production_tonnesperhectare": 0.044963430117125516,
+    "Cultivated_hectare": 0.0001356988731719012
+  },
+  {
+    "Year": 2013,
+    "Country": "Thailand",
+    "Production_tonnes": 0.010138113548274978,
+    "Production_tonnesperhectare": 0.197048628386453,
+    "Cultivated_hectare": 0.022887077439462958
+  },
+  {
+    "Year": 2014,
+    "Country": "Thailand",
+    "Production_tonnes": 0.010240927604062802,
+    "Production_tonnesperhectare": 0.22830745120042026,
+    "Cultivated_hectare": 0.020021098058019656
+  },
+  {
+    "Year": 2015,
+    "Country": "Thailand",
+    "Production_tonnes": 0.007040199216400381,
+    "Production_tonnesperhectare": 0.1614782463714478,
+    "Cultivated_hectare": 0.019290338048429632
+  },
+  {
+    "Year": 2016,
+    "Country": "Thailand",
+    "Production_tonnes": 0.008251839926340881,
+    "Production_tonnesperhectare": 0.17500321271020608,
+    "Cultivated_hectare": 0.02091105250539439
+  },
+  {
+    "Year": 2017,
+    "Country": "Thailand",
+    "Production_tonnes": 0.006991625646736842,
+    "Production_tonnesperhectare": 0.15927113737144682,
+    "Cultivated_hectare": 0.019414528889954444
+  },
+  {
+    "Year": 2018,
+    "Country": "Thailand",
+    "Production_tonnes": 0.006373661899350707,
+    "Production_tonnesperhectare": 0.14197356988461013,
+    "Cultivated_hectare": 0.0197823064013426
+  },
+  {
+    "Year": 2019,
+    "Country": "Thailand",
+    "Production_tonnes": 0.007130600026607523,
+    "Production_tonnesperhectare": 0.17931477447764982,
+    "Cultivated_hectare": 0.0176466075281707
+  },
+  {
+    "Year": 2020,
+    "Country": "Thailand",
+    "Production_tonnes": 0.006067108704140816,
+    "Production_tonnesperhectare": 0.15554985664043006,
+    "Cultivated_hectare": 0.01723807240469911
+  },
+  {
+    "Year": 2021,
+    "Country": "Thailand",
+    "Production_tonnes": 0.005876052663464229,
+    "Production_tonnesperhectare": 0.1477479752667906,
+    "Cultivated_hectare": 0.01754830975785183
+  },
+  {
+    "Year": 2022,
+    "Country": "Thailand",
+    "Production_tonnes": 0.005043285796899334,
+    "Production_tonnesperhectare": 0.14284613759573145,
+    "Cultivated_hectare": 0.015560776792136176
+  },
+  {
+    "Year": 2013,
+    "Country": "Dominican Republic",
+    "Production_tonnes": 0.0050063159133220845,
+    "Production_tonnesperhectare": 0.05812908937630688,
+    "Cultivated_hectare": 0.03619084152481419
+  },
+  {
+    "Year": 2014,
+    "Country": "Dominican Republic",
+    "Production_tonnes": 0.0035655698664685586,
+    "Production_tonnesperhectare": 0.028743745372932315,
+    "Cultivated_hectare": 0.04825317669623591
+  },
+  {
+    "Year": 2015,
+    "Country": "Dominican Republic",
+    "Production_tonnes": 0.0026683080935170746,
+    "Production_tonnesperhectare": 0.020274604903679164,
+    "Cultivated_hectare": 0.04823303764085351
+  },
+  {
+    "Year": 2016,
+    "Country": "Dominican Republic",
+    "Production_tonnes": 0.00309548565339142,
+    "Production_tonnesperhectare": 0.024303863314790824,
+    "Cultivated_hectare": 0.048248861184368254
+  },
+  {
+    "Year": 2017,
+    "Country": "Dominican Republic",
+    "Production_tonnes": 0.004112832084677764,
+    "Production_tonnesperhectare": 0.035724369186888885,
+    "Cultivated_hectare": 0.046107887796691435
+  },
+  {
+    "Year": 2018,
+    "Country": "Dominican Republic",
+    "Production_tonnes": 0.004969615882909633,
+    "Production_tonnesperhectare": 0.05797510759387542,
+    "Cultivated_hectare": 0.0360134260369216
+  },
+  {
+    "Year": 2019,
+    "Country": "Dominican Republic",
+    "Production_tonnes": 0.003743672955234868,
+    "Production_tonnesperhectare": 0.03949698573340217,
+    "Cultivated_hectare": 0.0384070966195157
+  },
+  {
+    "Year": 2020,
+    "Country": "Dominican Republic",
+    "Production_tonnes": 0.004150611527749406,
+    "Production_tonnesperhectare": 0.08443474640293593,
+    "Cultivated_hectare": 0.021174778230640134
+  },
+  {
+    "Year": 2021,
+    "Country": "Dominican Republic",
+    "Production_tonnes": 0.004367843325411344,
+    "Production_tonnesperhectare": 0.11433337926831887,
+    "Cultivated_hectare": 0.016698153919923277
+  },
+  {
+    "Year": 2022,
+    "Country": "Dominican Republic",
+    "Production_tonnes": 0.0055527685720368975,
+    "Production_tonnesperhectare": 0.09005517513549653,
+    "Cultivated_hectare": 0.02665212179333493
+  },
+  {
+    "Year": 2013,
+    "Country": "Haiti",
+    "Production_tonnes": 0.0027848846607095683,
+    "Production_tonnesperhectare": 0.12747337703576653,
+    "Cultivated_hectare": 0.009590026372572523
+  },
+  {
+    "Year": 2014,
+    "Country": "Haiti",
+    "Production_tonnes": 0.0009714713932707797,
+    "Production_tonnesperhectare": 0.12703708804739425,
+    "Cultivated_hectare": 0.0033565092304003834
+  },
+  {
+    "Year": 2015,
+    "Country": "Haiti",
+    "Production_tonnes": 0.000987662583158626,
+    "Production_tonnesperhectare": 0.12549724455902148,
+    "Cultivated_hectare": 0.0034524094941261086
+  },
+  {
+    "Year": 2016,
+    "Country": "Haiti",
+    "Production_tonnes": 0.001036236152822165,
+    "Production_tonnesperhectare": 0.12821763472181338,
+    "Cultivated_hectare": 0.0035483097578518337
+  },
+  {
+    "Year": 2017,
+    "Country": "Haiti",
+    "Production_tonnes": 0.0010710472110810345,
+    "Production_tonnesperhectare": 0.1273450567450688,
+    "Cultivated_hectare": 0.003691680652121793
+  },
+  {
+    "Year": 2018,
+    "Country": "Haiti",
+    "Production_tonnes": 0.0011244781377109274,
+    "Production_tonnesperhectare": 0.12731939268692924,
+    "Cultivated_hectare": 0.0038767681611124425
+  },
+  {
+    "Year": 2019,
+    "Country": "Haiti",
+    "Production_tonnes": 0.001180877449153592,
+    "Production_tonnesperhectare": 0.12742204891948744,
+    "Cultivated_hectare": 0.004068089187245265
+  },
+  {
+    "Year": 2020,
+    "Country": "Haiti",
+    "Production_tonnes": 0.0012399752922442311,
+    "Production_tonnesperhectare": 0.12713974427995245,
+    "Cultivated_hectare": 0.004280987772716374
+  },
+  {
+    "Year": 2021,
+    "Country": "Haiti",
+    "Production_tonnes": 0.0013017716669828448,
+    "Production_tonnesperhectare": 0.12711408022181286,
+    "Cultivated_hectare": 0.0044948453608247415
+  },
+  {
+    "Year": 2022,
+    "Country": "Haiti",
+    "Production_tonnes": 0.0013670761328638248,
+    "Production_tonnesperhectare": 0.12711408022181286,
+    "Cultivated_hectare": 0.004720690481898825
+  },
+  {
+    "Year": 2013,
+    "Country": "Rwanda",
+    "Production_tonnes": 0.004950726161373812,
+    "Production_tonnesperhectare": 0.0855383009029364,
+    "Cultivated_hectare": 0.02494893310956605
+  },
+  {
+    "Year": 2014,
+    "Country": "Rwanda",
+    "Production_tonnes": 0.00441992498621725,
+    "Production_tonnesperhectare": 0.07142307405899763,
+    "Cultivated_hectare": 0.0263903140733637
+  },
+  {
+    "Year": 2015,
+    "Country": "Rwanda",
+    "Production_tonnes": 0.005884957817902545,
+    "Production_tonnesperhectare": 0.15270114618694042,
+    "Cultivated_hectare": 0.01702277631263486
+  },
+  {
+    "Year": 2016,
+    "Country": "Rwanda",
+    "Production_tonnes": 0.006662404785683966,
+    "Production_tonnesperhectare": 0.2065186761055688,
+    "Cultivated_hectare": 0.014366818508750897
+  },
+  {
+    "Year": 2017,
+    "Country": "Rwanda",
+    "Production_tonnes": 0.008559202681045163,
+    "Production_tonnesperhectare": 0.27044784493117835,
+    "Cultivated_hectare": 0.014172620474706304
+  },
+  {
+    "Year": 2018,
+    "Country": "Rwanda",
+    "Production_tonnes": 0.010427935847267427,
+    "Production_tonnesperhectare": 0.4186577806870576,
+    "Cultivated_hectare": 0.011225605370414768
+  },
+  {
+    "Year": 2019,
+    "Country": "Rwanda",
+    "Production_tonnes": 0.007924508037441587,
+    "Production_tonnesperhectare": 0.3408700204660931,
+    "Cultivated_hectare": 0.01044977223687365
+  },
+  {
+    "Year": 2020,
+    "Country": "Rwanda",
+    "Production_tonnes": 0.0055209258985908,
+    "Production_tonnesperhectare": 0.2891569433149075,
+    "Cultivated_hectare": 0.008560537041476864
+  },
+  {
+    "Year": 2021,
+    "Country": "Rwanda",
+    "Production_tonnes": 0.005253231559111741,
+    "Production_tonnesperhectare": 0.26926727259270106,
+    "Cultivated_hectare": 0.008736034524094941
+  },
+  {
+    "Year": 2022,
+    "Country": "Rwanda",
+    "Production_tonnes": 0.005112368207087478,
+    "Production_tonnesperhectare": 0.11813165474016006,
+    "Cultivated_hectare": 0.01894126108846799
+  },
+  {
+    "Year": 2013,
+    "Country": "Uganda",
+    "Production_tonnes": 0.06014865131436032,
+    "Production_tonnesperhectare": 0.14276914798771861,
+    "Cultivated_hectare": 0.18568113162311195
+  },
+  {
+    "Year": 2014,
+    "Country": "Uganda",
+    "Production_tonnes": 0.05940412643268419,
+    "Production_tonnesperhectare": 0.14469394978177877,
+    "Cultivated_hectare": 0.1810237353152721
+  },
+  {
+    "Year": 2015,
+    "Country": "Uganda",
+    "Production_tonnes": 0.0618365828601683,
+    "Production_tonnesperhectare": 0.13116900140786117,
+    "Cultivated_hectare": 0.20715943418844399
+  },
+  {
+    "Year": 2016,
+    "Country": "Uganda",
+    "Production_tonnes": 0.06559078008883026,
+    "Production_tonnesperhectare": 0.1386885704427482,
+    "Cultivated_hectare": 0.2082330376408535
+  },
+  {
+    "Year": 2017,
+    "Country": "Uganda",
+    "Production_tonnes": 0.08151265651820876,
+    "Production_tonnesperhectare": 0.14228153858228468,
+    "Cultivated_hectare": 0.25246559578038835
+  },
+  {
+    "Year": 2018,
+    "Country": "Uganda",
+    "Production_tonnes": 0.07669901576455204,
+    "Production_tonnesperhectare": 0.14176825741949375,
+    "Cultivated_hectare": 0.23838791656677052
+  },
+  {
+    "Year": 2019,
+    "Country": "Uganda",
+    "Production_tonnes": 0.08471581358435434,
+    "Production_tonnesperhectare": 0.13907352104921816,
+    "Cultivated_hectare": 0.268231119635579
+  },
+  {
+    "Year": 2020,
+    "Country": "Uganda",
+    "Production_tonnes": 0.0971749342030521,
+    "Production_tonnesperhectare": 0.137046060456194,
+    "Cultivated_hectare": 0.3120728842004315
+  },
+  {
+    "Year": 2021,
+    "Country": "Uganda",
+    "Production_tonnes": 0.11172109919829323,
+    "Production_tonnesperhectare": 0.13555755534972358,
+    "Cultivated_hectare": 0.36258786861663866
+  },
+  {
+    "Year": 2022,
+    "Country": "Uganda",
+    "Production_tonnes": 0.10629516161371114,
+    "Production_tonnesperhectare": 0.1340690399776299,
+    "Cultivated_hectare": 0.3486717813473987
+  },
+  {
+    "Year": 2013,
+    "Country": "El Salvador",
+    "Production_tonnes": 0.008868454407903029,
+    "Production_tonnesperhectare": 0.05535737366364171,
+    "Cultivated_hectare": 0.06705682090625749
+  },
+  {
+    "Year": 2014,
+    "Country": "El Salvador",
+    "Production_tonnes": 0.011324388060724519,
+    "Production_tonnesperhectare": 0.07198767820525602,
+    "Cultivated_hectare": 0.06711915607767921
+  },
+  {
+    "Year": 2015,
+    "Country": "El Salvador",
+    "Production_tonnes": 0.00962890062630221,
+    "Production_tonnesperhectare": 0.06046452123341141,
+    "Cultivated_hectare": 0.06712251258690961
+  },
+  {
+    "Year": 2016,
+    "Country": "El Salvador",
+    "Production_tonnes": 0.010426046875113846,
+    "Production_tonnesperhectare": 0.06587963750085565,
+    "Cultivated_hectare": 0.06712347158954686
+  },
+  {
+    "Year": 2017,
+    "Country": "El Salvador",
+    "Production_tonnes": 0.01110202905293143,
+    "Production_tonnesperhectare": 0.07093545182153461,
+    "Cultivated_hectare": 0.0667134979621194
+  },
+  {
+    "Year": 2018,
+    "Country": "El Salvador",
+    "Production_tonnes": 0.012321495504651055,
+    "Production_tonnesperhectare": 0.0787373306287683,
+    "Cultivated_hectare": 0.06713881563174298
+  },
+  {
+    "Year": 2019,
+    "Country": "El Salvador",
+    "Production_tonnes": 0.009078130316950638,
+    "Production_tonnesperhectare": 0.056717568745037666,
+    "Cultivated_hectare": 0.06712826660273315
+  },
+  {
+    "Year": 2020,
+    "Country": "El Salvador",
+    "Production_tonnes": 0.009444860767910358,
+    "Production_tonnesperhectare": 0.05920698238457364,
+    "Cultivated_hectare": 0.06713018460800767
+  },
+  {
+    "Year": 2021,
+    "Country": "El Salvador",
+    "Production_tonnes": 0.011309815989825457,
+    "Production_tonnesperhectare": 0.07185936304736992,
+    "Cultivated_hectare": 0.06714456964756653
+  },
+  {
+    "Year": 2022,
+    "Country": "El Salvador",
+    "Production_tonnes": 0.00827180906053589,
+    "Production_tonnesperhectare": 0.05807776382643361,
+    "Cultivated_hectare": 0.0598460800767202
+  },
+  {
+    "Year": 2013,
+    "Country": "Tanzania",
+    "Production_tonnes": 0.01921354533357764,
+    "Production_tonnesperhectare": 0.07350186276830088,
+    "Cultivated_hectare": 0.11167969311915607
+  },
+  {
+    "Year": 2014,
+    "Country": "Tanzania",
+    "Production_tonnes": 0.013217947718108147,
+    "Production_tonnesperhectare": 0.07357885494271951,
+    "Cultivated_hectare": 0.07675473507552145
+  },
+  {
+    "Year": 2015,
+    "Country": "Tanzania",
+    "Production_tonnes": 0.011515713954565902,
+    "Production_tonnesperhectare": 0.044424484896195035,
+    "Cultivated_hectare": 0.10635243346919203
+  },
+  {
+    "Year": 2016,
+    "Country": "Tanzania",
+    "Production_tonnes": 0.01643972465262477,
+    "Production_tonnesperhectare": 0.05666624062875858,
+    "Cultivated_hectare": 0.12166482857827858
+  },
+  {
+    "Year": 2017,
+    "Country": "Tanzania",
+    "Production_tonnes": 0.012870106988684248,
+    "Production_tonnesperhectare": 0.06595662454246266,
+    "Cultivated_hectare": 0.08276816111244305
+  },
+  {
+    "Year": 2018,
+    "Country": "Tanzania",
+    "Production_tonnes": 0.012211935119743295,
+    "Production_tonnesperhectare": 0.06736815287294932,
+    "Cultivated_hectare": 0.07700263725725245
+  },
+  {
+    "Year": 2019,
+    "Country": "Tanzania",
+    "Production_tonnes": 0.01838968362145106,
+    "Production_tonnesperhectare": 0.06315924733806376,
+    "Cultivated_hectare": 0.12312203308559097
+  },
+  {
+    "Year": 2020,
+    "Country": "Tanzania",
+    "Production_tonnes": 0.01636686429812946,
+    "Production_tonnesperhectare": 0.062158349070621455,
+    "Cultivated_hectare": 0.11121313833613042
+  },
+  {
+    "Year": 2021,
+    "Country": "Tanzania",
+    "Production_tonnes": 0.019706567065662563,
+    "Production_tonnesperhectare": 0.06126010703573734,
+    "Cultivated_hectare": 0.13572284823783265
+  },
+  {
+    "Year": 2022,
+    "Country": "Tanzania",
+    "Production_tonnes": 0.018134132674387887,
+    "Production_tonnesperhectare": 0.06046452123341141,
+    "Cultivated_hectare": 0.1264123711340206
+  },
+  {
+    "Year": 2013,
+    "Country": "Burundi",
+    "Production_tonnes": 0.006105427853542052,
+    "Production_tonnesperhectare": 0.21734890864045728,
+    "Cultivated_hectare": 0.012524574442579716
+  },
+  {
+    "Year": 2014,
+    "Country": "Burundi",
+    "Production_tonnes": 0.0028078221797173506,
+    "Production_tonnesperhectare": 0.22476582144278615,
+    "Cultivated_hectare": 0.005573723327739151
+  },
+  {
+    "Year": 2015,
+    "Country": "Burundi",
+    "Production_tonnes": 0.004956393077834558,
+    "Production_tonnesperhectare": 0.2311305078613936,
+    "Cultivated_hectare": 0.009573723327739151
+  },
+  {
+    "Year": 2016,
+    "Country": "Burundi",
+    "Production_tonnes": 0.003676479517200306,
+    "Production_tonnesperhectare": 0.2351084240409942,
+    "Cultivated_hectare": 0.006983936705825941
+  },
+  {
+    "Year": 2017,
+    "Country": "Burundi",
+    "Production_tonnes": 0.00440940071279015,
+    "Production_tonnesperhectare": 0.24919800479163412,
+    "Cultivated_hectare": 0.007911771757372331
+  },
+  {
+    "Year": 2018,
+    "Country": "Burundi",
+    "Production_tonnes": 0.0038362325907603896,
+    "Production_tonnesperhectare": 0.24847939833169774,
+    "Cultivated_hectare": 0.006902900982977703
+  },
+  {
+    "Year": 2019,
+    "Country": "Burundi",
+    "Production_tonnes": 0.003793865643887192,
+    "Production_tonnesperhectare": 0.23079686483995623,
+    "Cultivated_hectare": 0.007338767681611124
+  },
+  {
+    "Year": 2020,
+    "Country": "Burundi",
+    "Production_tonnes": 0.004857356966353898,
+    "Production_tonnesperhectare": 0.22892339886139262,
+    "Cultivated_hectare": 0.009471110045552624
+  },
+  {
+    "Year": 2021,
+    "Country": "Burundi",
+    "Production_tonnes": 0.0046144891180362035,
+    "Production_tonnesperhectare": 0.22874375045441578,
+    "Cultivated_hectare": 0.009004555262526972
+  },
+  {
+    "Year": 2022,
+    "Country": "Burundi",
+    "Production_tonnes": 0.004646871497811896,
+    "Production_tonnesperhectare": 0.22861543016371808,
+    "Cultivated_hectare": 0.009072644449772236
+  },
+  {
+    "Year": 2013,
+    "Country": "Ethiopia",
+    "Production_tonnes": 0.1057840597195848,
+    "Production_tonnesperhectare": 0.18188118029160444,
+    "Cultivated_hectare": 0.2581970750419563
+  },
+  {
+    "Year": 2014,
+    "Country": "Ethiopia",
+    "Production_tonnes": 0.11333293215162835,
+    "Production_tonnesperhectare": 0.18691132542133224,
+    "Cultivated_hectare": 0.26936993526732195
+  },
+  {
+    "Year": 2015,
+    "Country": "Ethiopia",
+    "Production_tonnes": 0.12332667425673668,
+    "Production_tonnesperhectare": 0.1744129393729965,
+    "Cultivated_hectare": 0.3135483097578518
+  },
+  {
+    "Year": 2016,
+    "Country": "Ethiopia",
+    "Production_tonnes": 0.12658569092799535,
+    "Production_tonnesperhectare": 0.1669190266970316,
+    "Cultivated_hectare": 0.3358662191321026
+  },
+  {
+    "Year": 2017,
+    "Country": "Ethiopia",
+    "Production_tonnes": 0.12122613722195343,
+    "Production_tonnesperhectare": 0.15385602880322002,
+    "Cultivated_hectare": 0.34810357228482375
+  },
+  {
+    "Year": 2018,
+    "Country": "Ethiopia",
+    "Production_tonnes": 0.13346235912652848,
+    "Production_tonnesperhectare": 0.16099063696601384,
+    "Cultivated_hectare": 0.3667628865979381
+  },
+  {
+    "Year": 2019,
+    "Country": "Ethiopia",
+    "Production_tonnes": 0.13022061305781685,
+    "Production_tonnesperhectare": 0.15832157491950105,
+    "Cultivated_hectare": 0.3637041476864061
+  },
+  {
+    "Year": 2020,
+    "Country": "Ethiopia",
+    "Production_tonnes": 0.15780743224189422,
+    "Production_tonnesperhectare": 0.17025536195439003,
+    "Cultivated_hectare": 0.4107331575161831
+  },
+  {
+    "Year": 2021,
+    "Country": "Ethiopia",
+    "Production_tonnes": 0.1472227117058795,
+    "Production_tonnesperhectare": 0.1713075883381114,
+    "Cultivated_hectare": 0.38089618796451685
+  },
+  {
+    "Year": 2022,
+    "Country": "Ethiopia",
+    "Production_tonnes": 0.13390114037248912,
+    "Production_tonnesperhectare": 0.1667137090991036,
+    "Cultivated_hectare": 0.35570127067849433
+  },
+  {
+    "Year": 2013,
+    "Country": "Gabon",
+    "Production_tonnes": 3.076326078690802e-05,
+    "Production_tonnesperhectare": 0.09218529196107887,
+    "Cultivated_hectare": 0.00014432989690721647
+  },
+  {
+    "Year": 2014,
+    "Country": "Gabon",
+    "Production_tonnes": 2.9413994962920827e-05,
+    "Production_tonnesperhectare": 0.0922879533264487,
+    "Cultivated_hectare": 0.00013809637976504435
+  },
+  {
+    "Year": 2015,
+    "Country": "Gabon",
+    "Production_tonnes": 2.887428863332595e-05,
+    "Production_tonnesperhectare": 0.0924162710507406,
+    "Cultivated_hectare": 0.00013521937185327257
+  },
+  {
+    "Year": 2016,
+    "Country": "Gabon",
+    "Production_tonnes": 2.8334582303731072e-05,
+    "Production_tonnesperhectare": 0.09251892984970461,
+    "Cultivated_hectare": 0.00013234236394150082
+  },
+  {
+    "Year": 2017,
+    "Country": "Gabon",
+    "Production_tonnes": 2.7525022809338756e-05,
+    "Production_tonnesperhectare": 0.09264725014040234,
+    "Cultivated_hectare": 0.00012850635339247183
+  },
+  {
+    "Year": 2018,
+    "Country": "Gabon",
+    "Production_tonnes": 2.8334582303731072e-05,
+    "Production_tonnesperhectare": 0.09251892984970461,
+    "Cultivated_hectare": 0.00013234236394150082
+  },
+  {
+    "Year": 2019,
+    "Country": "Gabon",
+    "Production_tonnes": 2.8064729138933632e-05,
+    "Production_tonnesperhectare": 0.0925702579659837,
+    "Cultivated_hectare": 0.00013138336130424358
+  },
+  {
+    "Year": 2020,
+    "Country": "Gabon",
+    "Production_tonnes": 2.8064729138933632e-05,
+    "Production_tonnesperhectare": 0.0925702579659837,
+    "Cultivated_hectare": 0.00013138336130424358
+  },
+  {
+    "Year": 2021,
+    "Country": "Gabon",
+    "Production_tonnes": 2.8064729138933632e-05,
+    "Production_tonnesperhectare": 0.09254458877503252,
+    "Cultivated_hectare": 0.00013138336130424358
+  },
+  {
+    "Year": 2022,
+    "Country": "Gabon",
+    "Production_tonnes": 2.8064729138933632e-05,
+    "Production_tonnesperhectare": 0.0925702579659837,
+    "Cultivated_hectare": 0.00013138336130424358
+  },
+  {
+    "Year": 2013,
+    "Country": "Ghana",
+    "Production_tonnes": 0.00018835750902861228,
+    "Production_tonnesperhectare": 0.3931220428382091,
+    "Cultivated_hectare": 0.00021577559338288178
+  },
+  {
+    "Year": 2014,
+    "Country": "Ghana",
+    "Production_tonnes": 0.00019861192929091496,
+    "Production_tonnesperhectare": 0.4056717416043891,
+    "Cultivated_hectare": 0.00022057060656916803
+  },
+  {
+    "Year": 2015,
+    "Country": "Ghana",
+    "Production_tonnes": 0.00019861192929091496,
+    "Production_tonnesperhectare": 0.4056717416043891,
+    "Cultivated_hectare": 0.00022057060656916803
+  },
+  {
+    "Year": 2016,
+    "Country": "Ghana",
+    "Production_tonnes": 0.00019861192929091496,
+    "Production_tonnesperhectare": 0.4056717416043891,
+    "Cultivated_hectare": 0.00022057060656916803
+  },
+  {
+    "Year": 2017,
+    "Country": "Ghana",
+    "Production_tonnes": 0.00019861192929091496,
+    "Production_tonnesperhectare": 0.4056717416043891,
+    "Cultivated_hectare": 0.00022057060656916803
+  },
+  {
+    "Year": 2018,
+    "Country": "Ghana",
+    "Production_tonnes": 0.00019861192929091496,
+    "Production_tonnesperhectare": 0.4056717416043891,
+    "Cultivated_hectare": 0.00022057060656916803
+  },
+  {
+    "Year": 2019,
+    "Country": "Ghana",
+    "Production_tonnes": 0.00019861192929091496,
+    "Production_tonnesperhectare": 0.4056717416043891,
+    "Cultivated_hectare": 0.00022057060656916803
+  },
+  {
+    "Year": 2020,
+    "Country": "Ghana",
+    "Production_tonnes": 0.00019861192929091496,
+    "Production_tonnesperhectare": 0.4056717416043891,
+    "Cultivated_hectare": 0.00022057060656916803
+  },
+  {
+    "Year": 2021,
+    "Country": "Ghana",
+    "Production_tonnes": 0.00019861192929091496,
+    "Production_tonnesperhectare": 0.4056717416043891,
+    "Cultivated_hectare": 0.00022057060656916803
+  },
+  {
+    "Year": 2022,
+    "Country": "Ghana",
+    "Production_tonnes": 0.00019861192929091496,
+    "Production_tonnesperhectare": 0.4056717416043891,
+    "Cultivated_hectare": 0.00022057060656916803
+  },
+  {
+    "Year": 2013,
+    "Country": "Côte d'Ivoire",
+    "Production_tonnes": 0.02799537687558069,
+    "Production_tonnesperhectare": 0.033645580477585646,
+    "Cultivated_hectare": 0.3307508990649724
+  },
+  {
+    "Year": 2014,
+    "Country": "Côte d'Ivoire",
+    "Production_tonnes": 0.02966037090238089,
+    "Production_tonnesperhectare": 0.0318490964078174,
+    "Cultivated_hectare": 0.36752721169983216
+  },
+  {
+    "Year": 2015,
+    "Country": "Côte d'Ivoire",
+    "Production_tonnes": 0.034271351929274725,
+    "Production_tonnesperhectare": 0.0291800343613046,
+    "Cultivated_hectare": 0.45786957564133296
+  },
+  {
+    "Year": 2016,
+    "Country": "Côte d'Ivoire",
+    "Production_tonnes": 0.028604435468528512,
+    "Production_tonnesperhectare": 0.027819839279908654,
+    "Cultivated_hectare": 0.3980196595540637
+  },
+  {
+    "Year": 2017,
+    "Country": "Côte d'Ivoire",
+    "Production_tonnes": 0.009067066337193943,
+    "Production_tonnesperhectare": 0.026408316082233613,
+    "Cultivated_hectare": 0.13184320306880842
+  },
+  {
+    "Year": 2018,
+    "Country": "Côte d'Ivoire",
+    "Production_tonnes": 0.03343480711840267,
+    "Production_tonnesperhectare": 0.02420120708223264,
+    "Cultivated_hectare": 0.5229772236873651
+  },
+  {
+    "Year": 2019,
+    "Country": "Côte d'Ivoire",
+    "Production_tonnes": 0.025691100701375362,
+    "Production_tonnesperhectare": 0.02030027024502162,
+    "Cultivated_hectare": 0.4639271157995684
+  },
+  {
+    "Year": 2020,
+    "Country": "Côte d'Ivoire",
+    "Production_tonnes": 0.022226725771705844,
+    "Production_tonnesperhectare": 0.031387143361305575,
+    "Cultivated_hectare": 0.2789168065212179
+  },
+  {
+    "Year": 2021,
+    "Country": "Côte d'Ivoire",
+    "Production_tonnes": 0.016545237240060566,
+    "Production_tonnesperhectare": 0.011831131058971375,
+    "Cultivated_hectare": 0.449528650203788
+  },
+  {
+    "Year": 2022,
+    "Country": "Côte d'Ivoire",
+    "Production_tonnes": 0.018889721535820716,
+    "Production_tonnesperhectare": 0.028384448558978665,
+    "Cultivated_hectare": 0.25839175257731956
+  },
+  {
+    "Year": 2013,
+    "Country": "Guatemala",
+    "Production_tonnes": 0.06710384678384951,
+    "Production_tonnesperhectare": 0.24968561163066222,
+    "Cultivated_hectare": 0.12017405897866218
+  },
+  {
+    "Year": 2014,
+    "Country": "Guatemala",
+    "Production_tonnes": 0.06143288252563133,
+    "Production_tonnesperhectare": 0.2176825413962714,
+    "Cultivated_hectare": 0.1258326540397986
+  },
+  {
+    "Year": 2015,
+    "Country": "Guatemala",
+    "Production_tonnes": 0.06089317619603645,
+    "Production_tonnesperhectare": 0.20998332395440755,
+    "Cultivated_hectare": 0.12919491728602253
+  },
+  {
+    "Year": 2016,
+    "Country": "Guatemala",
+    "Production_tonnes": 0.06372447560109118,
+    "Production_tonnesperhectare": 0.21609136979161953,
+    "Cultivated_hectare": 0.13146631503236633
+  },
+  {
+    "Year": 2017,
+    "Country": "Guatemala",
+    "Production_tonnes": 0.06044710891462629,
+    "Production_tonnesperhectare": 0.21819582255906234,
+    "Cultivated_hectare": 0.12352865020378805
+  },
+  {
+    "Year": 2018,
+    "Country": "Guatemala",
+    "Production_tonnes": 0.06487270081730429,
+    "Production_tonnesperhectare": 0.21583472921022406,
+    "Cultivated_hectare": 0.1339904099736274
+  },
+  {
+    "Year": 2019,
+    "Country": "Guatemala",
+    "Production_tonnes": 0.05839622486216575,
+    "Production_tonnesperhectare": 0.18737327846784407,
+    "Cultivated_hectare": 0.13846271877247662
+  },
+  {
+    "Year": 2020,
+    "Country": "Guatemala",
+    "Production_tonnes": 0.06638387854016994,
+    "Production_tonnesperhectare": 0.17035801818694823,
+    "Cultivated_hectare": 0.17267945336849674
+  },
+  {
+    "Year": 2021,
+    "Country": "Guatemala",
+    "Production_tonnes": 0.061175712459579375,
+    "Production_tonnesperhectare": 0.1603746918714473,
+    "Cultivated_hectare": 0.1687408295372812
+  },
+  {
+    "Year": 2022,
+    "Country": "Guatemala",
+    "Production_tonnes": 0.060851888661822444,
+    "Production_tonnesperhectare": 0.15280379215387538,
+    "Cultivated_hectare": 0.175903140733637
+  },
+  {
+    "Year": 2013,
+    "Country": "Costa Rica",
+    "Production_tonnes": 0.019262388756405978,
+    "Production_tonnesperhectare": 0.19040163476190472,
+    "Cultivated_hectare": 0.04496475665308079
+  },
+  {
+    "Year": 2014,
+    "Country": "Costa Rica",
+    "Production_tonnes": 0.026104245896680242,
+    "Production_tonnesperhectare": 0.2901321775242103,
+    "Cultivated_hectare": 0.040341404938863575
+  },
+  {
+    "Year": 2015,
+    "Country": "Costa Rica",
+    "Production_tonnes": 0.022626108455606052,
+    "Production_tonnesperhectare": 0.25081484045442554,
+    "Cultivated_hectare": 0.040341404938863575
+  },
+  {
+    "Year": 2016,
+    "Country": "Costa Rica",
+    "Production_tonnes": 0.025290638604815962,
+    "Production_tonnesperhectare": 0.28094444471025276,
+    "Cultivated_hectare": 0.04033996643490769
+  },
+  {
+    "Year": 2017,
+    "Country": "Costa Rica",
+    "Production_tonnes": 0.024399853307819616,
+    "Production_tonnesperhectare": 0.24270499808232893,
+    "Cultivated_hectare": 0.044928314552865015
+  },
+  {
+    "Year": 2018,
+    "Country": "Costa Rica",
+    "Production_tonnes": 0.02483080881200113,
+    "Production_tonnesperhectare": 0.24709353919216226,
+    "Cultivated_hectare": 0.04492591704627187
+  },
+  {
+    "Year": 2019,
+    "Country": "Costa Rica",
+    "Production_tonnes": 0.02061273399305236,
+    "Production_tonnesperhectare": 0.20426023898928874,
+    "Cultivated_hectare": 0.044929753056820905
+  },
+  {
+    "Year": 2020,
+    "Country": "Costa Rica",
+    "Production_tonnes": 0.02342082602593451,
+    "Production_tonnesperhectare": 0.23277300758232455,
+    "Cultivated_hectare": 0.04492735555022776
+  },
+  {
+    "Year": 2021,
+    "Country": "Costa Rica",
+    "Production_tonnes": 0.02251897674918147,
+    "Production_tonnesperhectare": 0.22361093112728914,
+    "Cultivated_hectare": 0.044929273555502275
+  },
+  {
+    "Year": 2022,
+    "Country": "Costa Rica",
+    "Production_tonnes": 0.021372370651957153,
+    "Production_tonnesperhectare": 0.21198511022366887,
+    "Cultivated_hectare": 0.04492687604890913
+  },
+  {
+    "Year": 2013,
+    "Country": "Colombia",
+    "Production_tonnes": 0.1762572931190951,
+    "Production_tonnesperhectare": 0.21226741486320388,
+    "Cultivated_hectare": 0.37002733157516177
+  },
+  {
+    "Year": 2014,
+    "Country": "Colombia",
+    "Production_tonnes": 0.1965610452384544,
+    "Production_tonnesperhectare": 0.2300269533613931,
+    "Cultivated_hectare": 0.3814643970270918
+  },
+  {
+    "Year": 2015,
+    "Country": "Colombia",
+    "Production_tonnes": 0.22337095716107996,
+    "Production_tonnesperhectare": 0.2602078857334994,
+    "Cultivated_hectare": 0.38415344042196115
+  },
+  {
+    "Year": 2016,
+    "Country": "Colombia",
+    "Production_tonnes": 0.2208054631233507,
+    "Production_tonnesperhectare": 0.2648274161986177,
+    "Cultivated_hectare": 0.3732385519060177
+  },
+  {
+    "Year": 2017,
+    "Country": "Colombia",
+    "Production_tonnes": 0.22981774926809076,
+    "Production_tonnesperhectare": 0.23682792876837286,
+    "Cultivated_hectare": 0.4334596020139055
+  },
+  {
+    "Year": 2018,
+    "Country": "Colombia",
+    "Production_tonnes": 0.21950396130953265,
+    "Production_tonnesperhectare": 0.23305531222185957,
+    "Cultivated_hectare": 0.42056916806521216
+  },
+  {
+    "Year": 2019,
+    "Country": "Colombia",
+    "Production_tonnes": 0.23885243322550903,
+    "Production_tonnesperhectare": 0.2611317918265231,
+    "Cultivated_hectare": 0.4093521937185327
+  },
+  {
+    "Year": 2020,
+    "Country": "Colombia",
+    "Production_tonnes": 0.22489562754218548,
+    "Production_tonnesperhectare": 0.24824843464047092,
+    "Cultivated_hectare": 0.4050438743706545
+  },
+  {
+    "Year": 2021,
+    "Country": "Colombia",
+    "Production_tonnes": 0.15120952236259685,
+    "Production_tonnesperhectare": 0.16622610482648129,
+    "Cultivated_hectare": 0.40282426276672256
+  },
+  {
+    "Year": 2022,
+    "Country": "Colombia",
+    "Production_tonnes": 0.17945667224093356,
+    "Production_tonnesperhectare": 0.19763891198928582,
+    "Cultivated_hectare": 0.4039472548549508
+  },
+  {
+    "Year": 2013,
+    "Country": "Yemen",
+    "Production_tonnes": 0.0053927456453120165,
+    "Production_tonnesperhectare": 0.14133196843112145,
+    "Cultivated_hectare": 0.016811316231119634
+  },
+  {
+    "Year": 2014,
+    "Country": "Yemen",
+    "Production_tonnes": 0.005412984632671825,
+    "Production_tonnesperhectare": 0.14361606960554107,
+    "Cultivated_hectare": 0.016614720690481897
+  },
+  {
+    "Year": 2015,
+    "Country": "Yemen",
+    "Production_tonnes": 0.005196562394504278,
+    "Production_tonnesperhectare": 0.14058771074507465,
+    "Cultivated_hectare": 0.01628242627667226
+  },
+  {
+    "Year": 2016,
+    "Country": "Yemen",
+    "Production_tonnes": 0.005112368207087478,
+    "Production_tonnesperhectare": 0.1383549376869341,
+    "Cultivated_hectare": 0.0162680412371134
+  },
+  {
+    "Year": 2017,
+    "Country": "Yemen",
+    "Production_tonnes": 0.005064334343753534,
+    "Production_tonnesperhectare": 0.13863724232646912,
+    "Cultivated_hectare": 0.01608343322944138
+  },
+  {
+    "Year": 2018,
+    "Country": "Yemen",
+    "Production_tonnes": 0.005030602698153854,
+    "Production_tonnesperhectare": 0.14010009364042325,
+    "Cultivated_hectare": 0.01581539199232798
+  },
+  {
+    "Year": 2019,
+    "Country": "Yemen",
+    "Production_tonnes": 0.005616184065764296,
+    "Production_tonnesperhectare": 0.1477479752667906,
+    "Cultivated_hectare": 0.016771997122992086
+  },
+  {
+    "Year": 2020,
+    "Country": "Yemen",
+    "Production_tonnes": 0.00578646141275148,
+    "Production_tonnesperhectare": 0.14803028760554302,
+    "Cultivated_hectare": 0.017248621433708942
+  },
+  {
+    "Year": 2021,
+    "Country": "Yemen",
+    "Production_tonnes": 0.011315752759451,
+    "Production_tonnesperhectare": 0.28376749110560284,
+    "Cultivated_hectare": 0.017872932150563414
+  },
+  {
+    "Year": 2022,
+    "Country": "Yemen",
+    "Production_tonnes": 0.009844783158140162,
+    "Production_tonnesperhectare": 0.23711023340790788,
+    "Cultivated_hectare": 0.01854663150323663
+  },
+  {
+    "Year": 2013,
+    "Country": "Kenya",
+    "Production_tonnes": 0.010740155958938064,
+    "Production_tonnesperhectare": 0.08807904265875148,
+    "Cultivated_hectare": 0.05264588827619275
+  },
+  {
+    "Year": 2014,
+    "Country": "Kenya",
+    "Production_tonnes": 0.01335773165747322,
+    "Production_tonnesperhectare": 0.11053509866366602,
+    "Cultivated_hectare": 0.05274514504914888
+  },
+  {
+    "Year": 2015,
+    "Country": "Kenya",
+    "Production_tonnes": 0.01133383292149243,
+    "Production_tonnesperhectare": 0.09000385215202907,
+    "Cultivated_hectare": 0.054430112682809874
+  },
+  {
+    "Year": 2016,
+    "Country": "Kenya",
+    "Production_tonnes": 0.012440230897161928,
+    "Production_tonnesperhectare": 0.09883228815203296,
+    "Cultivated_hectare": 0.05466123231838887
+  },
+  {
+    "Year": 2017,
+    "Country": "Kenya",
+    "Production_tonnes": 0.010421729224477086,
+    "Production_tonnesperhectare": 0.08145772079156019,
+    "Cultivated_hectare": 0.05499976024934068
+  },
+  {
+    "Year": 2018,
+    "Country": "Kenya",
+    "Production_tonnes": 0.01116517469349403,
+    "Production_tonnesperhectare": 0.0869241600424719,
+    "Cultivated_hectare": 0.055417405897866215
+  },
+  {
+    "Year": 2019,
+    "Country": "Kenya",
+    "Production_tonnes": 0.012008465833486026,
+    "Production_tonnesperhectare": 0.09054279737295953,
+    "Cultivated_hectare": 0.05734452169743466
+  },
+  {
+    "Year": 2020,
+    "Country": "Kenya",
+    "Production_tonnes": 0.009957581781025491,
+    "Production_tonnesperhectare": 0.07416912827992908,
+    "Cultivated_hectare": 0.05739103332534164
+  },
+  {
+    "Year": 2021,
+    "Country": "Kenya",
+    "Production_tonnes": 0.009309934185511638,
+    "Production_tonnesperhectare": 0.07688951844272097,
+    "Cultivated_hectare": 0.051874370654519296
+  },
+  {
+    "Year": 2022,
+    "Country": "Kenya",
+    "Production_tonnes": 0.014005379252987072,
+    "Production_tonnesperhectare": 0.11679712371690366,
+    "Cultivated_hectare": 0.052457923759290336
+  },
+  {
+    "Year": 2013,
+    "Country": "Cameroon",
+    "Production_tonnes": 0.01127986228853294,
+    "Production_tonnesperhectare": 0.07560631553574367,
+    "Cultivated_hectare": 0.06385183409254375
+  },
+  {
+    "Year": 2014,
+    "Country": "Cameroon",
+    "Production_tonnes": 0.010276548221816064,
+    "Production_tonnesperhectare": 0.07486205784969682,
+    "Cultivated_hectare": 0.05871493646607528
+  },
+  {
+    "Year": 2015,
+    "Country": "Cameroon",
+    "Production_tonnes": 0.009697983036490354,
+    "Production_tonnesperhectare": 0.07478506567527818,
+    "Cultivated_hectare": 0.05546295852313593
+  },
+  {
+    "Year": 2016,
+    "Country": "Cameroon",
+    "Production_tonnes": 0.008470151136662009,
+    "Production_tonnesperhectare": 0.06526369497269492,
+    "Cultivated_hectare": 0.05500935027571325
+  },
+  {
+    "Year": 2017,
+    "Country": "Cameroon",
+    "Production_tonnes": 0.00853005853924704,
+    "Production_tonnesperhectare": 0.1005774441055221,
+    "Cultivated_hectare": 0.03686070486693838
+  },
+  {
+    "Year": 2018,
+    "Country": "Cameroon",
+    "Production_tonnes": 0.00934231656528733,
+    "Production_tonnesperhectare": 0.12003080017529812,
+    "Cultivated_hectare": 0.034086789738671776
+  },
+  {
+    "Year": 2019,
+    "Country": "Cameroon",
+    "Production_tonnes": 0.009191468646165563,
+    "Production_tonnesperhectare": 0.12395739080502542,
+    "Cultivated_hectare": 0.03251498441620714
+  },
+  {
+    "Year": 2020,
+    "Country": "Cameroon",
+    "Production_tonnes": 0.008039735338810094,
+    "Production_tonnesperhectare": 0.12128833902413587,
+    "Cultivated_hectare": 0.02904195636538
+  },
+  {
+    "Year": 2021,
+    "Country": "Cameroon",
+    "Production_tonnes": 0.0073022266394186935,
+    "Production_tonnesperhectare": 0.11548826188459844,
+    "Cultivated_hectare": 0.027648046032126585
+  },
+  {
+    "Year": 2022,
+    "Country": "Cameroon",
+    "Production_tonnes": 0.007116297808873258,
+    "Production_tonnesperhectare": 0.11528294941948208,
+    "Cultivated_hectare": 0.02699017022296811
+  },
+  {
+    "Year": 2013,
+    "Country": "Equatorial Guinea",
+    "Production_tonnes": 0.0011878936314383254,
+    "Production_tonnesperhectare": 0.08918259715875197,
+    "Cultivated_hectare": 0.0057544953248621425
+  },
+  {
+    "Year": 2014,
+    "Country": "Equatorial Guinea",
+    "Production_tonnes": 0.001183306127636769,
+    "Production_tonnesperhectare": 0.08961889127993587,
+    "Cultivated_hectare": 0.005706065691680652
+  },
+  {
+    "Year": 2015,
+    "Country": "Equatorial Guinea",
+    "Production_tonnes": 0.0011479553630483045,
+    "Production_tonnesperhectare": 0.08972154751249406,
+    "Cultivated_hectare": 0.005529609206425317
+  },
+  {
+    "Year": 2016,
+    "Country": "Equatorial Guinea",
+    "Production_tonnes": 0.0011263671098645095,
+    "Production_tonnesperhectare": 0.0896958783215429,
+    "Cultivated_hectare": 0.005426995924238791
+  },
+  {
+    "Year": 2017,
+    "Country": "Equatorial Guinea",
+    "Production_tonnes": 0.001115572983272612,
+    "Production_tonnesperhectare": 0.08951623504737768,
+    "Cultivated_hectare": 0.005385279309518101
+  },
+  {
+    "Year": 2018,
+    "Country": "Equatorial Guinea",
+    "Production_tonnes": 0.0011099060668118656,
+    "Production_tonnesperhectare": 0.08951623504737768,
+    "Cultivated_hectare": 0.0053579477343562686
+  },
+  {
+    "Year": 2019,
+    "Country": "Equatorial Guinea",
+    "Production_tonnes": 0.0011166523959318018,
+    "Production_tonnesperhectare": 0.08949057098923814,
+    "Cultivated_hectare": 0.005391992327978902
+  },
+  {
+    "Year": 2020,
+    "Country": "Equatorial Guinea",
+    "Production_tonnes": 0.0011217796060629531,
+    "Production_tonnesperhectare": 0.08943924287295905,
+    "Cultivated_hectare": 0.005419323903140733
+  },
+  {
+    "Year": 2021,
+    "Country": "Equatorial Guinea",
+    "Production_tonnes": 0.0011166523959318018,
+    "Production_tonnesperhectare": 0.08936224556572879,
+    "Cultivated_hectare": 0.005399184847758331
+  },
+  {
+    "Year": 2022,
+    "Country": "Equatorial Guinea",
+    "Production_tonnes": 0.0011115251858006504,
+    "Production_tonnesperhectare": 0.08931092258226132,
+    "Cultivated_hectare": 0.005377127787101414
+  },
+  {
+    "Year": 2013,
+    "Country": "Togo",
+    "Production_tonnes": 0.0029548921545319547,
+    "Production_tonnesperhectare": 0.07771076317037483,
+    "Cultivated_hectare": 0.016301126828098776
+  },
+  {
+    "Year": 2014,
+    "Country": "Togo",
+    "Production_tonnes": 0.0041827240543603015,
+    "Production_tonnesperhectare": 0.08666752459388806,
+    "Cultivated_hectare": 0.02081850875089906
+  },
+  {
+    "Year": 2015,
+    "Country": "Togo",
+    "Production_tonnes": 0.0043427469810851825,
+    "Production_tonnesperhectare": 0.08920826634970314,
+    "Cultivated_hectare": 0.0210318868376888
+  },
+  {
+    "Year": 2016,
+    "Country": "Togo",
+    "Production_tonnes": 0.00483927680431247,
+    "Production_tonnesperhectare": 0.09303221101249552,
+    "Cultivated_hectare": 0.02252217693598657
+  },
+  {
+    "Year": 2017,
+    "Country": "Togo",
+    "Production_tonnes": 0.004985807072797479,
+    "Production_tonnesperhectare": 0.11002181236806348,
+    "Cultivated_hectare": 0.019775113881563174
+  },
+  {
+    "Year": 2018,
+    "Country": "Togo",
+    "Production_tonnes": 0.005147718971675942,
+    "Production_tonnesperhectare": 0.11174130939622469,
+    "Cultivated_hectare": 0.020116518820426754
+  },
+  {
+    "Year": 2019,
+    "Country": "Togo",
+    "Production_tonnes": 0.005752190060822205,
+    "Production_tonnesperhectare": 0.12318747162724485,
+    "Cultivated_hectare": 0.02047087029489331
+  },
+  {
+    "Year": 2020,
+    "Country": "Togo",
+    "Production_tonnes": 0.005938388744532438,
+    "Production_tonnesperhectare": 0.1273450567450688,
+    "Cultivated_hectare": 0.020469431790937423
+  },
+  {
+    "Year": 2021,
+    "Country": "Togo",
+    "Production_tonnes": 0.0062352272258096204,
+    "Production_tonnesperhectare": 0.13080970459390753,
+    "Cultivated_hectare": 0.020944138096379763
+  },
+  {
+    "Year": 2022,
+    "Country": "Togo",
+    "Production_tonnes": 0.0067819497376892315,
+    "Production_tonnesperhectare": 0.14033107016367918,
+    "Cultivated_hectare": 0.02128746104051786
+  },
+  {
+    "Year": 2013,
+    "Country": "Malawi",
+    "Production_tonnes": 0.0015378931861806037,
+    "Production_tonnesperhectare": 0.3705376716754085,
+    "Cultivated_hectare": 0.001867657636058499
+  },
+  {
+    "Year": 2014,
+    "Country": "Malawi",
+    "Production_tonnes": 0.0018233978345362938,
+    "Production_tonnesperhectare": 0.38465287798810077,
+    "Cultivated_hectare": 0.002134260369216015
+  },
+  {
+    "Year": 2015,
+    "Country": "Malawi",
+    "Production_tonnes": 0.0019475302903431157,
+    "Production_tonnesperhectare": 0.4268959176857938,
+    "Cultivated_hectare": 0.0020565811555981776
+  },
+  {
+    "Year": 2016,
+    "Country": "Malawi",
+    "Production_tonnes": 0.0019475302903431157,
+    "Production_tonnesperhectare": 0.4268959176857938,
+    "Cultivated_hectare": 0.0020565811555981776
+  },
+  {
+    "Year": 2017,
+    "Country": "Malawi",
+    "Production_tonnes": 0.0022721636475944345,
+    "Production_tonnesperhectare": 0.4767868723731297,
+    "Cultivated_hectare": 0.002151042915368017
+  },
+  {
+    "Year": 2018,
+    "Country": "Malawi",
+    "Production_tonnes": 0.0029905127722852165,
+    "Production_tonnesperhectare": 0.5941999383615536,
+    "Cultivated_hectare": 0.0022761927595300884
+  },
+  {
+    "Year": 2019,
+    "Country": "Malawi",
+    "Production_tonnes": 0.0029683848127718265,
+    "Production_tonnesperhectare": 0.5704349948602757,
+    "Cultivated_hectare": 0.00235243346919204
+  },
+  {
+    "Year": 2020,
+    "Country": "Malawi",
+    "Production_tonnes": 0.002698531647974388,
+    "Production_tonnesperhectare": 0.5285256135824549,
+    "Cultivated_hectare": 0.0023068808439223203
+  },
+  {
+    "Year": 2021,
+    "Country": "Malawi",
+    "Production_tonnes": 0.002698531647974388,
+    "Production_tonnesperhectare": 0.5504940473499064,
+    "Cultivated_hectare": 0.0022152960920642528
+  },
+  {
+    "Year": 2022,
+    "Country": "Malawi",
+    "Production_tonnes": 0.0029683848127718265,
+    "Production_tonnesperhectare": 0.5675606460127046,
+    "Cultivated_hectare": 0.0023644210021577555
+  },
+  {
+    "Year": 2013,
+    "Country": "Mozambique",
+    "Production_tonnes": 0.00024286784831769492,
+    "Production_tonnesperhectare": 0.2381881238497688,
+    "Cultivated_hectare": 0.00045552625269719486
+  },
+  {
+    "Year": 2014,
+    "Country": "Mozambique",
+    "Production_tonnes": 0.0002204700356395075,
+    "Production_tonnesperhectare": 0.23415886672186004,
+    "Cultivated_hectare": 0.00042052265643730517
+  },
+  {
+    "Year": 2015,
+    "Country": "Mozambique",
+    "Production_tonnes": 0.0002169619444971408,
+    "Production_tonnesperhectare": 0.2345181635358137,
+    "Cultivated_hectare": 0.00041333013665787577
+  },
+  {
+    "Year": 2016,
+    "Country": "Mozambique",
+    "Production_tonnes": 0.00022667665842984858,
+    "Production_tonnesperhectare": 0.2356987102102328,
+    "Cultivated_hectare": 0.00042963318149124907
+  },
+  {
+    "Year": 2017,
+    "Country": "Mozambique",
+    "Production_tonnes": 0.00021750165082673565,
+    "Production_tonnesperhectare": 0.2370332412334892,
+    "Cultivated_hectare": 0.00040997362742747537
+  },
+  {
+    "Year": 2018,
+    "Country": "Mozambique",
+    "Production_tonnes": 0.00021534282550835616,
+    "Production_tonnesperhectare": 0.23947131905752866,
+    "Cultivated_hectare": 0.0004018221050107887
+  },
+  {
+    "Year": 2019,
+    "Country": "Mozambique",
+    "Production_tonnes": 0.0002169619444971408,
+    "Production_tonnesperhectare": 0.24296162839810112,
+    "Cultivated_hectare": 0.000398945097099017
+  },
+  {
+    "Year": 2020,
+    "Country": "Mozambique",
+    "Production_tonnes": 0.00021939062298031772,
+    "Production_tonnesperhectare": 0.24344925576837576,
+    "Cultivated_hectare": 0.00040278110764804597
+  },
+  {
+    "Year": 2021,
+    "Country": "Mozambique",
+    "Production_tonnes": 0.00021966047614511516,
+    "Production_tonnesperhectare": 0.2452713936306603,
+    "Cultivated_hectare": 0.0004003836010549029
+  },
+  {
+    "Year": 2022,
+    "Country": "Mozambique",
+    "Production_tonnes": 0.00022020018247471005,
+    "Production_tonnesperhectare": 0.24709353919216226,
+    "Cultivated_hectare": 0.0003984655957803884
+  },
+  {
+    "Year": 2013,
+    "Country": "Congo (Brazzaville)",
+    "Production_tonnes": 0.0008060514032499496,
+    "Production_tonnesperhectare": 0.07519569060551093,
+    "Cultivated_hectare": 0.004586430112682809
+  },
+  {
+    "Year": 2014,
+    "Country": "Congo (Brazzaville)",
+    "Production_tonnes": 0.0008109087602163036,
+    "Production_tonnesperhectare": 0.0731425608215356,
+    "Cultivated_hectare": 0.0047350755214576835
+  },
+  {
+    "Year": 2015,
+    "Country": "Congo (Brazzaville)",
+    "Production_tonnes": 0.0008200837678194164,
+    "Production_tonnesperhectare": 0.07291158429827968,
+    "Cultivated_hectare": 0.00480268520738432
+  },
+  {
+    "Year": 2016,
+    "Country": "Congo (Brazzaville)",
+    "Production_tonnes": 0.0008262903906097576,
+    "Production_tonnesperhectare": 0.07180802979827919,
+    "Cultivated_hectare": 0.004908654998801246
+  },
+  {
+    "Year": 2017,
+    "Country": "Congo (Brazzaville)",
+    "Production_tonnes": 0.0008387036361904397,
+    "Production_tonnesperhectare": 0.074477091844792,
+    "Cultivated_hectare": 0.004815152241668664
+  },
+  {
+    "Year": 2018,
+    "Country": "Congo (Brazzaville)",
+    "Production_tonnes": 0.0008503073222767296,
+    "Production_tonnesperhectare": 0.07319388893781469,
+    "Cultivated_hectare": 0.004961879645169024
+  },
+  {
+    "Year": 2019,
+    "Country": "Congo (Brazzaville)",
+    "Production_tonnes": 0.0008384337830256423,
+    "Production_tonnesperhectare": 0.0731425608215356,
+    "Cultivated_hectare": 0.0048957084631982735
+  },
+  {
+    "Year": 2020,
+    "Country": "Congo (Brazzaville)",
+    "Production_tonnes": 0.0008424815804976039,
+    "Production_tonnesperhectare": 0.07360451386804742,
+    "Cultivated_hectare": 0.004890433948693359
+  },
+  {
+    "Year": 2021,
+    "Country": "Congo (Brazzaville)",
+    "Production_tonnes": 0.0008438308463215911,
+    "Production_tonnesperhectare": 0.07329655030318451,
+    "Cultivated_hectare": 0.00491776552385519
+  },
+  {
+    "Year": 2022,
+    "Country": "Congo (Brazzaville)",
+    "Production_tonnes": 0.0008416720210032116,
+    "Production_tonnesperhectare": 0.0733478784194636,
+    "Cultivated_hectare": 0.004901941980340445
+  },
+  {
+    "Year": 2013,
+    "Country": "Trinidad and Tobago",
+    "Production_tonnes": 1.3762511404669378e-05,
+    "Production_tonnesperhectare": 0.03210573698921286,
+    "Cultivated_hectare": 0.00016926396547590504
+  },
+  {
+    "Year": 2014,
+    "Country": "Trinidad and Tobago",
+    "Production_tonnes": 1.3762511404669378e-05,
+    "Production_tonnesperhectare": 0.0325676900357247,
+    "Cultivated_hectare": 0.00016734596020139054
+  },
+  {
+    "Year": 2015,
+    "Country": "Trinidad and Tobago",
+    "Production_tonnes": 8.365448108720603e-06,
+    "Production_tonnesperhectare": 0.03264467964373752,
+    "Cultivated_hectare": 0.00010165427954926876
+  },
+  {
+    "Year": 2016,
+    "Country": "Trinidad and Tobago",
+    "Production_tonnes": 0.00019078618751178922,
+    "Production_tonnesperhectare": 0.032619015585597974,
+    "Cultivated_hectare": 0.002315511867657636
+  },
+  {
+    "Year": 2017,
+    "Country": "Trinidad and Tobago",
+    "Production_tonnes": 0.00019078618751178922,
+    "Production_tonnesperhectare": 0.03269601032642243,
+    "Cultivated_hectare": 0.0023107168544713496
+  },
+  {
+    "Year": 2018,
+    "Country": "Trinidad and Tobago",
+    "Production_tonnes": 0.00019429427865415592,
+    "Production_tonnesperhectare": 0.032721674384561986,
+    "Cultivated_hectare": 0.0023519539678734116
+  },
+  {
+    "Year": 2019,
+    "Country": "Trinidad and Tobago",
+    "Production_tonnes": 0.00021588253183795102,
+    "Production_tonnesperhectare": 0.03269601032642243,
+    "Cultivated_hectare": 0.0026147206904818987
+  },
+  {
+    "Year": 2020,
+    "Country": "Trinidad and Tobago",
+    "Production_tonnes": 0.00016865822799839924,
+    "Production_tonnesperhectare": 0.03264467964373752,
+    "Cultivated_hectare": 0.002045552625269719
+  },
+  {
+    "Year": 2021,
+    "Country": "Trinidad and Tobago",
+    "Production_tonnes": 0.00015975307356008375,
+    "Production_tonnesperhectare": 0.032619015585597974,
+    "Cultivated_hectare": 0.0019391033325341642
+  },
+  {
+    "Year": 2022,
+    "Country": "Trinidad and Tobago",
+    "Production_tonnes": 0.0001837700052270558,
+    "Production_tonnesperhectare": 0.0325676900357247,
+    "Cultivated_hectare": 0.0022335171421721408
+  },
+  {
+    "Year": 2013,
+    "Country": "Saint Vincent and the Grenadines",
+    "Production_tonnes": 4.7224303839551786e-05,
+    "Production_tonnesperhectare": 0.07524701872179002,
+    "Cultivated_hectare": 0.00026852073843203065
+  },
+  {
+    "Year": 2014,
+    "Country": "Saint Vincent and the Grenadines",
+    "Production_tonnes": 4.7764010169146665e-05,
+    "Production_tonnesperhectare": 0.08112408803574608,
+    "Cultivated_hectare": 0.0002531766962359146
+  },
+  {
+    "Year": 2015,
+    "Country": "Saint Vincent and the Grenadines",
+    "Production_tonnes": 4.884342282833642e-05,
+    "Production_tonnesperhectare": 0.08114975209388564,
+    "Cultivated_hectare": 0.0002584512107408295
+  },
+  {
+    "Year": 2016,
+    "Country": "Saint Vincent and the Grenadines",
+    "Production_tonnes": 4.965298232272874e-05,
+    "Production_tonnesperhectare": 0.08089310637967854,
+    "Cultivated_hectare": 0.0002637257252457444
+  },
+  {
+    "Year": 2017,
+    "Country": "Saint Vincent and the Grenadines",
+    "Production_tonnes": 5.0462541817121055e-05,
+    "Production_tonnesperhectare": 0.08415244176340092,
+    "Cultivated_hectare": 0.0002584512107408295
+  },
+  {
+    "Year": 2018,
+    "Country": "Saint Vincent and the Grenadines",
+    "Production_tonnes": 5.100224814671593e-05,
+    "Production_tonnesperhectare": 0.08353650950086343,
+    "Cultivated_hectare": 0.00026276672260848715
+  },
+  {
+    "Year": 2019,
+    "Country": "Saint Vincent and the Grenadines",
+    "Production_tonnes": 4.9383129157931296e-05,
+    "Production_tonnesperhectare": 0.08158604108225792,
+    "Cultivated_hectare": 0.000260369216015344
+  },
+  {
+    "Year": 2020,
+    "Country": "Saint Vincent and the Grenadines",
+    "Production_tonnes": 4.911327599313386e-05,
+    "Production_tonnesperhectare": 0.0806877990473738,
+    "Cultivated_hectare": 0.00026132821865260125
+  },
+  {
+    "Year": 2021,
+    "Country": "Saint Vincent and the Grenadines",
+    "Production_tonnes": 4.884342282833642e-05,
+    "Production_tonnesperhectare": 0.08012318976830379,
+    "Cultivated_hectare": 0.0002618077199712299
+  },
+  {
+    "Year": 2022,
+    "Country": "Saint Vincent and the Grenadines",
+    "Production_tonnes": 4.857356966353898e-05,
+    "Production_tonnesperhectare": 0.07953291643109422,
+    "Cultivated_hectare": 0.0002622872212898585
+  },
+  {
+    "Year": 2013,
+    "Country": "Dominica",
+    "Production_tonnes": 0.0001001155241398498,
+    "Production_tonnesperhectare": 0.22212241318878964,
+    "Cultivated_hectare": 0.00020091105250539436
+  },
+  {
+    "Year": 2014,
+    "Country": "Dominica",
+    "Production_tonnes": 9.984567097505235e-05,
+    "Production_tonnesperhectare": 0.2220454235807768,
+    "Cultivated_hectare": 0.00020043155118676574
+  },
+  {
+    "Year": 2015,
+    "Country": "Dominica",
+    "Production_tonnes": 9.984567097505235e-05,
+    "Production_tonnesperhectare": 0.22199410316371515,
+    "Cultivated_hectare": 0.00020043155118676574
+  },
+  {
+    "Year": 2016,
+    "Country": "Dominica",
+    "Production_tonnes": 9.984567097505235e-05,
+    "Production_tonnesperhectare": 0.2219171109892965,
+    "Cultivated_hectare": 0.00020091105250539436
+  },
+  {
+    "Year": 2017,
+    "Country": "Dominica",
+    "Production_tonnes": 9.957581781025491e-05,
+    "Production_tonnesperhectare": 0.2218401059828488,
+    "Cultivated_hectare": 0.00020043155118676574
+  },
+  {
+    "Year": 2018,
+    "Country": "Dominica",
+    "Production_tonnes": 9.984567097505235e-05,
+    "Production_tonnesperhectare": 0.2219171109892965,
+    "Cultivated_hectare": 0.00020091105250539436
+  },
+  {
+    "Year": 2019,
+    "Country": "Dominica",
+    "Production_tonnes": 9.984567097505235e-05,
+    "Production_tonnesperhectare": 0.22189144693115698,
+    "Cultivated_hectare": 0.00020091105250539436
+  },
+  {
+    "Year": 2020,
+    "Country": "Dominica",
+    "Production_tonnes": 9.984567097505235e-05,
+    "Production_tonnesperhectare": 0.22189144693115698,
+    "Cultivated_hectare": 0.00020091105250539436
+  },
+  {
+    "Year": 2021,
+    "Country": "Dominica",
+    "Production_tonnes": 9.984567097505235e-05,
+    "Production_tonnesperhectare": 0.22189144693115698,
+    "Cultivated_hectare": 0.00020091105250539436
+  },
+  {
+    "Year": 2022,
+    "Country": "Dominica",
+    "Production_tonnes": 9.984567097505235e-05,
+    "Production_tonnesperhectare": 0.22189144693115698,
+    "Cultivated_hectare": 0.00020091105250539436
+  },
+  {
+    "Year": 2013,
+    "Country": "Jamaica",
+    "Production_tonnes": 0.0018846545029453125,
+    "Production_tonnesperhectare": 0.21909405689472897,
+    "Cultivated_hectare": 0.0038360105490290093
+  },
+  {
+    "Year": 2014,
+    "Country": "Jamaica",
+    "Production_tonnes": 0.0014296820670968307,
+    "Production_tonnesperhectare": 0.16935711991950592,
+    "Cultivated_hectare": 0.003740110285303284
+  },
+  {
+    "Year": 2015,
+    "Country": "Jamaica",
+    "Production_tonnes": 0.0015530049634092601,
+    "Production_tonnesperhectare": 0.19083793658230608,
+    "Cultivated_hectare": 0.0036173579477343557
+  },
+  {
+    "Year": 2016,
+    "Country": "Jamaica",
+    "Production_tonnes": 0.002045486989164586,
+    "Production_tonnesperhectare": 0.2034646531869628,
+    "Cultivated_hectare": 0.004475665308079597
+  },
+  {
+    "Year": 2017,
+    "Country": "Jamaica",
+    "Production_tonnes": 0.001679026391369664,
+    "Production_tonnesperhectare": 0.20988066002263192,
+    "Cultivated_hectare": 0.0035641333013665785
+  },
+  {
+    "Year": 2018,
+    "Country": "Jamaica",
+    "Production_tonnes": 0.0019119096725898539,
+    "Production_tonnesperhectare": 0.21781086168696911,
+    "Cultivated_hectare": 0.003913689762646847
+  },
+  {
+    "Year": 2019,
+    "Country": "Jamaica",
+    "Production_tonnes": 0.0018082860573076372,
+    "Production_tonnesperhectare": 0.21275504223347855,
+    "Cultivated_hectare": 0.003787580915847518
+  },
+  {
+    "Year": 2020,
+    "Country": "Jamaica",
+    "Production_tonnes": 0.0016733594749089179,
+    "Production_tonnesperhectare": 0.20325934072184643,
+    "Cultivated_hectare": 0.0036648285782785897
+  },
+  {
+    "Year": 2021,
+    "Country": "Jamaica",
+    "Production_tonnes": 0.002156126786731536,
+    "Production_tonnesperhectare": 0.20215578622184596,
+    "Cultivated_hectare": 0.0047475425557420275
+  },
+  {
+    "Year": 2022,
+    "Country": "Jamaica",
+    "Production_tonnes": 0.0023280232527075045,
+    "Production_tonnesperhectare": 0.20102655996448848,
+    "Cultivated_hectare": 0.005154159673939103
+  },
+  {
+    "Year": 2013,
+    "Country": "Samoa",
+    "Production_tonnes": 2.968384812771827e-06,
+    "Production_tonnesperhectare": 0.07134607675176736,
+    "Cultivated_hectare": 1.774154878925917e-05
+  },
+  {
+    "Year": 2014,
+    "Country": "Samoa",
+    "Production_tonnes": 2.968384812771827e-06,
+    "Production_tonnesperhectare": 0.0698575665124853,
+    "Cultivated_hectare": 1.8221050107887793e-05
+  },
+  {
+    "Year": 2015,
+    "Country": "Samoa",
+    "Production_tonnes": 2.968384812771827e-06,
+    "Production_tonnesperhectare": 0.0709097928962067,
+    "Cultivated_hectare": 1.774154878925917e-05
+  },
+  {
+    "Year": 2016,
+    "Country": "Samoa",
+    "Production_tonnes": 2.968384812771827e-06,
+    "Production_tonnesperhectare": 0.07150006623341627,
+    "Cultivated_hectare": 1.774154878925917e-05
+  },
+  {
+    "Year": 2017,
+    "Country": "Samoa",
+    "Production_tonnes": 2.968384812771827e-06,
+    "Production_tonnesperhectare": 0.07193635522178855,
+    "Cultivated_hectare": 1.774154878925917e-05
+  },
+  {
+    "Year": 2018,
+    "Country": "Samoa",
+    "Production_tonnes": 3.238237977569265e-06,
+    "Production_tonnesperhectare": 0.07288592537295177,
+    "Cultivated_hectare": 1.9180052745145046e-05
+  },
+  {
+    "Year": 2019,
+    "Country": "Samoa",
+    "Production_tonnes": 2.968384812771827e-06,
+    "Production_tonnesperhectare": 0.07211600362876538,
+    "Cultivated_hectare": 1.774154878925917e-05
+  },
+  {
+    "Year": 2020,
+    "Country": "Samoa",
+    "Production_tonnes": 3.238237977569265e-06,
+    "Production_tonnesperhectare": 0.0722956520357422,
+    "Cultivated_hectare": 1.9180052745145046e-05
+  },
+  {
+    "Year": 2021,
+    "Country": "Samoa",
+    "Production_tonnes": 3.238237977569265e-06,
+    "Production_tonnesperhectare": 0.07242397232643993,
+    "Cultivated_hectare": 1.9180052745145046e-05
+  },
+  {
+    "Year": 2022,
+    "Country": "Samoa",
+    "Production_tonnes": 3.238237977569265e-06,
+    "Production_tonnesperhectare": 0.07226998284479103,
+    "Cultivated_hectare": 1.9180052745145046e-05
+  },
+  {
+    "Year": 2013,
+    "Country": "Peru",
+    "Production_tonnes": 0.0691474448008605,
+    "Production_tonnesperhectare": 0.15965610594275745,
+    "Cultivated_hectare": 0.19156221529609205
+  },
+  {
+    "Year": 2014,
+    "Country": "Peru",
+    "Production_tonnes": 0.05992008568377689,
+    "Production_tonnesperhectare": 0.15259848995438224,
+    "Cultivated_hectare": 0.17343514744665545
+  },
+  {
+    "Year": 2015,
+    "Country": "Peru",
+    "Production_tonnes": 0.06798626663273713,
+    "Production_tonnesperhectare": 0.16555883931485307,
+    "Cultivated_hectare": 0.18182498201870054
+  },
+  {
+    "Year": 2016,
+    "Country": "Peru",
+    "Production_tonnes": 0.0749544150541366,
+    "Production_tonnesperhectare": 0.18070063361718533,
+    "Cultivated_hectare": 0.18411172380724045
+  },
+  {
+    "Year": 2017,
+    "Country": "Peru",
+    "Production_tonnes": 0.09102956808112002,
+    "Production_tonnesperhectare": 0.19915309141951903,
+    "Cultivated_hectare": 0.2033824023016063
+  },
+  {
+    "Year": 2018,
+    "Country": "Peru",
+    "Production_tonnes": 0.09974366647875892,
+    "Production_tonnesperhectare": 0.21442320601254902,
+    "Cultivated_hectare": 0.20734020618556698
+  },
+  {
+    "Year": 2019,
+    "Country": "Peru",
+    "Production_tonnes": 0.09804305183420546,
+    "Production_tonnesperhectare": 0.20785319942960775,
+    "Cultivated_hectare": 0.21009685926636296
+  },
+  {
+    "Year": 2020,
+    "Country": "Peru",
+    "Production_tonnes": 0.09531375692544417,
+    "Production_tonnesperhectare": 0.2054407753980846,
+    "Cultivated_hectare": 0.2065902661232318
+  },
+  {
+    "Year": 2021,
+    "Country": "Peru",
+    "Production_tonnes": 0.09822574242677333,
+    "Production_tonnesperhectare": 0.2124470632701807,
+    "Cultivated_hectare": 0.2060407576120834
+  },
+  {
+    "Year": 2022,
+    "Country": "Peru",
+    "Production_tonnes": 0.0951623692999928,
+    "Production_tonnesperhectare": 0.20857179049110924,
+    "Cultivated_hectare": 0.20323759290338048
+  },
+  {
+    "Year": 2013,
+    "Country": "Nicaragua",
+    "Production_tonnes": 0.022707064405045285,
+    "Production_tonnesperhectare": 0.19348133457067934,
+    "Cultivated_hectare": 0.05218316950371613
+  },
+  {
+    "Year": 2014,
+    "Country": "Nicaragua",
+    "Production_tonnes": 0.023231658957411506,
+    "Production_tonnesperhectare": 0.20443987969704813,
+    "Cultivated_hectare": 0.05059458163509949
+  },
+  {
+    "Year": 2015,
+    "Country": "Nicaragua",
+    "Production_tonnes": 0.02570486321278003,
+    "Production_tonnesperhectare": 0.20677531668696425,
+    "Cultivated_hectare": 0.05536370175017981
+  },
+  {
+    "Year": 2016,
+    "Country": "Nicaragua",
+    "Production_tonnes": 0.033048917092742325,
+    "Production_tonnesperhectare": 0.25589632396605566,
+    "Cultivated_hectare": 0.057777031886837686
+  },
+  {
+    "Year": 2017,
+    "Country": "Nicaragua",
+    "Production_tonnes": 0.03457115879536468,
+    "Production_tonnesperhectare": 0.24126781082651436,
+    "Cultivated_hectare": 0.06402877007911771
+  },
+  {
+    "Year": 2018,
+    "Country": "Nicaragua",
+    "Production_tonnes": 0.038300529532865286,
+    "Production_tonnesperhectare": 0.2672141736055955,
+    "Cultivated_hectare": 0.06417357947734356
+  },
+  {
+    "Year": 2019,
+    "Country": "Nicaragua",
+    "Production_tonnes": 0.04234050126304774,
+    "Production_tonnesperhectare": 0.26772745476838644,
+    "Cultivated_hectare": 0.07080891872452648
+  },
+  {
+    "Year": 2020,
+    "Country": "Nicaragua",
+    "Production_tonnes": 0.041668027176372524,
+    "Production_tonnesperhectare": 0.2602591881857204,
+    "Cultivated_hectare": 0.07164660752817069
+  },
+  {
+    "Year": 2021,
+    "Country": "Nicaragua",
+    "Production_tonnes": 0.04528972650111895,
+    "Production_tonnesperhectare": 0.26772745476838644,
+    "Cultivated_hectare": 0.07574154878925916
+  },
+  {
+    "Year": 2022,
+    "Country": "Nicaragua",
+    "Production_tonnes": 0.04592388143839293,
+    "Production_tonnesperhectare": 0.26231233850094227,
+    "Cultivated_hectare": 0.07835818748501558
+  },
+  {
+    "Year": 2013,
+    "Country": "Madagascar",
+    "Production_tonnes": 0.01393197919216217,
+    "Production_tonnesperhectare": 0.1319645872101871,
+    "Cultivated_hectare": 0.04640230160632941
+  },
+  {
+    "Year": 2014,
+    "Country": "Madagascar",
+    "Production_tonnes": 0.013282982330824328,
+    "Production_tonnesperhectare": 0.13265751677995485,
+    "Cultivated_hectare": 0.044018221050107886
+  },
+  {
+    "Year": 2015,
+    "Country": "Madagascar",
+    "Production_tonnes": 0.012819914300031925,
+    "Production_tonnesperhectare": 0.13519824827014668,
+    "Cultivated_hectare": 0.041713258211460075
+  },
+  {
+    "Year": 2016,
+    "Country": "Madagascar",
+    "Production_tonnes": 0.014327314078590418,
+    "Production_tonnesperhectare": 0.1342486883846067,
+    "Cultivated_hectare": 0.04693598657396307
+  },
+  {
+    "Year": 2017,
+    "Country": "Madagascar",
+    "Production_tonnes": 0.016083788328256948,
+    "Production_tonnesperhectare": 0.13378673533809488,
+    "Cultivated_hectare": 0.052865979381443294
+  },
+  {
+    "Year": 2018,
+    "Country": "Madagascar",
+    "Production_tonnes": 0.014711045278932376,
+    "Production_tonnesperhectare": 0.13419735256911017,
+    "Cultivated_hectare": 0.04821098058019659
+  },
+  {
+    "Year": 2019,
+    "Country": "Madagascar",
+    "Production_tonnes": 0.017745544117079574,
+    "Production_tonnesperhectare": 0.13668676620864617,
+    "Cultivated_hectare": 0.05713354111723807
+  },
+  {
+    "Year": 2020,
+    "Country": "Madagascar",
+    "Production_tonnes": 0.011393200617747866,
+    "Production_tonnesperhectare": 0.13696907854739862,
+    "Cultivated_hectare": 0.03660848717333972
+  },
+  {
+    "Year": 2021,
+    "Country": "Madagascar",
+    "Production_tonnes": 0.012348750674295595,
+    "Production_tonnesperhectare": 0.13791864869856182,
+    "Cultivated_hectare": 0.03941500839127307
+  },
+  {
+    "Year": 2022,
+    "Country": "Madagascar",
+    "Production_tonnes": 0.01357793183994793,
+    "Production_tonnesperhectare": 0.13886821884972503,
+    "Cultivated_hectare": 0.04305250539438983
+  },
+  {
+    "Year": 2013,
+    "Country": "Cabo Verde",
+    "Production_tonnes": 1.6730896217441206e-05,
+    "Production_tonnesperhectare": 0.04809444521015015,
+    "Cultivated_hectare": 0.00014385039558858785
+  },
+  {
+    "Year": 2014,
+    "Country": "Cabo Verde",
+    "Production_tonnes": 1.4032364569466816e-05,
+    "Production_tonnesperhectare": 0.047478507814801035,
+    "Cultivated_hectare": 0.00012227283625029968
+  },
+  {
+    "Year": 2015,
+    "Country": "Cabo Verde",
+    "Production_tonnes": 1.4032364569466816e-05,
+    "Production_tonnesperhectare": 0.04935198149258209,
+    "Cultivated_hectare": 0.00011795732438264204
+  },
+  {
+    "Year": 2016,
+    "Country": "Cabo Verde",
+    "Production_tonnes": 1.8350015206225838e-05,
+    "Production_tonnesperhectare": 0.05022455946932666,
+    "Cultivated_hectare": 0.00015152241668664587
+  },
+  {
+    "Year": 2017,
+    "Country": "Cabo Verde",
+    "Production_tonnes": 1.2683098745479623e-05,
+    "Production_tonnesperhectare": 0.05091748903909442,
+    "Cultivated_hectare": 0.00010357228482378326
+  },
+  {
+    "Year": 2018,
+    "Country": "Cabo Verde",
+    "Production_tonnes": 1.2413245580682185e-05,
+    "Production_tonnesperhectare": 0.05148210088457024,
+    "Cultivated_hectare": 0.00010021577559338287
+  },
+  {
+    "Year": 2019,
+    "Country": "Cabo Verde",
+    "Production_tonnes": 1.0794126591897552e-05,
+    "Production_tonnesperhectare": 0.052559991326431174,
+    "Cultivated_hectare": 8.535123471589546e-05
+  },
+  {
+    "Year": 2020,
+    "Country": "Cabo Verde",
+    "Production_tonnes": 1.295295191027706e-05,
+    "Production_tonnesperhectare": 0.051944053931082076,
+    "Cultivated_hectare": 0.00010405178614241188
+  },
+  {
+    "Year": 2021,
+    "Country": "Cabo Verde",
+    "Production_tonnes": 1.106397975669499e-05,
+    "Production_tonnesperhectare": 0.052611319442710275,
+    "Cultivated_hectare": 8.77487413090386e-05
+  },
+  {
+    "Year": 2022,
+    "Country": "Cabo Verde",
+    "Production_tonnes": 1.2683098745479623e-05,
+    "Production_tonnesperhectare": 0.05330424901247802,
+    "Cultivated_hectare": 9.925677295612562e-05
+  },
+  {
+    "Year": 2013,
+    "Country": "Liberia",
+    "Production_tonnes": 0.0001718964659759685,
+    "Production_tonnesperhectare": 0.053843191667002674,
+    "Cultivated_hectare": 0.0013330136657875807
+  },
+  {
+    "Year": 2014,
+    "Country": "Liberia",
+    "Production_tonnes": 0.00017567441028313265,
+    "Production_tonnesperhectare": 0.054690108152013514,
+    "Cultivated_hectare": 0.001343083193478782
+  },
+  {
+    "Year": 2015,
+    "Country": "Liberia",
+    "Production_tonnes": 0.00016946778749279157,
+    "Production_tonnesperhectare": 0.05566533979491045,
+    "Cultivated_hectare": 0.001274994006233517
+  },
+  {
+    "Year": 2016,
+    "Country": "Liberia",
+    "Production_tonnes": 0.00017243617230556339,
+    "Production_tonnesperhectare": 0.05471576964374725,
+    "Cultivated_hectare": 0.0013176696235914648
+  },
+  {
+    "Year": 2017,
+    "Country": "Liberia",
+    "Production_tonnes": 0.00016892808116319668,
+    "Production_tonnesperhectare": 0.05512639714038581,
+    "Cultivated_hectare": 0.0012821865260129464
+  },
+  {
+    "Year": 2018,
+    "Country": "Liberia",
+    "Production_tonnes": 0.0001675788153392095,
+    "Production_tonnesperhectare": 0.05594764700085128,
+    "Cultivated_hectare": 0.0012548549508511148
+  },
+  {
+    "Year": 2019,
+    "Country": "Liberia",
+    "Production_tonnes": 0.00016946778749279157,
+    "Production_tonnesperhectare": 0.05525471743108354,
+    "Cultivated_hectare": 0.0012836250299688324
+  },
+  {
+    "Year": 2020,
+    "Country": "Liberia",
+    "Production_tonnes": 0.00016865822799839924,
+    "Production_tonnesperhectare": 0.05199538204736116,
+    "Cultivated_hectare": 0.00135075521457684
+  },
+  {
+    "Year": 2021,
+    "Country": "Liberia",
+    "Production_tonnes": 0.00017864279509590447,
+    "Production_tonnesperhectare": 0.05635826936467821,
+    "Cultivated_hectare": 0.0013286981539199231
+  },
+  {
+    "Year": 2022,
+    "Country": "Liberia",
+    "Production_tonnes": 0.00017648396977752498,
+    "Production_tonnesperhectare": 0.05661491251247948,
+    "Cultivated_hectare": 0.001307120594581635
+  },
+  {
+    "Year": 2013,
+    "Country": "Malaysia",
+    "Production_tonnes": 0.0039773657959494505,
+    "Production_tonnesperhectare": 0.9999999999999998,
+    "Cultivated_hectare": 0.0018048429633181489
+  },
+  {
+    "Year": 2014,
+    "Country": "Malaysia",
+    "Production_tonnes": 0.002209018007031834,
+    "Production_tonnesperhectare": 0.5595021317568871,
+    "Cultivated_hectare": 0.0017847039079357467
+  },
+  {
+    "Year": 2015,
+    "Country": "Malaysia",
+    "Production_tonnes": 0.0015999594140840147,
+    "Production_tonnesperhectare": 0.7649942452802335,
+    "Cultivated_hectare": 0.0009474946056101653
+  },
+  {
+    "Year": 2016,
+    "Country": "Malaysia",
+    "Production_tonnes": 0.0019348471915976361,
+    "Production_tonnesperhectare": 0.9013730245697238,
+    "Cultivated_hectare": 0.0009733876768161111
+  },
+  {
+    "Year": 2017,
+    "Country": "Malaysia",
+    "Production_tonnes": 0.0021882393133424312,
+    "Production_tonnesperhectare": 0.9974592839082428,
+    "Cultivated_hectare": 0.000995444737473028
+  },
+  {
+    "Year": 2018,
+    "Country": "Malaysia",
+    "Production_tonnes": 0.0009091353122025712,
+    "Production_tonnesperhectare": 0.5802900188499196,
+    "Cultivated_hectare": 0.0007082234476144809
+  },
+  {
+    "Year": 2019,
+    "Country": "Malaysia",
+    "Production_tonnes": 0.0009601375603492872,
+    "Production_tonnesperhectare": 0.5743616214196844,
+    "Cultivated_hectare": 0.0007556940781587149
+  },
+  {
+    "Year": 2020,
+    "Country": "Malaysia",
+    "Production_tonnes": 0.001144447271905938,
+    "Production_tonnesperhectare": 0.6935711458138183,
+    "Cultivated_hectare": 0.0007470630544233996
+  },
+  {
+    "Year": 2021,
+    "Country": "Malaysia",
+    "Production_tonnes": 0.0011201604870741684,
+    "Production_tonnesperhectare": 0.7034518338616017,
+    "Cultivated_hectare": 0.0007211699832174538
+  },
+  {
+    "Year": 2022,
+    "Country": "Malaysia",
+    "Production_tonnes": 0.0010389346844701392,
+    "Production_tonnesperhectare": 0.6759399635360082,
+    "Cultivated_hectare": 0.0006957564133301366
+  },
+  {
+    "Year": 2013,
+    "Country": "Angola",
+    "Production_tonnes": 0.0033866572182078567,
+    "Production_tonnesperhectare": 0.07416912827992908,
+    "Cultivated_hectare": 0.019519060177415486
+  },
+  {
+    "Year": 2014,
+    "Country": "Angola",
+    "Production_tonnes": 0.004050226150444759,
+    "Production_tonnesperhectare": 0.06883100418690345,
+    "Cultivated_hectare": 0.02503236633900743
+  },
+  {
+    "Year": 2015,
+    "Country": "Angola",
+    "Production_tonnes": 0.0040477974719615815,
+    "Production_tonnesperhectare": 0.06880534012876391,
+    "Cultivated_hectare": 0.025026132821865256
+  },
+  {
+    "Year": 2016,
+    "Country": "Angola",
+    "Production_tonnes": 0.003961444459226401,
+    "Production_tonnesperhectare": 0.07363018305899861,
+    "Cultivated_hectare": 0.022988731719012227
+  },
+  {
+    "Year": 2017,
+    "Country": "Angola",
+    "Production_tonnes": 0.0036546214108517136,
+    "Production_tonnesperhectare": 0.07778776047760509,
+    "Cultivated_hectare": 0.0201424118916327
+  },
+  {
+    "Year": 2018,
+    "Country": "Angola",
+    "Production_tonnes": 0.0035696176639405204,
+    "Production_tonnesperhectare": 0.0790196352683033,
+    "Cultivated_hectare": 0.0193852793095181
+  },
+  {
+    "Year": 2019,
+    "Country": "Angola",
+    "Production_tonnes": 0.0035852691474987717,
+    "Production_tonnesperhectare": 0.07981522107062923,
+    "Cultivated_hectare": 0.01928746104051786
+  },
+  {
+    "Year": 2020,
+    "Country": "Angola",
+    "Production_tonnes": 0.0035858088538283667,
+    "Production_tonnesperhectare": 0.07773643236132599,
+    "Cultivated_hectare": 0.019775113881563174
+  },
+  {
+    "Year": 2021,
+    "Country": "Angola",
+    "Production_tonnes": 0.002780567010072809,
+    "Production_tonnesperhectare": 0.07845502598923329,
+    "Cultivated_hectare": 0.015202589307120594
+  },
+  {
+    "Year": 2022,
+    "Country": "Angola",
+    "Production_tonnes": 0.004524628014158656,
+    "Production_tonnesperhectare": 0.07917361961714058,
+    "Cultivated_hectare": 0.02452649244785423
+  },
+  {
+    "Year": 2013,
+    "Country": "New Caledonia",
+    "Production_tonnes": 1.8889721535820714e-06,
+    "Production_tonnesperhectare": 0.039958938779913994,
+    "Cultivated_hectare": 1.9180052745145046e-05
+  },
+  {
+    "Year": 2014,
+    "Country": "New Caledonia",
+    "Production_tonnes": 1.349265823987194e-06,
+    "Production_tonnesperhectare": 0.027126909710140906,
+    "Cultivated_hectare": 1.9180052745145046e-05
+  },
+  {
+    "Year": 2015,
+    "Country": "New Caledonia",
+    "Production_tonnes": 1.6191189887846326e-06,
+    "Production_tonnesperhectare": 0.029898627989211893,
+    "Cultivated_hectare": 2.1098058019659552e-05
+  },
+  {
+    "Year": 2016,
+    "Country": "New Caledonia",
+    "Production_tonnes": 1.0794126591897551e-06,
+    "Production_tonnesperhectare": 0.03092519031479374,
+    "Cultivated_hectare": 1.390553824023016e-05
+  },
+  {
+    "Year": 2017,
+    "Country": "New Caledonia",
+    "Production_tonnes": 1.349265823987194e-06,
+    "Production_tonnesperhectare": 0.03092519031479374,
+    "Cultivated_hectare": 1.7262047470630544e-05
+  },
+  {
+    "Year": 2018,
+    "Country": "New Caledonia",
+    "Production_tonnes": 8.095594943923163e-07,
+    "Production_tonnesperhectare": 0.031027843980946112,
+    "Cultivated_hectare": 1.006952769120115e-05
+  },
+  {
+    "Year": 2019,
+    "Country": "New Caledonia",
+    "Production_tonnes": 5.397063295948776e-07,
+    "Production_tonnesperhectare": 0.03077120596595646,
+    "Cultivated_hectare": 6.713018460800767e-06
+  },
+  {
+    "Year": 2020,
+    "Country": "New Caledonia",
+    "Production_tonnes": 5.397063295948776e-07,
+    "Production_tonnesperhectare": 0.03030925291944463,
+    "Cultivated_hectare": 7.192519779429392e-06
+  },
+  {
+    "Year": 2021,
+    "Country": "New Caledonia",
+    "Production_tonnes": 5.397063295948776e-07,
+    "Production_tonnesperhectare": 0.03033491697758418,
+    "Cultivated_hectare": 7.192519779429392e-06
+  },
+  {
+    "Year": 2022,
+    "Country": "New Caledonia",
+    "Production_tonnes": 5.397063295948776e-07,
+    "Production_tonnesperhectare": 0.03033491697758418,
+    "Cultivated_hectare": 7.192519779429392e-06
+  },
+  {
+    "Year": 2013,
+    "Country": "Guyana",
+    "Production_tonnes": 0.00011333832921492429,
+    "Production_tonnesperhectare": 0.18413960714226127,
+    "Cultivated_hectare": 0.0002733157516183169
+  },
+  {
+    "Year": 2014,
+    "Country": "Guyana",
+    "Production_tonnes": 0.00011333832921492429,
+    "Production_tonnesperhectare": 0.18413960714226127,
+    "Cultivated_hectare": 0.0002733157516183169
+  },
+  {
+    "Year": 2015,
+    "Country": "Guyana",
+    "Production_tonnes": 0.00011333832921492429,
+    "Production_tonnesperhectare": 0.1861670651688796,
+    "Cultivated_hectare": 0.00027043874370654515
+  },
+  {
+    "Year": 2016,
+    "Country": "Guyana",
+    "Production_tonnes": 0.00011333832921492429,
+    "Production_tonnesperhectare": 0.19509817023347073,
+    "Cultivated_hectare": 0.0002584512107408295
+  },
+  {
+    "Year": 2017,
+    "Country": "Guyana",
+    "Production_tonnes": 0.00011333832921492429,
+    "Production_tonnesperhectare": 0.1986141359329653,
+    "Cultivated_hectare": 0.00025413569887317185
+  },
+  {
+    "Year": 2018,
+    "Country": "Guyana",
+    "Production_tonnes": 0.00012818025327878343,
+    "Production_tonnesperhectare": 0.20048762244277543,
+    "Cultivated_hectare": 0.00028434428194677535
+  },
+  {
+    "Year": 2019,
+    "Country": "Guyana",
+    "Production_tonnes": 0.00017648396977752498,
+    "Production_tonnesperhectare": 0.1998973362735368,
+    "Cultivated_hectare": 0.0003927115799568448
+  },
+  {
+    "Year": 2020,
+    "Country": "Guyana",
+    "Production_tonnes": 0.00016191189887846327,
+    "Production_tonnesperhectare": 0.1984088337334722,
+    "Cultivated_hectare": 0.00036298249820187003
+  },
+  {
+    "Year": 2021,
+    "Country": "Guyana",
+    "Production_tonnes": 0.00016191189887846327,
+    "Production_tonnesperhectare": 0.19917874521203532,
+    "Cultivated_hectare": 0.00036154399424598413
+  },
+  {
+    "Year": 2022,
+    "Country": "Guyana",
+    "Production_tonnes": 0.00016191189887846327,
+    "Production_tonnesperhectare": 0.19994867722184498,
+    "Cultivated_hectare": 0.0003605849916087269
+  },
+  {
+    "Year": 2015,
+    "Country": "Taiwan",
+    "Production_tonnes": 0.00020427884575166115,
+    "Production_tonnesperhectare": 0.1974079226340008,
+    "Cultivated_hectare": 0.0004603212658834811
+  },
+  {
+    "Year": 2016,
+    "Country": "Taiwan",
+    "Production_tonnes": 0.00022694651159464602,
+    "Production_tonnesperhectare": 0.19178749390144023,
+    "Cultivated_hectare": 0.0005260129465356029
+  },
+  {
+    "Year": 2017,
+    "Country": "Taiwan",
+    "Production_tonnes": 0.0002555509470631745,
+    "Production_tonnesperhectare": 0.21262671167715755,
+    "Cultivated_hectare": 0.0005356029729081754
+  },
+  {
+    "Year": 2018,
+    "Country": "Taiwan",
+    "Production_tonnes": 0.0002749803749285901,
+    "Production_tonnesperhectare": 0.2220454235807768,
+    "Cultivated_hectare": 0.0005523855190601774
+  },
+  {
+    "Year": 2019,
+    "Country": "Taiwan",
+    "Production_tonnes": 0.00027309140277500805,
+    "Production_tonnesperhectare": 0.2313614843846495,
+    "Cultivated_hectare": 0.0005269719491728602
+  },
+  {
+    "Year": 2020,
+    "Country": "Taiwan",
+    "Production_tonnes": 0.0002617575698535156,
+    "Production_tonnesperhectare": 0.21891440848775218,
+    "Cultivated_hectare": 0.0005332054663150323
+  },
+  {
+    "Year": 2021,
+    "Country": "Taiwan",
+    "Production_tonnes": 0.0002444869673064795,
+    "Production_tonnesperhectare": 0.1986398102567281,
+    "Cultivated_hectare": 0.0005475905058738911
+  },
+  {
+    "Year": 2022,
+    "Country": "Taiwan",
+    "Production_tonnes": 0.00023908990401053077,
+    "Production_tonnesperhectare": 0.20767355872184837,
+    "Cultivated_hectare": 0.0005125869096140014
+  },
+  {
+    "Year": 2013,
+    "Country": "Puerto Rico",
+    "Production_tonnes": 0.0013171532973762987,
+    "Production_tonnesperhectare": 0.11384575703085585,
+    "Cultivated_hectare": 0.005055861903620234
+  },
+  {
+    "Year": 2014,
+    "Country": "Puerto Rico",
+    "Production_tonnes": 0.0012612936922632289,
+    "Production_tonnesperhectare": 0.1814192272450926,
+    "Cultivated_hectare": 0.0030860704866938382
+  },
+  {
+    "Year": 2015,
+    "Country": "Puerto Rico",
+    "Production_tonnes": 0.0009091353122025712,
+    "Production_tonnesperhectare": 0.13258052460553624,
+    "Cultivated_hectare": 0.0030146247902181726
+  },
+  {
+    "Year": 2016,
+    "Country": "Puerto Rico",
+    "Production_tonnes": 0.0008114484665458985,
+    "Production_tonnesperhectare": 0.10445271688459358,
+    "Cultivated_hectare": 0.003382402301606329
+  },
+  {
+    "Year": 2017,
+    "Country": "Puerto Rico",
+    "Production_tonnes": 0.0006641086385664968,
+    "Production_tonnesperhectare": 0.09647118967038308,
+    "Cultivated_hectare": 0.002985854711100455
+  },
+  {
+    "Year": 2018,
+    "Country": "Puerto Rico",
+    "Production_tonnes": 0.0002631068356775028,
+    "Production_tonnesperhectare": 0.04298729507397464,
+    "Cultivated_hectare": 0.0025025173819228
+  },
+  {
+    "Year": 2019,
+    "Country": "Puerto Rico",
+    "Production_tonnes": 0.00040828783833852486,
+    "Production_tonnesperhectare": 0.05286796002410574,
+    "Cultivated_hectare": 0.0032198513545912246
+  },
+  {
+    "Year": 2020,
+    "Country": "Puerto Rico",
+    "Production_tonnes": 0.0004390510991254329,
+    "Production_tonnesperhectare": 0.08404979066365435,
+    "Cultivated_hectare": 0.0022493406856868856
+  },
+  {
+    "Year": 2021,
+    "Country": "Puerto Rico",
+    "Production_tonnes": 0.0003230142382625342,
+    "Production_tonnesperhectare": 0.08107275478665538,
+    "Cultivated_hectare": 0.001712299208822824
+  },
+  {
+    "Year": 2022,
+    "Country": "Puerto Rico",
+    "Production_tonnes": 0.0002274862179242409,
+    "Production_tonnesperhectare": 0.08089310637967854,
+    "Cultivated_hectare": 0.001208343322944138
+  },
+  {
+    "Year": 2013,
+    "Country": "Comoros",
+    "Production_tonnes": 3.5620617753261916e-05,
+    "Production_tonnesperhectare": 0.033106632690249355,
+    "Cultivated_hectare": 0.0004267561735794773
+  },
+  {
+    "Year": 2014,
+    "Country": "Comoros",
+    "Production_tonnes": 3.589047091805936e-05,
+    "Production_tonnesperhectare": 0.032131401047352404,
+    "Cultivated_hectare": 0.00044114121313833607
+  },
+  {
+    "Year": 2015,
+    "Country": "Comoros",
+    "Production_tonnes": 3.643017724765424e-05,
+    "Production_tonnesperhectare": 0.030745541907816917,
+    "Cultivated_hectare": 0.000465595780388396
+  },
+  {
+    "Year": 2016,
+    "Country": "Comoros",
+    "Production_tonnes": 3.6700030412451675e-05,
+    "Production_tonnesperhectare": 0.031592455826421936,
+    "Cultivated_hectare": 0.000457923759290338
+  },
+  {
+    "Year": 2017,
+    "Country": "Comoros",
+    "Production_tonnes": 3.696988357724911e-05,
+    "Production_tonnesperhectare": 0.03200308075665467,
+    "Cultivated_hectare": 0.0004560057540158235
+  },
+  {
+    "Year": 2018,
+    "Country": "Comoros",
+    "Production_tonnes": 3.7239736742046555e-05,
+    "Production_tonnesperhectare": 0.03202874481479423,
+    "Cultivated_hectare": 0.00045936226324622386
+  },
+  {
+    "Year": 2019,
+    "Country": "Comoros",
+    "Production_tonnes": 3.8319149401236306e-05,
+    "Production_tonnesperhectare": 0.0319004245240965,
+    "Cultivated_hectare": 0.0004742268041237113
+  },
+  {
+    "Year": 2020,
+    "Country": "Comoros",
+    "Production_tonnes": 3.8319149401236306e-05,
+    "Production_tonnesperhectare": 0.03179776829153831,
+    "Cultivated_hectare": 0.00047566530807959716
+  },
+  {
+    "Year": 2021,
+    "Country": "Comoros",
+    "Production_tonnes": 3.804929623643887e-05,
+    "Production_tonnesperhectare": 0.030976518431072835,
+    "Cultivated_hectare": 0.00048285782785902656
+  },
+  {
+    "Year": 2022,
+    "Country": "Comoros",
+    "Production_tonnes": 3.804929623643887e-05,
+    "Production_tonnesperhectare": 0.03154112771014285,
+    "Cultivated_hectare": 0.00047566530807959716
+  },
+  {
+    "Year": 2013,
+    "Country": "Sao Tome and Principe",
+    "Production_tonnes": 1.0794126591897551e-06,
+    "Production_tonnesperhectare": 0.012549724686878667,
+    "Cultivated_hectare": 2.8290577799088945e-05
+  },
+  {
+    "Year": 2014,
+    "Country": "Sao Tome and Principe",
+    "Production_tonnes": 2.1588253183795103e-06,
+    "Production_tonnesperhectare": 0.011215193663622267,
+    "Cultivated_hectare": 6.0896667465835526e-05
+  },
+  {
+    "Year": 2015,
+    "Country": "Sao Tome and Principe",
+    "Production_tonnes": 2.428678483176949e-06,
+    "Production_tonnesperhectare": 0.008751444082225833,
+    "Cultivated_hectare": 8.103572284823782e-05
+  },
+  {
+    "Year": 2016,
+    "Country": "Sao Tome and Principe",
+    "Production_tonnes": 1.8889721535820714e-06,
+    "Production_tonnesperhectare": 0.010291287570598604,
+    "Cultivated_hectare": 5.658115559817789e-05
+  },
+  {
+    "Year": 2017,
+    "Country": "Sao Tome and Principe",
+    "Production_tonnes": 2.1588253183795103e-06,
+    "Production_tonnesperhectare": 0.01052226409385452,
+    "Cultivated_hectare": 6.377367537760729e-05
+  },
+  {
+    "Year": 2018,
+    "Country": "Sao Tome and Principe",
+    "Production_tonnes": 2.1588253183795103e-06,
+    "Production_tonnesperhectare": 0.009598358000830856,
+    "Cultivated_hectare": 6.760968592663629e-05
+  },
+  {
+    "Year": 2019,
+    "Country": "Sao Tome and Principe",
+    "Production_tonnes": 1.8889721535820714e-06,
+    "Production_tonnesperhectare": 0.008315155093853548,
+    "Cultivated_hectare": 6.473267801486454e-05
+  },
+  {
+    "Year": 2020,
+    "Country": "Sao Tome and Principe",
+    "Production_tonnes": 2.1588253183795103e-06,
+    "Production_tonnesperhectare": 0.01008597433556049,
+    "Cultivated_hectare": 6.569168065212179e-05
+  },
+  {
+    "Year": 2021,
+    "Country": "Sao Tome and Principe",
+    "Production_tonnes": 2.1588253183795103e-06,
+    "Production_tonnesperhectare": 0.009931990756644958,
+    "Cultivated_hectare": 6.617118197075041e-05
+  },
+  {
+    "Year": 2022,
+    "Country": "Sao Tome and Principe",
+    "Production_tonnes": 2.1588253183795103e-06,
+    "Production_tonnesperhectare": 0.01006031104734269,
+    "Cultivated_hectare": 6.569168065212179e-05
+  },
+  {
+    "Year": 2013,
+    "Country": "Timor-Leste",
+    "Production_tonnes": 0.0012952951910277062,
+    "Production_tonnesperhectare": 0.06731682475667024,
+    "Cultivated_hectare": 0.008173099976024932
+  },
+  {
+    "Year": 2014,
+    "Country": "Timor-Leste",
+    "Production_tonnes": 0.0017972220775509422,
+    "Production_tonnesperhectare": 0.0666495541122304,
+    "Cultivated_hectare": 0.011446175976983936
+  },
+  {
+    "Year": 2015,
+    "Country": "Timor-Leste",
+    "Production_tonnes": 0.0009552802033829333,
+    "Production_tonnesperhectare": 0.023277300989208976,
+    "Cultivated_hectare": 0.015431311436106447
+  },
+  {
+    "Year": 2016,
+    "Country": "Timor-Leste",
+    "Production_tonnes": 0.0013276775708033989,
+    "Production_tonnesperhectare": 0.04860772637294107,
+    "Cultivated_hectare": 0.011304243586669862
+  },
+  {
+    "Year": 2017,
+    "Country": "Timor-Leste",
+    "Production_tonnes": 0.0010524273427100113,
+    "Production_tonnesperhectare": 0.06264596617527284,
+    "Cultivated_hectare": 0.0070994965236154395
+  },
+  {
+    "Year": 2018,
+    "Country": "Timor-Leste",
+    "Production_tonnes": 0.0022505753944106394,
+    "Production_tonnesperhectare": 0.07244963125176784,
+    "Cultivated_hectare": 0.0132596499640374
+  },
+  {
+    "Year": 2019,
+    "Country": "Timor-Leste",
+    "Production_tonnes": 0.0016676925584481717,
+    "Production_tonnesperhectare": 0.08764275880319082,
+    "Cultivated_hectare": 0.008213378086789737
+  },
+  {
+    "Year": 2020,
+    "Country": "Timor-Leste",
+    "Production_tonnes": 0.002439742462933644,
+    "Production_tonnesperhectare": 0.10070575926340822,
+    "Cultivated_hectare": 0.010529848957084632
+  },
+  {
+    "Year": 2021,
+    "Country": "Timor-Leste",
+    "Production_tonnes": 0.0035928250361131,
+    "Production_tonnesperhectare": 0.146054155128798,
+    "Cultivated_hectare": 0.010849676336609925
+  },
+  {
+    "Year": 2022,
+    "Country": "Timor-Leste",
+    "Production_tonnes": 0.0031502658458453002,
+    "Production_tonnesperhectare": 0.12636982253576606,
+    "Cultivated_hectare": 0.010939343083193477
+  },
+  {
+    "Year": 2013,
+    "Country": "Bolivia",
+    "Production_tonnes": 0.00794852496910856,
+    "Production_tonnesperhectare": 0.24460412555262628,
+    "Cultivated_hectare": 0.014524574442579716
+  },
+  {
+    "Year": 2014,
+    "Country": "Bolivia",
+    "Production_tonnes": 0.005530910465688306,
+    "Production_tonnesperhectare": 0.22515076948285026,
+    "Cultivated_hectare": 0.010961400143850395
+  },
+  {
+    "Year": 2015,
+    "Country": "Bolivia",
+    "Production_tonnes": 0.005654503215165532,
+    "Production_tonnesperhectare": 0.22853843798929943,
+    "Cultivated_hectare": 0.01104339486933589
+  },
+  {
+    "Year": 2016,
+    "Country": "Bolivia",
+    "Production_tonnes": 0.005782143762114721,
+    "Production_tonnesperhectare": 0.23100218757069588,
+    "Cultivated_hectare": 0.011174778230640134
+  },
+  {
+    "Year": 2017,
+    "Country": "Bolivia",
+    "Production_tonnes": 0.005715759883574551,
+    "Production_tonnesperhectare": 0.22563839172031327,
+    "Cultivated_hectare": 0.011303764085351234
+  },
+  {
+    "Year": 2018,
+    "Country": "Bolivia",
+    "Production_tonnes": 0.005969421858484143,
+    "Production_tonnesperhectare": 0.2258693759427866,
+    "Cultivated_hectare": 0.01179333493167106
+  },
+  {
+    "Year": 2019,
+    "Country": "Bolivia",
+    "Production_tonnes": 0.006703422466733177,
+    "Production_tonnesperhectare": 0.2450660785991381,
+    "Cultivated_hectare": 0.012226804123711339
+  },
+  {
+    "Year": 2020,
+    "Country": "Bolivia",
+    "Production_tonnes": 0.006314833909424865,
+    "Production_tonnesperhectare": 0.23010394553581176,
+    "Cultivated_hectare": 0.012251258690961398
+  },
+  {
+    "Year": 2021,
+    "Country": "Bolivia",
+    "Production_tonnes": 0.006328596420829534,
+    "Production_tonnesperhectare": 0.23061721899938523,
+    "Cultivated_hectare": 0.012251258690961398
+  },
+  {
+    "Year": 2022,
+    "Country": "Bolivia",
+    "Production_tonnes": 0.0062711176967276796,
+    "Production_tonnesperhectare": 0.22484281361720476,
+    "Cultivated_hectare": 0.012444977223687363
+  },
+  {
+    "Year": 2013,
+    "Country": "Laos",
+    "Production_tonnes": 0.024838634553780253,
+    "Production_tonnesperhectare": 0.40698060856950596,
+    "Cultivated_hectare": 0.027497003116758567
+  },
+  {
+    "Year": 2014,
+    "Country": "Laos",
+    "Production_tonnes": 0.0306499224576931,
+    "Production_tonnesperhectare": 0.40952137598937915,
+    "Cultivated_hectare": 0.03372236873651402
+  },
+  {
+    "Year": 2015,
+    "Country": "Laos",
+    "Production_tonnes": 0.03667979142509187,
+    "Production_tonnesperhectare": 0.44496341461603434,
+    "Cultivated_hectare": 0.037177655238551904
+  },
+  {
+    "Year": 2016,
+    "Country": "Laos",
+    "Production_tonnes": 0.03686194231133014,
+    "Production_tonnesperhectare": 0.44506609651265067,
+    "Cultivated_hectare": 0.03735363222248861
+  },
+  {
+    "Year": 2017,
+    "Country": "Laos",
+    "Production_tonnes": 0.04069250798562978,
+    "Production_tonnesperhectare": 0.4734762088731283,
+    "Cultivated_hectare": 0.03878686166386957
+  },
+  {
+    "Year": 2018,
+    "Country": "Laos",
+    "Production_tonnes": 0.04167477350549246,
+    "Production_tonnesperhectare": 0.47268062307080233,
+    "Cultivated_hectare": 0.0397890194198034
+  },
+  {
+    "Year": 2019,
+    "Country": "Laos",
+    "Production_tonnes": 0.04624743538298506,
+    "Production_tonnesperhectare": 0.505607583999782,
+    "Cultivated_hectare": 0.04130760009590026
+  },
+  {
+    "Year": 2020,
+    "Country": "Laos",
+    "Production_tonnes": 0.042688072139306844,
+    "Production_tonnesperhectare": 0.48666753475685504,
+    "Cultivated_hectare": 0.03959721889235195
+  },
+  {
+    "Year": 2021,
+    "Country": "Laos",
+    "Production_tonnes": 0.043500330165347136,
+    "Production_tonnesperhectare": 0.49156934419745024,
+    "Cultivated_hectare": 0.039952049868137135
+  },
+  {
+    "Year": 2022,
+    "Country": "Laos",
+    "Production_tonnes": 0.04614489118036203,
+    "Production_tonnesperhectare": 0.48594894112894776,
+    "Cultivated_hectare": 0.04286645888276192
+  },
+  {
+    "Year": 2013,
+    "Country": "Zimbabwe",
+    "Production_tonnes": 0.00021129502803639457,
+    "Production_tonnesperhectare": 0.07021686332643896,
+    "Cultivated_hectare": 0.0012817070246943178
+  },
+  {
+    "Year": 2014,
+    "Country": "Zimbabwe",
+    "Production_tonnes": 0.00022937519007782298,
+    "Production_tonnesperhectare": 0.05920698238457364,
+    "Cultivated_hectare": 0.001630304483337329
+  },
+  {
+    "Year": 2015,
+    "Country": "Zimbabwe",
+    "Production_tonnes": 0.0001349265823987194,
+    "Production_tonnesperhectare": 0.05920698238457364,
+    "Cultivated_hectare": 0.0009590026372572523
+  },
+  {
+    "Year": 2016,
+    "Country": "Zimbabwe",
+    "Production_tonnes": 0.00018889721535820714,
+    "Production_tonnesperhectare": 0.05920698238457364,
+    "Cultivated_hectare": 0.0013426036921601534
+  },
+  {
+    "Year": 2017,
+    "Country": "Zimbabwe",
+    "Production_tonnes": 0.0001843097115566507,
+    "Production_tonnesperhectare": 0.05920698238457364,
+    "Cultivated_hectare": 0.0013099976024934068
+  },
+  {
+    "Year": 2018,
+    "Country": "Zimbabwe",
+    "Production_tonnes": 0.00016946778749279157,
+    "Production_tonnesperhectare": 0.05920698238457364,
+    "Cultivated_hectare": 0.001204507312395109
+  },
+  {
+    "Year": 2019,
+    "Country": "Zimbabwe",
+    "Production_tonnes": 0.00018080162041428399,
+    "Production_tonnesperhectare": 0.05920698238457364,
+    "Cultivated_hectare": 0.0012850635339247182
+  },
+  {
+    "Year": 2020,
+    "Country": "Zimbabwe",
+    "Production_tonnes": 0.0001781030887663096,
+    "Production_tonnesperhectare": 0.05920698238457364,
+    "Cultivated_hectare": 0.0012658834811795732
+  },
+  {
+    "Year": 2021,
+    "Country": "Zimbabwe",
+    "Production_tonnes": 0.00017621411661272753,
+    "Production_tonnesperhectare": 0.05920698238457364,
+    "Cultivated_hectare": 0.0012524574442579716
+  },
+  {
+    "Year": 2022,
+    "Country": "Zimbabwe",
+    "Production_tonnes": 0.00017837294193110703,
+    "Production_tonnesperhectare": 0.05920698238457364,
+    "Cultivated_hectare": 0.0012678014864540876
+  },
+  {
+    "Year": 2013,
+    "Country": "Suriname",
+    "Production_tonnes": 1.6191189887846326e-06,
+    "Production_tonnesperhectare": 0.001334531279896983,
+    "Cultivated_hectare": 0.00011747782306401342
+  },
+  {
+    "Year": 2014,
+    "Country": "Suriname",
+    "Production_tonnes": 1.6191189887846326e-06,
+    "Production_tonnesperhectare": 0.0,
+    "Cultivated_hectare": 0.00014912491009350275
+  },
+  {
+    "Year": 2015,
+    "Country": "Suriname",
+    "Production_tonnes": 1.6191189887846326e-06,
+    "Production_tonnesperhectare": 0.000307968697674554,
+    "Cultivated_hectare": 0.00014049388635818747
+  },
+  {
+    "Year": 2016,
+    "Country": "Suriname",
+    "Production_tonnes": 1.6191189887846326e-06,
+    "Production_tonnesperhectare": 0.00010265648919876528,
+    "Cultivated_hectare": 0.00014624790218173097
+  },
+  {
+    "Year": 2017,
+    "Country": "Suriname",
+    "Production_tonnes": 1.6191189887846326e-06,
+    "Production_tonnesperhectare": 0.00012832054733831217,
+    "Cultivated_hectare": 0.00014528889954447372
+  },
+  {
+    "Year": 2018,
+    "Country": "Suriname",
+    "Production_tonnes": 1.6191189887846326e-06,
+    "Production_tonnesperhectare": 0.00017964866361740422,
+    "Cultivated_hectare": 0.00014385039558858785
+  },
+  {
+    "Year": 2019,
+    "Country": "Suriname",
+    "Production_tonnes": 1.6191189887846326e-06,
+    "Production_tonnesperhectare": 0.00035929707059422725,
+    "Cultivated_hectare": 0.0001390553824023016
+  },
+  {
+    "Year": 2020,
+    "Country": "Suriname",
+    "Production_tonnes": 1.6191189887846326e-06,
+    "Production_tonnesperhectare": 0.00020531272175695024,
+    "Cultivated_hectare": 0.00014337089426995922
+  },
+  {
+    "Year": 2021,
+    "Country": "Suriname",
+    "Production_tonnes": 1.6191189887846326e-06,
+    "Production_tonnesperhectare": 0.0002566405813954611,
+    "Cultivated_hectare": 0.00014193239031407335
+  },
+  {
+    "Year": 2022,
+    "Country": "Suriname",
+    "Production_tonnes": 1.6191189887846326e-06,
+    "Production_tonnesperhectare": 0.00028230463953500713,
+    "Cultivated_hectare": 0.0001409733876768161
+  },
+  {
+    "Year": 2013,
+    "Country": "Paraguay",
+    "Production_tonnes": 0.00010308390895262161,
+    "Production_tonnesperhectare": 0.3284999444428318,
+    "Cultivated_hectare": 0.0001409733876768161
+  },
+  {
+    "Year": 2014,
+    "Country": "Paraguay",
+    "Production_tonnes": 0.00010416332161181137,
+    "Production_tonnesperhectare": 0.3319902563498101,
+    "Cultivated_hectare": 0.0001409733876768161
+  },
+  {
+    "Year": 2015,
+    "Country": "Paraguay",
+    "Production_tonnes": 0.00010659200009498832,
+    "Production_tonnesperhectare": 0.3329654905591129,
+    "Cultivated_hectare": 0.00014385039558858785
+  },
+  {
+    "Year": 2016,
+    "Country": "Paraguay",
+    "Production_tonnes": 0.00010659200009498832,
+    "Production_tonnesperhectare": 0.3329654905591129,
+    "Cultivated_hectare": 0.00014385039558858785
+  },
+  {
+    "Year": 2017,
+    "Country": "Paraguay",
+    "Production_tonnes": 0.00011927509884046794,
+    "Production_tonnesperhectare": 0.3495444721172597,
+    "Cultivated_hectare": 0.00015344042196116037
+  },
+  {
+    "Year": 2018,
+    "Country": "Paraguay",
+    "Production_tonnes": 0.0001190052456756705,
+    "Production_tonnesperhectare": 0.3487231965927361,
+    "Cultivated_hectare": 0.00015344042196116037
+  },
+  {
+    "Year": 2019,
+    "Country": "Paraguay",
+    "Production_tonnes": 0.00010767141275417808,
+    "Production_tonnesperhectare": 0.3253689293498072,
+    "Cultivated_hectare": 0.00014864540877487412
+  },
+  {
+    "Year": 2020,
+    "Country": "Paraguay",
+    "Production_tonnes": 0.00010281405578782417,
+    "Production_tonnesperhectare": 0.3145900249311978,
+    "Cultivated_hectare": 0.00014672740350035962
+  },
+  {
+    "Year": 2021,
+    "Country": "Paraguay",
+    "Production_tonnes": 0.00010470302794140625,
+    "Production_tonnesperhectare": 0.3173104150939897,
+    "Cultivated_hectare": 0.0001481659074562455
+  },
+  {
+    "Year": 2022,
+    "Country": "Paraguay",
+    "Production_tonnes": 9.201992919592662e-05,
+    "Production_tonnesperhectare": 0.3226998673032944,
+    "Cultivated_hectare": 0.0001280268520738432
+  },
+  {
+    "Year": 2013,
+    "Country": "Nepal",
+    "Production_tonnes": 9.876625831586259e-05,
+    "Production_tonnesperhectare": 0.04871038260549926,
+    "Cultivated_hectare": 0.0008391273076000958
+  },
+  {
+    "Year": 2014,
+    "Country": "Nepal",
+    "Production_tonnes": 0.00011603686086289868,
+    "Production_tonnesperhectare": 0.05279096784968709,
+    "Cultivated_hectare": 0.0009163270198993046
+  },
+  {
+    "Year": 2015,
+    "Country": "Nepal",
+    "Production_tonnes": 0.0001252118684660116,
+    "Production_tonnesperhectare": 0.04501475566699878,
+    "Cultivated_hectare": 0.0011426516422920162
+  },
+  {
+    "Year": 2016,
+    "Country": "Nepal",
+    "Production_tonnes": 0.00014356188367223744,
+    "Production_tonnesperhectare": 0.04719620317526603,
+    "Cultivated_hectare": 0.0012553344521697434
+  },
+  {
+    "Year": 2017,
+    "Country": "Nepal",
+    "Production_tonnes": 0.00012575157479560647,
+    "Production_tonnesperhectare": 0.04024124341944901,
+    "Cultivated_hectare": 0.001268760489091345
+  },
+  {
+    "Year": 2018,
+    "Country": "Nepal",
+    "Production_tonnes": 0.0001384346735410861,
+    "Production_tonnesperhectare": 0.0447324535938696,
+    "Cultivated_hectare": 0.0012706784943658594
+  },
+  {
+    "Year": 2019,
+    "Country": "Nepal",
+    "Production_tonnes": 0.00014302217734264255,
+    "Production_tonnesperhectare": 0.04432182866363686,
+    "Cultivated_hectare": 0.0013234236394150084
+  },
+  {
+    "Year": 2020,
+    "Country": "Nepal",
+    "Production_tonnes": 8.014638994483932e-05,
+    "Production_tonnesperhectare": 0.02740921434967591,
+    "Cultivated_hectare": 0.0011292256053704146
+  },
+  {
+    "Year": 2021,
+    "Country": "Nepal",
+    "Production_tonnes": 8.500374691119321e-05,
+    "Production_tonnesperhectare": 0.02938534682642097,
+    "Cultivated_hectare": 0.001128746104051786
+  },
+  {
+    "Year": 2022,
+    "Country": "Nepal",
+    "Production_tonnes": 9.579787350309077e-05,
+    "Production_tonnesperhectare": 0.022276402721766675,
+    "Cultivated_hectare": 0.001604411412131383
+  }
+]

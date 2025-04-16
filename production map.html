@@ -1,0 +1,791 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Coffee Environment Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://js.arcgis.com/4.32/esri/themes/light/main.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://s3.tradingview.com/tv.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://js.arcgis.com/4.32/"></script>
+  <!-- Load Calcite components from CDN -->
+  <script type="module" src="https://js.arcgis.com/calcite-components/3.0.3/calcite.esm.js"></script>
+  <!-- Load Map components from CDN-->
+  <script
+  type="module"
+  src="https://js.arcgis.com/map-components/4.32/arcgis-map-components.esm.js"
+  ></script> 
+  
+  
+  
+    <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    #viewDiv {
+      width: 100%;
+      height: 100%;
+    }
+      body {
+      font-family: Arial, sans-serif;
+
+    }
+    .section-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+      color: #6f4e37;
+    }
+    .section-text {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: #333;
+      margin-bottom: 1.5rem;
+    }
+      .icon-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-weight: 500;
+    }
+    .timeline::before {
+      content: "";
+      position: absolute;
+      left: 16px;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background-color: #d2b48c;
+    }
+    #homepageBtn {
+            position: fixed;
+            top: 1rem;            
+            right: 20rem;          
+            z-index: 999;
+            padding: 0.5rem 1rem;
+            background-color: white;
+            color: #333;
+            border: 1px solid #ccc;
+            border-radius: 9999px;  
+            font-size: 0.875rem;   
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+          }
+         #homepageBtn:hover {
+            background-color: #fef3c7; 
+          }
+        #timeSliderDiv {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80%;
+            z-index: 10;
+        }
+        #layerControls {
+            position: absolute;
+            top: 10px;
+            right: 500px;
+            z-index: 100;
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        #queryCard {
+            position: absolute;
+            bottom: 20px; 
+            right: 20px; 
+            width: 250px; 
+            background: white; 
+            border-radius: 10px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 15px; 
+            font-family: Arial, sans-serif;
+            z-index: 10;
+            text-align: center;
+        }
+
+        h3 {
+            font-size: 16px;
+            margin: 0;
+        }
+
+        .metric {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2d89ef;
+            margin-top: 10px;
+        }
+        
+        #navToChartBtn {
+          position: absolute;
+          top: 50%;
+          left: 20px;
+          transform: translateY(-50%);
+          z-index: 20;
+        }
+
+      #navToChartBtn {
+          position: absolute;
+          top: 30px;  
+          left: 140px; 
+          z-index: 10;
+        }
+
+        #navToChartBtn button {
+          background-color:  #D7B29A;
+          color: white;
+          padding: 12px 24px; 
+          border: none;
+          border-radius: 8px;
+          font-size: 14px;
+          cursor: pointer;
+          box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+          transition: background-color 0.3s ease;
+        }
+
+        #navToChartBtn button:hover {
+          background-color: #B98F6A;
+        }
+  </style>
+
+</head>
+  
+  
+<body class="bg-gray-50 text-gray-800">
+ <!-- The global significance of coffee + the global trading chain → Background image module -->
+  <section class="relative max-w-6xl mx-auto my-12 overflow-hidden rounded-xl shadow-md" data-aos="fade-up">
+    
+    <!-- background -->
+    <div class="absolute inset-0">
+      <img src="coffeebg.jpg"  class="w-full h-full object-cover opacity-20" />
+      <div class="absolute inset-0 bg-white bg-opacity-60"></div> 
+    </div>
+
+    <!-- text -->
+    <div class="relative z-10 p-8 space-y-8">
+     
+      <div>
+        <h2 class="section-title">☕ The environmental conditions to produce coffee</h2>
+        <p class="section-text">
+          Coffee is produced from a tropical plant called th Coffea plant. The coffee bean is the seed of the Coffea plant, and it is the main ingredient in coffee. Most Coffee beans are from two varieties of the Coffea that is the Arabica and the Robusta.
+          The different variation requires specific environmental conditions to thrive, including:
+          <ul class="list-disc ml-6">
+            <li>☕ Robusta: Grows well at lower altitudes with higher temperatures</li>
+            <ul class="list-disc ml-6">
+              <li>🌡️ Temperature: 22-30°C (59-75°F) Source: (Kath et el., 2020) </li>
+              <li>🌱 Altitude: 200-800m (2000-6500ft) above sea level Source: (FHA, 2024)</li>
+              <li>💧 Rainfall: 1250-2500mm (39-79 inches) annually Source:(Noraini et el., 2024) </li>
+
+            </ul>
+            <br>
+
+            <li>☕ Arabica: Grows best at higher altitudes with cooler temperatures</li>
+            <ul class="list-disc ml-6">
+            <li>🌡️ Temperature: 18-21°C (59-75°F) Source: (Scott, 2015)</li>
+            <li>🌱 Altitude: 1000-2000m (2000-6500ft) above sea level (Noraini et el., 2024)</li>
+            <li>💧 Rainfall: 1250-2500mm (39-79 inches) annually Source: (Noraini et el., 2024)</li>
+
+            </ul>
+          </ul>
+        </p>
+      </div>
+
+     
+      <div>
+        <h2 class="section-title">🌍 Main Producers of Coffee</h2>
+        <p class="section-text">
+        Generally consistent with most literature, the main producers of coffee is found in the tropic regions also known as <em>The Coffee Belt</em> due to the availability of suitable growing conditions in Alititude, Temperature, and Rainfall. The top producer countries being Brazil, Colombia, Vietnam, and Indonesia. However, with climate change, temperatures are generally rising across all regions (Lindsey & Dahlman,2024). The environmental changes could possible cause a shift in the dominance of the current top producers.</p>
+
+        <p class="section-text">
+          The below map is a visual aid map to inspect the different environmental conditions suitable to plant the different varieties of Coffee.</p>
+      </div>
+    </div>
+
+  </section>
+  
+  
+  
+<!-- map and the graph -->
+<div class="h-[800px] flex">
+  <!-- left-selection -->
+  
+
+
+  <div class="flex-1 bg-gray-200 relative">
+    <a href="homepage.html" id="homepageBtn">🏠 Homepage</a>
+    <div id="navToChartBtn">
+      <button onclick="window.location.href='production plot.html'">parallel coordinates plot</button>
+    </div>
+
+    <div id="viewDiv"></div>
+    <div id="timeSliderDiv"></div>
+    <div id="layerControls">
+        <label for="layerSelect"><b>Select factor:  </b></label>
+        <select id="layerSelect">
+            <option value="layer1">Coffee Production Volume</option>
+            <option value="layer2">Coffee Production Volume Per Hectare</option>
+            <option value="layer3">Coffee Cultivated Area</option>
+        </select>
+    </div>
+    <div id="queryCard">
+        <h3>Coffee Information</h3>
+        <div id="queryResult" class="metric">Calculating...</div>
+    </div>
+  </div>
+
+</div>
+  
+   <section class="bg-white shadow-md rounded-xl p-6 max-w-6xl mx-auto mt-10" data-aos="fade-up">
+  <h2 class="text-2xl font-bold text-gray-800 mb-4">Evaluation of environmental conditions</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    
+    <!-- Point 1 -->
+    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-lg shadow-sm">
+      <h3 class="font-semibold text-lg mb-1">Temperature</h3>
+      <p class="text-gray-700 text-sm">
+        Overall, temperature is not a key factor for growing Robusta coffee, but it is crucial for Arabica coffee. The tropics by nature is generally warm. However, with temperature is rising due to climate change, growing Arabica coffee is becoming more difficult. 
+      </p>
+    </div>
+
+    <!-- Point 2 -->
+    <div class="bg-pink-50 border-l-4 border-pink-400 p-4 rounded-lg shadow-sm">
+      <h3 class="font-semibold text-lg mb-1">Alititude</h3>
+      <p class="text-gray-700 text-sm">
+        As Alititude is a key factor in determining the ability for a country to grow both varieties of coffee. It is a limiting factor for a number of lowland tropic countries though temperature and rainfall level are suitable.
+      </p>
+    </div>
+
+    <!-- Point 3 -->
+    <div class="bg-blue-50 border-l-4 border-blue-400 p-4 rounded-lg shadow-sm">
+      <h3 class="font-semibold text-lg mb-1">Rainfall</h3>
+      <p class="text-gray-700 text-sm">
+        Rainfall surprisingly is a limiting factor due to a lower amount of rainfall in areas where the temperature and alititude are suitable. This particularly so for more inland countries such as Ethiopia, and Laos.
+      </p>
+    </div>
+
+    <!-- Point 4 -->
+    <div class="bg-green-50 border-l-4 border-green-400 p-4 rounded-lg shadow-sm">
+      <h3 class="font-semibold text-lg mb-1">Overall Evaluation</h3>
+      <p class="text-gray-700 text-sm">
+        Overall, the environmental conditions are a limiting factor in a country's ability to grow coffee. The most limiting factor is the alititude of the country, followed by rainfall and temperature. These three factors are interrelated, with altitude affecting temperature and rainfall patterns.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+
+  <section class="max-w-6xl mx-auto mt-10 grid grid-cols-1 md:grid-cols-2 gap-8">
+  
+  <!-- lefe-coffeetravel-video -->
+  <div class="bg-white shadow-lg p-6 rounded-xl" data-aos="fade-up">
+    <h2 class="text-xl font-bold mb-2">☕ Other environmental considerations</h2>
+    <p class="text-gray-700 mb-4">
+      Additional environmental considerations may influence coffee production; however, they are not reflected in the above evaluation due to their finer spatial resolution. These include: 
+      <ul class="list-disc ml-6">  
+        <li>☕ <b>Soil Quality:</b> The coffee plants require a acidic soil at around 4.9 to 5.2pH which can be changed with argochemicals. (Manson et el., 2022)</li>
+        <li>☕ <b>Shade:</b> Coffee plants thrive in shaded areas, which can be influenced by the slope aspect.</li>
+        <li>☕ <b>Pests and Diseases:</b> Coffee plants are susceptible to various pests and diseases, which can affect yield and quality.</li>
+      </ul>
+      <br>
+      At the global scale, these factors are not as significant as the three main factors mentioned above. However, they can still have a significant impact on coffee production at the local level. For example, in some regions, soil quality may be a limiting factor for coffee production, while in others, pests and diseases may be more important especially in the tropic regions.
+    </p>
+
+  </div>
+
+  <!-- right-trade view -->
+  <div class="bg-white shadow-lg p-6 rounded-xl" data-aos="fade-up">
+    <h2 class="text-xl font-bold mb-2">☕ Techtonic areas as potential guide</h2>
+    <p class="text-gray-700 mb-4"> The tectonic plate map is a useful tool for evaluating the environmental conditions suitable for growing coffee. An observation of the map shows that most of the coffee-producing countries and their suitable areas are located along the edges of tectonic plates. The mountaion ranges formed by the tectonic plates create the highland areas that are suitable for growing coffee. The tectonic plate map can be used to identify potential new coffee-producing regions by looking for areas with similar environmental conditions to those found in existing coffee-producing countries especially with considerations of the overall increasing global temperature. Areas outside the tropic regions may be suitable for growing coffee in the future as the climate changes. </p>
+    <img src="plate_tectonics.png" alt="Techteonic plate picture">
+      
+  </div>
+
+</section>
+
+
+<!-- data source -->
+<section class="max-w-6xl mx-auto bg-white mt-12 p-6 rounded-xl shadow-md" data-aos="fade-up">
+  <h2 class="section-title">📊 Data Sources & References</h2>
+  <b>Data Sources:</b>
+  <ul class="list-disc ml-6 text-sm text-gray-700 space-y-1">
+    <li><b>Annual Rainfall:</b> Imagery Layer from <a href="https://geo.fas.usda.gov/arcgis2/rest/services/G_Climatology/Annual_Rainfall/ImageServer" style="color: #007ac2;">REST API SERVER</a></li>
+
+    <li><b>Temperature:</b> Feature Layer from <a href = "https://services.arcgis.com/jIL9msH9OI208GCb/arcgis/rest/services/Average_Annual_Temperature/FeatureServer" style="color: #007ac2;">REST API SERVER</a></li>
+    <li><b>Altitude:</b> Imagery Tile Layer from <a href = "https://elevation3d.arcgis.com/arcgis/rest/services/WorldElevation3D/Terrain3D/ImageServer" style="color: #007ac2;">REST API SERVER</a></li>
+    <li><b>Countries Boundaries</b> Feature Layer from <a href = "https://services.arcgis.com/P3ePLMYs2RVChkJx/arcgis/rest/services/World_Countries/FeatureServer" style="color: #007ac2;">REST API SERVER</a></li>
+  </ul>
+  <br>
+  <b>References:</b>
+  <ul class="list-disc ml-6 text-sm text-gray-700 space-y-1 mt-4">
+    <li>EarthHow. (2025). plate_tectonics_labels-850x502. 7 Major Tectonic Plates: The World’s Largest Plate Tectonics. Retrieved 2025, from https://earthhow.com/wp-content/uploads/2019/01/plate_tectonics_labels-850x502.png</li>
+    <li>FHA. (2024, February 29). Robusta coffee: Origins, benefits, and how to brew. Food & Hospitality Asia. https://foodnhotelasia.com/glossary/horeca/robusta-coffee/ </li>
+    <li>Kath, J., Byrareddy, V. M., Craparo, A., Nguyen‐Huy, T., Mushtaq, S., Cao, L., & Bossolasco, L. (2020). Not so robust: Robusta coffee production is highly sensitive to temperature. Global Change Biology, 26(6), 3677–3688. https://doi.org/10.1111/gcb.15097 </li>
+    <li>Lindsey , R., & Dahlman, L. (2024, January 18). Climate change: Global temperature. NOAA Climate.gov. https://www.climate.gov/news-features/understanding-climate/climate-change-global-temperature </li>
+    <li>Manson, S., Nekaris, K. A., Rendell, A., Budiadi, B., Imron, M. A., & Campera, M. (2022). Agrochemicals and shade complexity affect soil quality in Coffee Home Gardens. Earth, 3(3), 853–865. https://doi.org/10.3390/earth3030049 </li>
+    <li>Noraini, A., Tjahjadi, M. E., & Jasmani, J. (2024). Classification of slope for coffee plantation in Ngajum District, Indonesia. Buletin Poltanesa, 25(1), 110–115. https://doi.org/10.51967/tanesa.v25i1.2227 </li>
+    <li>Scott, M. (2015, June 19). Climate & Coffee. NOAA Climate.gov. https://www.climate.gov/news-features/climate-and/climate-coffee</li>
+  </ul>
+  <br>
+  <b>Additional Resources:</b>
+  <ul class="list-disc ml-6 text-sm text-gray-700 space-y-1">
+    <li>https://developers.arcgis.com/javascript/latest/sample-code/layers-imagery-pixelvalues/</li>
+    <li>https://developers.arcgis.com/javascript/latest/sample-code/elevation-analysis/</li>
+  </section>
+  <a href="homepage.html"
+   class="fixed top-4 right-4 z-50 px-4 py-2 bg-white border border-gray-300 shadow rounded-full text-sm text-gray-800 hover:bg-amber-100 transition">
+  🏠 Homepage
+</a>
+
+  
+  <footer class="bg-gray-100 mt-16 py-8 text-sm text-gray-600 border-t">
+  <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+    
+    <!-- copyright -->
+    <div>
+      © 2025 Coffee Trade Insights. All rights reserved.
+    </div>
+
+    <!-- social media -->
+    <div class="flex space-x-4">
+      <a href="#" class="hover:underline">About</a>
+      <a href="#" class="hover:underline">GitHub</a>
+      <a href="#" class="hover:underline">Privacy Policy</a>
+    </div>
+
+    <!-- author -->
+    <div>
+      Created by <a href="#" class="text-amber-600 font-medium hover:underline">Group 6</a>
+    </div>
+    
+  </div>
+</footer>
+
+<script>
+  
+  AOS.init();
+
+        require([
+            "esri/Map",
+            "esri/views/MapView",
+            "esri/layers/FeatureLayer",
+            "esri/widgets/TimeSlider",
+            "esri/widgets/ScaleBar",
+            "esri/widgets/Legend",
+            "esri/widgets/Compass",
+            "esri/widgets/Search",
+            "esri/Color",
+        ], function(Map, MapView, FeatureLayer, TimeSlider, ScaleBar, Legend, Compass, Search,Color) {
+
+     
+     
+            
+            const layer1 = new FeatureLayer({
+                url: "https://services5.arcgis.com/KiRa9d9aHfdXiCqt/arcgis/rest/services/Coffee_Production_Information/FeatureServer",
+                outFields: ["Year_date","Year", "Production_tonnes","Country"],
+                popupTemplate: {
+                    title: "Coffee Production Information",
+                    outFields: ["*"],
+                    expressionInfos: [
+                        {
+                          name: "expr0",
+                          title: "Year Only",
+                          expression: "Year($feature.Year_date)"
+                        }
+                      ],
+                    fieldInfos: [
+                      //Add digitSeparator for population column
+                      {
+                        fieldName: "Production_tonnes",
+                        visible: true,
+                        label: "Production Volume (tonnes)",
+                        format: {
+                          places: 0,
+                          digitSeparator: true
+                        }
+                      },
+                   
+                        ],
+          
+                    content: [ 
+                      {
+                       type: "text",
+                        text: `
+                        <b>Country: </b>{Country}<br>
+                        <b>Year：</b> {expression/expr0}<br>
+                        <b>Production Volume (tonnes)：</b> {Production_tonnes}
+                        `
+                      },  
+                      
+                        
+                      ],   
+                        
+                     
+                        
+                       
+                },
+                renderer: {
+                    type: "simple",
+                    symbol: {
+                        type: "simple-marker",
+                        color: "blue",
+                        outline: { color: "white", width: 1 }
+                    },
+                    visualVariables: [
+                        {
+                            type: "size",
+                            field: "Production_tonnes",
+                            minDataValue: 10000,
+                            maxDataValue: 500000,
+                            minSize: 4,
+                            maxSize: 40
+                        }
+                    ]
+                },
+                timeInfo: {
+                    startField: "Year_date",
+                    interval: { unit: "years", value: 1 },
+                    fullTimeExtent: {
+                        start: new Date("2013/01/01"),
+                        end: new Date("2022/01/01")
+                    }
+                }
+            });
+
+            const layer2 = new FeatureLayer({
+                url: "https://services5.arcgis.com/KiRa9d9aHfdXiCqt/arcgis/rest/services/Coffee_Production_Information/FeatureServer",
+                outFields: ["Year_date","Year", "Production_tonnesperhectare","Country"],
+                popupTemplate: {
+                    title: "Coffee Production Information",
+                    outFields: ["*"],
+                    expressionInfos: [
+                        {
+                          name: "expr0",
+                          title: "Year Only",
+                          expression: "Year($feature.Year_date)"
+                        }
+                      ],
+                    fieldInfos: [
+                    
+                      {
+                        fieldName: "Production_tonnesperhectare",
+                        visible: true,
+                        label: "Production Volume Per Hectare (tonnes/hectare)",
+                        format: {
+                          places: 2,
+                          digitSeparator: true
+                        }
+                      },
+                        
+                        ],
+          
+                    content: [ 
+                      {
+                        type: "text",
+                        text: `
+                        <b>Country: </b>{Country}<br>
+                        <b>Year：</b> {expression/expr0}<br>
+                        <b>Production Volume Per Hectare (tonnes/hertare)：</b> {Production_tonnesperhectare}
+                        `
+                      },  
+                      
+                        
+                      ],
+                 
+                
+                },
+                renderer: {
+                    type: "simple",
+                    symbol: {
+                        type: "simple-marker",
+                        color: "green",
+                        outline: { color: "white", width: 1 }
+                    },
+                    visualVariables: [
+                        {
+                            type: "size",
+                            field: "Production_tonnesperhectare",
+                            minDataValue: 0.03,
+                            maxDataValue: 3,
+                            minSize: 4,
+                            maxSize: 40
+                        }
+                    ]
+                },
+                timeInfo: {
+                    startField: "Year_date",
+                    interval: { unit: "years", value: 1 },
+                    fullTimeExtent: {
+                        start: new Date("2013/01/01"),
+                        end: new Date("2022/01/01")
+                    }
+                }
+            });
+
+            const layer3 = new FeatureLayer({
+                url: "https://services5.arcgis.com/KiRa9d9aHfdXiCqt/arcgis/rest/services/Coffee_Production_Information/FeatureServer",
+                outFields: ["Year_date","Year", "Cultivated_hectare","Country"],
+                
+                popupTemplate: {
+                    title: "Coffee Production Information",
+                    outFields: ["*"],
+                    expressionInfos: [
+                        {
+                          name: "expr0",
+                          title: "Year Only",
+                          expression: "Year($feature.Year_date)"
+                        }
+                      ],
+                    fieldInfos: [
+                        {
+                        fieldName: "Cultivated_hectare",
+                        visible: true,
+                        label: "Coffee Cultivated Area (hectares)",
+                        format: {
+                          places: 0,
+                          digitSeparator: true
+                        }
+                      },
+                        ],
+          
+                    content: [ 
+                      {
+                        type: "text",
+                        text: `
+                        <b>Country: </b>{Country}<br>
+                        <b>Year：</b> {expression/expr0}<br>
+                        <b>Coffee Cultivated Area (hectares)：</b> {Cultivated_hectare}
+                        `
+                      },  
+                      
+                        
+                      ],
+                        
+                        
+                   
+                },
+                renderer: {
+                    type: "simple",
+                    symbol: {
+                        type: "simple-marker",
+                        color: "red",
+                        outline: { color: "white", width: 1 }
+                    },
+                    visualVariables: [
+                        {
+                            type: "size",
+                            field: "Cultivated_hectare",
+                            minDataValue: 100,
+                            maxDataValue: 1000000,
+                            minSize: 4,
+                            maxSize: 40
+                        }
+                    ]
+                },
+                timeInfo: {
+                    startField: "Year_date",
+                    interval: { unit: "years", value: 1 },
+                    fullTimeExtent: {
+                        start: new Date("2013/01/01"),
+                        end: new Date("2022/01/01")
+                    }
+                }
+            });
+
+            const map = new Map({
+                basemap: "streets",
+                layers: [layer1]
+            });
+
+            const view = new MapView({
+                container: "viewDiv",
+                map: map,
+                center: [58.10280833441597, 22.513590742105453],
+                zoom: 2
+            });
+            
+            view.when(() => {
+                const timeSlider = new TimeSlider({
+                    container: "timeSliderDiv",
+                    view: view,
+                    fullTimeExtent: layer1.timeInfo.fullTimeExtent,
+                    mode: "instant",
+                    stops: { interval: { value: 1, unit: "years" } },
+                    playRate: 1000
+                });
+                
+               
+                let activeLayer = layer1; // default layer
+                let queryField = "Production_tonnes"; // default query column
+                let unitLabel = "tonnes"; // default unit
+                let layerName = "Total Production Volume ";
+                // Add scale bar
+                const scaleBar = new ScaleBar({
+                    view: view,
+                    unit: "metric"
+                });
+                view.ui.add(scaleBar, { position: "bottom-left" });
+
+                // Add search function
+                const search = new Search({
+                    view: view
+                });
+                view.ui.add(search, "top-right");
+
+                // Add legend
+                const legend = new Legend({
+                    view: view,
+                    layerInfos: [
+                    {
+                      layer: layer1,
+                      title: "Coffee Produntion Information"
+                    },
+                    {
+                      layer: layer2,
+                      title: "Coffee Produntion Information"
+                    },
+                    {
+                      layer: layer3,
+                      title: "Coffee Produntion Information"
+                    }
+                 ],
+                });
+                view.ui.add(legend, "top-right");
+
+                // Add compass
+                const compass = new Compass({
+                    view: view
+                });
+                view.ui.add(compass, "top-left");
+
+              
+
+                // Query and Update result
+                function queryAndUpdateResult(year) {
+                    activeLayer.queryFeatures({
+                        where: `Year_date >= DATE '${year}-01-01' AND Year_date < DATE '${year + 1}-01-01'`,
+                        outFields: ["Country", queryField],
+                        orderByFields: `${queryField} DESC`,
+                        num: 5, // return top5 result
+                        returnGeometry: false
+                    }).then(function(result) {
+                        // Sum function
+                        const totalValue = result.features.reduce((sum, feature) => {
+                            return sum + feature.attributes[queryField];
+                        }, 0);
+                       
+                        
+                        // Top5 countries data
+                        const topCountries = result.features.map(feature => ({
+                            country: feature.attributes.Country,
+                            value: feature.attributes[queryField]
+                        }));
+
+                        // 
+                        console.log("Top 5 Countries:", topCountries);
+
+                        // update title 
+                        const queryCardTitle = document.querySelector("#queryCard h3");
+                        queryCardTitle.textContent = `${year}  ${layerName}`;
+                        const resultDiv = document.getElementById("queryResult");
+                        
+                        if (activeLayer === layer2) { 
+                          const meanValue = totalValue / result.features.length;
+                          resultDiv.textContent = `${meanValue.toLocaleString()} ${unitLabel}`;
+                        
+                        } else {
+                          
+                          resultDiv.textContent = `${totalValue.toLocaleString()} ${unitLabel}`;
+                        }
+                        
+                        
+                        
+                      
+
+                        // Show top5 countries
+                        let countryListDiv = document.getElementById("countryListDiv");
+                        if (!countryListDiv) {
+                            countryListDiv = document.createElement("div");
+                            countryListDiv.id = "countryListDiv";
+                            countryListDiv.style.cssText = "position: absolute; top: 375px; right: 15px; width: 280px; background: white; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); padding: 10px;";
+                            document.body.appendChild(countryListDiv);
+                        }
+
+                        let content = `<h3>Top 5 Countries in ${year}:</h3><ol>`;
+                        topCountries.forEach(item => {
+                            content += `<li><strong>${item.country}:</strong> ${item.value.toLocaleString()} ${unitLabel}</li>`;
+                        });
+                        content += "</ol>";
+                        countryListDiv.innerHTML = content;
+                    }).catch(function(error) {
+                        console.error("Query Failed：", error);
+                        document.getElementById("queryResult").textContent = "Query Failed";
+                    });
+                
+                }
+                       
+                        
+                // Update Time Slider year and query
+                timeSlider.watch("timeExtent", function (value) {
+                    const year = value.start.getFullYear();
+                    queryAndUpdateResult(year);
+                });
+
+                // layer switch function
+                document.getElementById("layerSelect").addEventListener("change", function (event) {
+                    const selectedLayer = event.target.value;
+                    map.layers.removeAll();
+
+                    if (selectedLayer === "layer1") {
+                        activeLayer = layer1;
+                        queryField = "Production_tonnes";
+                        layerName = "Total Production Volume";
+                        unitLabel = "tonnes";
+                    } else if (selectedLayer === "layer2") {
+                        activeLayer = layer2;
+                        queryField = "Production_tonnesperhectare";
+                        layerName = "Average Productivity";
+                        unitLabel = "t/ha";
+                    } else if (selectedLayer === "layer3") {
+                        activeLayer = layer3;
+                        queryField = "Cultivated_hectare";
+                        layerName = "Total Cultivated Area";
+                        unitLabel = "hectare";
+                    }
+
+                    // Add the selected layer to the map
+                    map.layers.add(activeLayer);
+                    timeSlider.fullTimeExtent = activeLayer.timeInfo.fullTimeExtent;
+
+                    // Activate Query (year)
+                    const year = timeSlider.timeExtent.start.getFullYear();
+                    queryAndUpdateResult(year);
+                });
+
+                // default query and time sldier
+                layer1.when(() => {
+                    timeSlider.timeExtent = {
+                        start: new Date("2013-01-01"),
+                        end: new Date("2013-12-31")
+                    };
+                });
+            });
+
+
+            
+            
+        });
+    </script>
+
+</body>
+</html>

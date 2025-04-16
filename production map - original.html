@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Production Map(2013-2022)</title>
+    
+    
+    
+    <link rel="stylesheet" href="https://js.arcgis.com/4.26/esri/themes/light/main.css">
+    <script src="https://js.arcgis.com/4.26/"></script>
+    <style>
+        html, body, #viewDiv {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
+        #homepageBtn {
+            position: fixed;
+            top: 1rem;            
+            right: 20rem;          
+            z-index: 999;
+            padding: 0.5rem 1rem;
+            background-color: white;
+            color: #333;
+            border: 1px solid #ccc;
+            border-radius: 9999px;  
+            font-size: 0.875rem;   
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+          }
+         #homepageBtn:hover {
+            background-color: #fef3c7; 
+          }
+        #timeSliderDiv {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80%;
+            z-index: 10;
+        }
+        #layerControls {
+            position: absolute;
+            top: 10px;
+            right: 500px;
+            z-index: 100;
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        #queryCard {
+            position: absolute;
+            bottom: 20px; 
+            right: 20px; 
+            width: 250px; 
+            background: white; 
+            border-radius: 10px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 15px; 
+            font-family: Arial, sans-serif;
+            z-index: 10;
+            text-align: center;
+        }
+
+        h3 {
+            font-size: 16px;
+            margin: 0;
+        }
+
+        .metric {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2d89ef;
+            margin-top: 10px;
+        }
+        
+        #navToChartBtn {
+          position: absolute;
+          top: 50%;
+          left: 20px;
+          transform: translateY(-50%);
+          z-index: 20;
+        }
+
+      #navToChartBtn {
+          position: absolute;
+          top: 30px;  
+          left: 140px; 
+          z-index: 10;
+        }
+
+        #navToChartBtn button {
+          background-color:  #D7B29A;
+          color: white;
+          padding: 12px 24px; 
+          border: none;
+          border-radius: 8px;
+          font-size: 14px;
+          cursor: pointer;
+          box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+          transition: background-color 0.3s ease;
+        }
+
+        #navToChartBtn button:hover {
+          background-color: #B98F6A;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <a href="homepage.html" id="homepageBtn">🏠 Homepage</a>
+    <div id="navToChartBtn">
+      <button onclick="window.location.href='production plot.html'">parallel coordinates plot</button>
+    </div>
+
+    <div id="viewDiv"></div>
+    <div id="timeSliderDiv"></div>
+    <div id="layerControls">
+        <label for="layerSelect"><b>Select factor:  </b></label>
+        <select id="layerSelect">
+            <option value="layer1">Coffee Production Volume</option>
+            <option value="layer2">Coffee Production Volume Per Hectare</option>
+            <option value="layer3">Coffee Cultivated Area</option>
+        </select>
+    </div>
+    <div id="queryCard">
+        <h3>Coffee Information</h3>
+        <div id="queryResult" class="metric">Calculating...</div>
+    </div>
+    <script>
+        require([
+            "esri/Map",
+            "esri/views/MapView",
+            "esri/layers/FeatureLayer",
+            "esri/widgets/TimeSlider",
+            "esri/widgets/ScaleBar",
+            "esri/widgets/Legend",
+            "esri/widgets/Compass",
+            "esri/widgets/Search",
+            "esri/Color",
+        ], function(Map, MapView, FeatureLayer, TimeSlider, ScaleBar, Legend, Compass, Search,Color) {
+
+     
+     
+            
+            const layer1 = new FeatureLayer({
+                url: "https://services5.arcgis.com/KiRa9d9aHfdXiCqt/arcgis/rest/services/Coffee_Production_Information/FeatureServer",
+                outFields: ["Year_date","Year", "Production_tonnes","Country"],
+                popupTemplate: {
+                    title: "Coffee Production Information",
+                    outFields: ["*"],
+                    expressionInfos: [
+                        {
+                          name: "expr0",
+                          title: "Year Only",
+                          expression: "Year($feature.Year_date)"
+                        }
+                      ],
+                    fieldInfos: [
+                      //Add digitSeparator for population column
+                      {
+                        fieldName: "Production_tonnes",
+                        visible: true,
+                        label: "Production Volume (tonnes)",
+                        format: {
+                          places: 0,
+                          digitSeparator: true
+                        }
+                      },
+                   
+                        ],
+          
+                    content: [ 
+                      {
+                       type: "text",
+                        text: `
+                        <b>Country: </b>{Country}<br>
+                        <b>Year：</b> {expression/expr0}<br>
+                        <b>Production Volume (tonnes)：</b> {Production_tonnes}
+                        `
+                      },  
+                      
+                        
+                      ],   
+                        
+                     
+                        
+                       
+                },
+                renderer: {
+                    type: "simple",
+                    symbol: {
+                        type: "simple-marker",
+                        color: "blue",
+                        outline: { color: "white", width: 1 }
+                    },
+                    visualVariables: [
+                        {
+                            type: "size",
+                            field: "Production_tonnes",
+                            minDataValue: 10000,
+                            maxDataValue: 500000,
+                            minSize: 4,
+                            maxSize: 40
+                        }
+                    ]
+                },
+                timeInfo: {
+                    startField: "Year_date",
+                    interval: { unit: "years", value: 1 },
+                    fullTimeExtent: {
+                        start: new Date("2013/01/01"),
+                        end: new Date("2022/01/01")
+                    }
+                }
+            });
+
+            const layer2 = new FeatureLayer({
+                url: "https://services5.arcgis.com/KiRa9d9aHfdXiCqt/arcgis/rest/services/Coffee_Production_Information/FeatureServer",
+                outFields: ["Year_date","Year", "Production_tonnesperhectare","Country"],
+                popupTemplate: {
+                    title: "Coffee Production Information",
+                    outFields: ["*"],
+                    expressionInfos: [
+                        {
+                          name: "expr0",
+                          title: "Year Only",
+                          expression: "Year($feature.Year_date)"
+                        }
+                      ],
+                    fieldInfos: [
+                    
+                      {
+                        fieldName: "Production_tonnesperhectare",
+                        visible: true,
+                        label: "Production Volume Per Hectare (tonnes/hectare)",
+                        format: {
+                          places: 2,
+                          digitSeparator: true
+                        }
+                      },
+                        
+                        ],
+          
+                    content: [ 
+                      {
+                        type: "text",
+                        text: `
+                        <b>Country: </b>{Country}<br>
+                        <b>Year：</b> {expression/expr0}<br>
+                        <b>Production Volume Per Hectare (tonnes/hertare)：</b> {Production_tonnesperhectare}
+                        `
+                      },  
+                      
+                        
+                      ],
+                 
+                
+                },
+                renderer: {
+                    type: "simple",
+                    symbol: {
+                        type: "simple-marker",
+                        color: "green",
+                        outline: { color: "white", width: 1 }
+                    },
+                    visualVariables: [
+                        {
+                            type: "size",
+                            field: "Production_tonnesperhectare",
+                            minDataValue: 0.03,
+                            maxDataValue: 3,
+                            minSize: 4,
+                            maxSize: 40
+                        }
+                    ]
+                },
+                timeInfo: {
+                    startField: "Year_date",
+                    interval: { unit: "years", value: 1 },
+                    fullTimeExtent: {
+                        start: new Date("2013/01/01"),
+                        end: new Date("2022/01/01")
+                    }
+                }
+            });
+
+            const layer3 = new FeatureLayer({
+                url: "https://services5.arcgis.com/KiRa9d9aHfdXiCqt/arcgis/rest/services/Coffee_Production_Information/FeatureServer",
+                outFields: ["Year_date","Year", "Cultivated_hectare","Country"],
+                
+                popupTemplate: {
+                    title: "Coffee Production Information",
+                    outFields: ["*"],
+                    expressionInfos: [
+                        {
+                          name: "expr0",
+                          title: "Year Only",
+                          expression: "Year($feature.Year_date)"
+                        }
+                      ],
+                    fieldInfos: [
+                        {
+                        fieldName: "Cultivated_hectare",
+                        visible: true,
+                        label: "Coffee Cultivated Area (hectares)",
+                        format: {
+                          places: 0,
+                          digitSeparator: true
+                        }
+                      },
+                        ],
+          
+                    content: [ 
+                      {
+                        type: "text",
+                        text: `
+                        <b>Country: </b>{Country}<br>
+                        <b>Year：</b> {expression/expr0}<br>
+                        <b>Coffee Cultivated Area (hectares)：</b> {Cultivated_hectare}
+                        `
+                      },  
+                      
+                        
+                      ],
+                        
+                        
+                   
+                },
+                renderer: {
+                    type: "simple",
+                    symbol: {
+                        type: "simple-marker",
+                        color: "red",
+                        outline: { color: "white", width: 1 }
+                    },
+                    visualVariables: [
+                        {
+                            type: "size",
+                            field: "Cultivated_hectare",
+                            minDataValue: 100,
+                            maxDataValue: 1000000,
+                            minSize: 4,
+                            maxSize: 40
+                        }
+                    ]
+                },
+                timeInfo: {
+                    startField: "Year_date",
+                    interval: { unit: "years", value: 1 },
+                    fullTimeExtent: {
+                        start: new Date("2013/01/01"),
+                        end: new Date("2022/01/01")
+                    }
+                }
+            });
+
+            const map = new Map({
+                basemap: "streets",
+                layers: [layer1]
+            });
+
+            const view = new MapView({
+                container: "viewDiv",
+                map: map,
+                center: [58.10280833441597, 22.513590742105453],
+                zoom: 2
+            });
+            
+            view.when(() => {
+                const timeSlider = new TimeSlider({
+                    container: "timeSliderDiv",
+                    view: view,
+                    fullTimeExtent: layer1.timeInfo.fullTimeExtent,
+                    mode: "instant",
+                    stops: { interval: { value: 1, unit: "years" } },
+                    playRate: 1000
+                });
+                
+               
+                let activeLayer = layer1; // default layer
+                let queryField = "Production_tonnes"; // default query column
+                let unitLabel = "tonnes"; // default unit
+                let layerName = "Total Production Volume ";
+                // Add scale bar
+                const scaleBar = new ScaleBar({
+                    view: view,
+                    unit: "metric"
+                });
+                view.ui.add(scaleBar, { position: "bottom-left" });
+
+                // Add search function
+                const search = new Search({
+                    view: view
+                });
+                view.ui.add(search, "top-right");
+
+                // Add legend
+                const legend = new Legend({
+                    view: view,
+                    layerInfos: [
+                    {
+                      layer: layer1,
+                      title: "Coffee Produntion Information"
+                    },
+                    {
+                      layer: layer2,
+                      title: "Coffee Produntion Information"
+                    },
+                    {
+                      layer: layer3,
+                      title: "Coffee Produntion Information"
+                    }
+                 ],
+                });
+                view.ui.add(legend, "top-right");
+
+                // Add compass
+                const compass = new Compass({
+                    view: view
+                });
+                view.ui.add(compass, "top-left");
+
+              
+
+                // Query and Update result
+                function queryAndUpdateResult(year) {
+                    activeLayer.queryFeatures({
+                        where: `Year_date >= DATE '${year}-01-01' AND Year_date < DATE '${year + 1}-01-01'`,
+                        outFields: ["Country", queryField],
+                        orderByFields: `${queryField} DESC`,
+                        num: 5, // return top5 result
+                        returnGeometry: false
+                    }).then(function(result) {
+                        // Sum function
+                        const totalValue = result.features.reduce((sum, feature) => {
+                            return sum + feature.attributes[queryField];
+                        }, 0);
+                       
+                        
+                        // Top5 countries data
+                        const topCountries = result.features.map(feature => ({
+                            country: feature.attributes.Country,
+                            value: feature.attributes[queryField]
+                        }));
+
+                        // 
+                        console.log("Top 5 Countries:", topCountries);
+
+                        // update title 
+                        const queryCardTitle = document.querySelector("#queryCard h3");
+                        queryCardTitle.textContent = `${year}  ${layerName}`;
+                        const resultDiv = document.getElementById("queryResult");
+                        
+                        if (activeLayer === layer2) { 
+                          const meanValue = totalValue / result.features.length;
+                          resultDiv.textContent = `${meanValue.toLocaleString()} ${unitLabel}`;
+                        
+                        } else {
+                          
+                          resultDiv.textContent = `${totalValue.toLocaleString()} ${unitLabel}`;
+                        }
+                        
+                        
+                        
+                      
+
+                        // Show top5 countries
+                        let countryListDiv = document.getElementById("countryListDiv");
+                        if (!countryListDiv) {
+                            countryListDiv = document.createElement("div");
+                            countryListDiv.id = "countryListDiv";
+                            countryListDiv.style.cssText = "position: absolute; top: 375px; right: 15px; width: 280px; background: white; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); padding: 10px;";
+                            document.body.appendChild(countryListDiv);
+                        }
+
+                        let content = `<h3>Top 5 Countries in ${year}:</h3><ol>`;
+                        topCountries.forEach(item => {
+                            content += `<li><strong>${item.country}:</strong> ${item.value.toLocaleString()} ${unitLabel}</li>`;
+                        });
+                        content += "</ol>";
+                        countryListDiv.innerHTML = content;
+                    }).catch(function(error) {
+                        console.error("Query Failed：", error);
+                        document.getElementById("queryResult").textContent = "Query Failed";
+                    });
+                
+                }
+                       
+                        
+                // Update Time Slider year and query
+                timeSlider.watch("timeExtent", function (value) {
+                    const year = value.start.getFullYear();
+                    queryAndUpdateResult(year);
+                });
+
+                // layer switch function
+                document.getElementById("layerSelect").addEventListener("change", function (event) {
+                    const selectedLayer = event.target.value;
+                    map.layers.removeAll();
+
+                    if (selectedLayer === "layer1") {
+                        activeLayer = layer1;
+                        queryField = "Production_tonnes";
+                        layerName = "Total Production Volume";
+                        unitLabel = "tonnes";
+                    } else if (selectedLayer === "layer2") {
+                        activeLayer = layer2;
+                        queryField = "Production_tonnesperhectare";
+                        layerName = "Average Productivity";
+                        unitLabel = "t/ha";
+                    } else if (selectedLayer === "layer3") {
+                        activeLayer = layer3;
+                        queryField = "Cultivated_hectare";
+                        layerName = "Total Cultivated Area";
+                        unitLabel = "hectare";
+                    }
+
+                    // Add the selected layer to the map
+                    map.layers.add(activeLayer);
+                    timeSlider.fullTimeExtent = activeLayer.timeInfo.fullTimeExtent;
+
+                    // Activate Query (year)
+                    const year = timeSlider.timeExtent.start.getFullYear();
+                    queryAndUpdateResult(year);
+                });
+
+                // default query and time sldier
+                layer1.when(() => {
+                    timeSlider.timeExtent = {
+                        start: new Date("2013-01-01"),
+                        end: new Date("2013-12-31")
+                    };
+                });
+            });
+
+
+            
+            
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

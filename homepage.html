@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage | The World of Coffee</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #f9fafb;
+      color: #1f2937;
+    }
+    
+    .hero-title {
+      font-size: 2.75rem;
+      font-weight: bold;
+      color: #0f172a;
+    }
+    .section-img {
+      margin: 20px 0;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    }
+    .nav-link:hover {
+      color: #2563eb;
+    }
+    .content-box {
+      background-color: white;
+      border-radius: 1rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+      padding: 2rem;
+      margin-bottom: 3rem;
+    }
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+    }
+    .overlay video, .overlay img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1;
+      opacity: 0.6;
+    }
+    .overlay-content {
+      text-align: center;
+      color: white;
+    }
+    .overlay-button {
+      background-color: #c0dce3;
+      color: #1f2937;
+      padding: 12px 24px;
+      font-size: 1.25rem;
+      font-weight: bold;
+      border-radius: 8px;
+      margin-top: 20px;
+      transition: background 0.3s;
+    }
+    .overlay-button:hover {
+      background-color: #facc15;
+      color: #1f2937;
+    }
+    .overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white; 
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+    @keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blink {
+  50% { border-color: transparent }
+}
+
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid #1e3a8a; 
+  width: 0;
+  animation: typing 4s steps(40, end) forwards, blink 0.75s step-end infinite;
+}
+    .font-playfair {
+    font-family: 'Playfair Display', serif;
+  }
+
+
+  </style>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      if (document.body.classList.contains('use-aos')) {
+        AOS.init();
+      }
+    });
+    function enterSite() {
+      document.getElementById('introOverlay').style.display = 'none';
+    }
+  </script>
+</head>
+<body id="top" class="use-aos">
+
+  <div id="introOverlay" class="overlay">
+ 
+  <video autoplay muted loop class="absolute w-full h-full object-cover z-0">
+    <source src="title.mp4" type="video/mp4">
+  </video>
+
+ 
+  <div class="overlay-content z-12 relative text-center font-serif">
+  <h1 class="typewriter text-3xl md:text-5xl font-playfair text-blue-900">
+  What adventures has your coffee bean been on?
+</h1>
+
+  <button onclick="enterSite()" class="overlay-button">Enter</button>
+</div>
+
+</div>
+
+
+
+  <!-- Navigation Bar -->
+  <nav class="sticky top-0 z-50 bg-white bg-[url('coffeebg.jpg')] bg-cover bg-center bg-no-repeat bg-opacity-90 shadow-md">
+    
+  <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center bg-white/70 rounded-md backdrop-blur">
+    <div class="text-2xl font-bold text-gray-800">The World of Coffee</div>
+    <div class="space-x-8 text-gray-700 font-medium">
+      <a href="env.html" class="nav-link">Nature</a>
+      <a href="production%20map.html" class="nav-link">Production</a>
+      <a href="trade.html" class="nav-link">Global Trading</a>
+      <a href="https://minyi111.github.io/coffee/" class="nav-link">Market Insight</a>
+    </div>
+  </div>
+</nav>
+
+  <!-- Hero Section -->
+  <header class="bg-gray-100 py-16 px-6 text-center">
+      <div class="absolute inset-0">
+      <img src="coffeebg.jpg"  class="w-full h-full object-cover opacity-20" />
+      <div class="absolute inset-0 bg-white bg-opacity-60"></div> 
+    </div>
+    <h1 class="hero-title mb-4" data-aos="fade-down">From Bean to Brew: The Global Journey of Coffee</h1>
+    <p class="max-w-2xl mx-auto text-lg text-gray-600" data-aos="fade-up">Explore how a wild berry from the Ethiopian highlands transformed into one of the world’s most beloved and traded commodities.</p>
+  </header>
+  
+  
+  <!-- INtro -->
+<div class="max-w-3xl mx-auto mt-6 mb-10 px-6 py-4 bg-white rounded-xl shadow-md border-l-4 border-yellow-400" data-aos="fade-up">
+  <p class="text-gray-700 text-base leading-relaxed">
+   
+    Coffee, alongside tea and cocoa, is one of the world’s three major beverages—and the second most traded commodity globally, just after crude oil.<br><br>
+    The discovery and spread of coffee mirror the story of human civilization itself. Over more than a thousand years, coffee has shaped global economies and cultures, especially in the Global South, where many countries have become renowned coffee producers. Among them, Brazil stands out as the world’s largest coffee producer and exporter, accounting for nearly one-third of global coffee production.<br><br>
+    So how did this magical plant get discovered, and how did it conquer the world? Let’s trace the fascinating journey of coffee.
+  </p>
+</div>
+
+
+  <!-- Main Content -->
+  <main class="max-w-5xl mx-auto px-6 py-12">
+    <section class="content-box" data-aos="fade-up">
+      <h2 class="text-2xl font-semibold mb-4 text-gray-800">🌱 The Origin Story</h2>
+      <p class="mb-6">In the mountainous region of Kaffa, Ethiopia, a young goat herder once noticed his goats acting unusually energetic after consuming bright red berries from a local bush. Curious, he tasted them himself and discovered their energizing effects. These berries came from the wild coffee plant, and the name "coffee" is thought to derive from "Kaffa."</p>
+      <img src="coffee%20fruit%20on%20the%20TREE.png" alt="Coffee Fruit on Tree" class="section-img">
+      <p class="mb-6">Coffee quickly spread across the Arab world, where it became both a trade item and a cultural staple. By the 17th century, it reached Europe and soon after, colonial powers transported coffee to their tropical colonies, laying the groundwork for a global industry.</p>
+    </section>
+
+    <section class="content-box" data-aos="fade-up">
+      <h2 class="text-2xl font-semibold mb-4 text-gray-800">🌍 The Coffee Belt & Global Expansion</h2>
+      <p class="mb-6">Coffee grows best in high-altitude regions with distinct wet and dry seasons—areas found along the equator in what’s known as the “Coffee Belt.” This includes countries like Ethiopia, Brazil, Colombia, Indonesia, and China’s Yunnan Province. While all provide suitable conditions, subtle differences in elevation, climate, and soil result in a variety of distinct flavor profiles.</p>
+      <img src="standard%20planting.jpg" alt="Standardized Coffee Plantation" class="section-img">
+      <p class="mb-6">For example, Ethiopian coffee often boasts floral aromas and citrus notes, while Brazilian coffee is known for its low acidity and nutty, chocolatey taste. Panama’s high-altitude varieties may offer hints of jasmine and tropical fruits.</p>
+      <img src="brazil%20farm.jpg" alt="Large-scale Brazilian Coffee Farm" class="section-img">
+    </section>
+
+    <section class="content-box" data-aos="fade-up">
+      <h2 class="text-2xl font-semibold mb-4 text-gray-800">☕ An Industry That Touches Every Corner</h2>
+      <p>Coffee today supports millions of farmers, moves through intricate global supply chains, and fuels café cultures across continents. Through this website, we invite you to explore each step of the coffee lifecycle—from cultivation and processing to global trade and market dynamics. Welcome to your journey through the world of coffee.</p>
+    </section>
+  </main>
+
+
+  <footer class="bg-gray-100 mt-16 py-8 text-sm text-gray-600 border-t">
+  <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+    
+   
+    <div>
+      © 2025 Coffee Trade Insights. All rights reserved.
+    </div>
+
+    
+    <div class="flex space-x-4">
+      <a href="#" class="hover:underline">About</a>
+      <a href="#" class="hover:underline">GitHub</a>
+      <a href="#" class="hover:underline">Privacy Policy</a>
+      <a href="#top" class="hover:underline">Back to Top</a>
+    </div>
+
+   
+    <div>
+      Created by <a href="#" class="text-amber-600 font-medium hover:underline">Group 6</a>
+    </div>
+    
+  </div>
+</footer>
+  
+  
+
+
+</body>
+</html>
